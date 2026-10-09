@@ -1,0 +1,4497 @@
+[
+  {
+    "item": "cypress-stick",
+    "kind": "found",
+    "where": "Farebury inn: dresser",
+    "location": "farebury"
+  },
+  {
+    "item": "cypress-stick",
+    "kind": "found",
+    "where": "Farebury weapon shop: chest",
+    "location": "farebury-weapon-shop-chest"
+  },
+  {
+    "item": "cypress-stick",
+    "kind": "drop",
+    "where": "Drop: Capsichum"
+  },
+  {
+    "item": "cypress-stick",
+    "kind": "drop",
+    "where": "Drop: Lump Mage"
+  },
+  {
+    "item": "cypress-stick",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mud Mannequin"
+  },
+  {
+    "item": "dream-blade",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Turkey"
+  },
+  {
+    "item": "falcon-blade",
+    "kind": "casino",
+    "where": "Casino prize: 10,000 tokens",
+    "location": "baccarat-casino",
+    "tokens": 10000
+  },
+  {
+    "item": "miracle-sword",
+    "kind": "medal",
+    "where": "Mini Medal prize: 68 medals",
+    "location": "princess-minnies-castle"
+  },
+  {
+    "item": "bastard-sword",
+    "kind": "rare-drop",
+    "where": "Rare drop: Fowlfighter"
+  },
+  {
+    "item": "bastard-sword",
+    "kind": "rare-drop",
+    "where": "Rare drop: Right Wing"
+  },
+  {
+    "item": "double-edged-sword",
+    "kind": "found",
+    "where": "Princess Minnie's Castle: chest",
+    "location": "minnies-locked-room"
+  },
+  {
+    "item": "rusty-old-sword",
+    "kind": "found",
+    "where": "Trodain 2F: chest",
+    "location": "trodain-locked-room"
+  },
+  {
+    "item": "rusty-old-sword",
+    "kind": "rare-drop",
+    "where": "Rare drop: Invisible Swordsman"
+  },
+  {
+    "item": "dragovian-sword",
+    "kind": "gift",
+    "where": "Dragovian trial prize: choose the sword",
+    "location": "dragovian-trials"
+  },
+  {
+    "item": "templars-sword",
+    "kind": "found",
+    "where": "Trodain 2F: chest",
+    "location": "trodain"
+  },
+  {
+    "item": "templars-sword",
+    "kind": "rare-drop",
+    "where": "Rare drop: Phantom Fencer"
+  },
+  {
+    "item": "templars-sword",
+    "kind": "rare-drop",
+    "where": "Rare drop: Volpone"
+  },
+  {
+    "item": "holy-silver-rapier",
+    "kind": "found",
+    "where": "South-southwest of Orkutsk: chest",
+    "location": "orkutsk"
+  },
+  {
+    "item": "bronze-knife",
+    "kind": "found",
+    "where": "Port Prospect: chest",
+    "location": "port-prospect"
+  },
+  {
+    "item": "bronze-knife",
+    "kind": "found",
+    "where": "Island west of Maella Abbey: chest",
+    "location": "ship-shores"
+  },
+  {
+    "item": "bronze-knife",
+    "kind": "drop",
+    "where": "Drop: Shadow"
+  },
+  {
+    "item": "dagger",
+    "kind": "found",
+    "where": "Farebury weapon shop: chest",
+    "location": "farebury-weapon-shop-chest"
+  },
+  {
+    "item": "dagger",
+    "kind": "drop",
+    "where": "Drop: Riptide"
+  },
+  {
+    "item": "dagger",
+    "kind": "rare-drop",
+    "where": "Rare drop: Clockwork Cuckoo"
+  },
+  {
+    "item": "poison-moth-knife",
+    "kind": "found",
+    "where": "Arcadia: cupboard",
+    "location": "arcadia"
+  },
+  {
+    "item": "poison-moth-knife",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hell Hornet"
+  },
+  {
+    "item": "poison-moth-knife",
+    "kind": "rare-drop",
+    "where": "Rare drop: Garuda"
+  },
+  {
+    "item": "poison-moth-knife",
+    "kind": "rare-drop",
+    "where": "Rare drop: Icikiller"
+  },
+  {
+    "item": "assassins-dagger",
+    "kind": "found",
+    "where": "West of Chapel of Autumn: chest",
+    "location": "chapel-of-autumn"
+  },
+  {
+    "item": "assassins-dagger",
+    "kind": "rare-drop",
+    "where": "Rare drop: Jumping Jackal"
+  },
+  {
+    "item": "assassins-dagger",
+    "kind": "rare-drop",
+    "where": "Rare drop: Jackal Ripper"
+  },
+  {
+    "item": "assassins-dagger",
+    "kind": "rare-drop",
+    "where": "Rare drop: Claws"
+  },
+  {
+    "item": "assassins-dagger",
+    "kind": "rare-drop",
+    "where": "Rare drop: Anchorman"
+  },
+  {
+    "item": "icicle-dirk",
+    "kind": "found",
+    "where": "Herb Grotto level 4: chest",
+    "location": "herb-grotto"
+  },
+  {
+    "item": "icicle-dirk",
+    "kind": "found",
+    "where": "Black Citadel: barrel",
+    "location": "black-citadel"
+  },
+  {
+    "item": "poison-needle",
+    "kind": "rare-drop",
+    "where": "Rare drop: Venom Wasp"
+  },
+  {
+    "item": "poison-needle",
+    "kind": "rare-drop",
+    "where": "Rare drop: Death Scorpion"
+  },
+  {
+    "item": "eagle-dagger",
+    "kind": "found",
+    "where": "Southwest of Argonia: chest",
+    "location": "argonia"
+  },
+  {
+    "item": "eagle-dagger",
+    "kind": "drop",
+    "where": "Drop: Elysium Bird"
+  },
+  {
+    "item": "eagle-dagger",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hades Condor"
+  },
+  {
+    "item": "iron-lance",
+    "kind": "drop",
+    "where": "Drop: Foul Anchor"
+  },
+  {
+    "item": "iron-lance",
+    "kind": "rare-drop",
+    "where": "Rare drop: Scorpion"
+  },
+  {
+    "item": "iron-lance",
+    "kind": "rare-drop",
+    "where": "Rare drop: Orc"
+  },
+  {
+    "item": "iron-lance",
+    "kind": "rare-drop",
+    "where": "Rare drop: Octavian Pirate"
+  },
+  {
+    "item": "long-spear",
+    "kind": "rare-drop",
+    "where": "Rare drop: Orc King"
+  },
+  {
+    "item": "long-spear",
+    "kind": "rare-drop",
+    "where": "Rare drop: Octavian Sentry"
+  },
+  {
+    "item": "battle-fork",
+    "kind": "found",
+    "where": "Argonia 4F: chest",
+    "location": "argonia-castle"
+  },
+  {
+    "item": "battle-fork",
+    "kind": "rare-drop",
+    "where": "Rare drop: Archdemon"
+  },
+  {
+    "item": "battle-fork",
+    "kind": "rare-drop",
+    "where": "Rare drop: Belial"
+  },
+  {
+    "item": "metal-king-spear",
+    "kind": "found",
+    "where": "Dragovian Path B3: chest",
+    "location": "dragovian-path"
+  },
+  {
+    "item": "boomerang",
+    "kind": "found",
+    "where": "Peregrin Quay: chest",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "boomerang",
+    "kind": "drop",
+    "where": "Drop: Spitnik"
+  },
+  {
+    "item": "boomerang",
+    "kind": "drop",
+    "where": "Drop: Yabby"
+  },
+  {
+    "item": "edged-boomerang",
+    "kind": "found",
+    "where": "Orkutsk: chest",
+    "location": "orkutsk"
+  },
+  {
+    "item": "edged-boomerang",
+    "kind": "drop",
+    "where": "Drop: Crayzee"
+  },
+  {
+    "item": "edged-boomerang",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Star"
+  },
+  {
+    "item": "razor-wing-boomerang",
+    "kind": "rare-drop",
+    "where": "Rare drop: Gryphon"
+  },
+  {
+    "item": "flametang-boomerang",
+    "kind": "found",
+    "where": "Flying spot southwest of the Argonia campsite: chest",
+    "location": "aerial-islands"
+  },
+  {
+    "item": "stone-axe",
+    "kind": "found",
+    "where": "West of Peregrin Quay: chest",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "stone-axe",
+    "kind": "drop",
+    "where": "Drop: Hood"
+  },
+  {
+    "item": "iron-axe",
+    "kind": "found",
+    "where": "Argonia weapon/armour shop: cupboard",
+    "location": "argonia"
+  },
+  {
+    "item": "iron-axe",
+    "kind": "rare-drop",
+    "where": "Rare drop: Berserker"
+  },
+  {
+    "item": "iron-axe",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hoodlum"
+  },
+  {
+    "item": "iron-axe",
+    "kind": "rare-drop",
+    "where": "Rare drop: Tyrantosaurus"
+  },
+  {
+    "item": "bandit-axe",
+    "kind": "gift",
+    "where": "Dodgy Dave reward 3 (trade: Ring of Immunity)",
+    "location": "dodgy-dave"
+  },
+  {
+    "item": "battle-axe",
+    "kind": "drop",
+    "where": "Drop: Zombie Gladiator"
+  },
+  {
+    "item": "conquerors-axe",
+    "kind": "found",
+    "where": "Howlwind Hill: chest",
+    "location": "aerial-islands"
+  },
+  {
+    "item": "giant-mallet",
+    "kind": "found",
+    "where": "Arcadia: chest",
+    "location": "arcadia"
+  },
+  {
+    "item": "giant-mallet",
+    "kind": "drop",
+    "where": "Drop: Pink Pongo"
+  },
+  {
+    "item": "giant-mallet",
+    "kind": "drop",
+    "where": "Drop: Abominape"
+  },
+  {
+    "item": "giant-mallet",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hammerhood"
+  },
+  {
+    "item": "giant-mallet",
+    "kind": "rare-drop",
+    "where": "Rare drop: Brownie"
+  },
+  {
+    "item": "giant-mallet",
+    "kind": "rare-drop",
+    "where": "Rare drop: Gorerilla"
+  },
+  {
+    "item": "giant-mallet",
+    "kind": "rare-drop",
+    "where": "Rare drop: Cyclops"
+  },
+  {
+    "item": "leather-whip",
+    "kind": "found",
+    "where": "East of Red's house: chest",
+    "location": "reds-house"
+  },
+  {
+    "item": "leather-whip",
+    "kind": "gift",
+    "where": "Starting equipment: Jessica",
+    "location": "farebury"
+  },
+  {
+    "item": "leather-whip",
+    "kind": "drop",
+    "where": "Drop: Terror Tabby"
+  },
+  {
+    "item": "leather-whip",
+    "kind": "drop",
+    "where": "Drop: King Squid"
+  },
+  {
+    "item": "snakeskin-whip",
+    "kind": "rare-drop",
+    "where": "Rare drop: Eveel"
+  },
+  {
+    "item": "snakeskin-whip",
+    "kind": "rare-drop",
+    "where": "Rare drop: Poison Eveel"
+  },
+  {
+    "item": "chain-whip",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mars Rover"
+  },
+  {
+    "item": "chain-whip",
+    "kind": "rare-drop",
+    "where": "Rare drop: Frost Wyvine"
+  },
+  {
+    "item": "demon-whip",
+    "kind": "found",
+    "where": "Godbird's Eyrie (Dark World) level 4: chest",
+    "location": "godbirds-eyrie"
+  },
+  {
+    "item": "demon-whip",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hellstalker"
+  },
+  {
+    "item": "farmers-scythe",
+    "kind": "found",
+    "where": "Swamp northeast of Swordsman's Labyrinth: chest",
+    "location": "swordsmans-labyrinth"
+  },
+  {
+    "item": "farmers-scythe",
+    "kind": "drop",
+    "where": "Drop: Iron Rhino"
+  },
+  {
+    "item": "farmers-scythe",
+    "kind": "rare-drop",
+    "where": "Rare drop: Iron Scorpion"
+  },
+  {
+    "item": "farmers-scythe",
+    "kind": "rare-drop",
+    "where": "Rare drop: Foul Anchor"
+  },
+  {
+    "item": "steel-scythe",
+    "kind": "rare-drop",
+    "where": "Rare drop: Fallen Priest"
+  },
+  {
+    "item": "wizards-staff",
+    "kind": "found",
+    "where": "Wisher's Peak: chest",
+    "location": "wishers-peak"
+  },
+  {
+    "item": "wizards-staff",
+    "kind": "found",
+    "where": "Arcadia: dresser",
+    "location": "arcadia"
+  },
+  {
+    "item": "wizards-staff",
+    "kind": "drop",
+    "where": "Drop: Witch"
+  },
+  {
+    "item": "wizards-staff",
+    "kind": "rare-drop",
+    "where": "Rare drop: Lump Mage"
+  },
+  {
+    "item": "wizards-staff",
+    "kind": "rare-drop",
+    "where": "Rare drop: Lump Shaman"
+  },
+  {
+    "item": "wizards-staff",
+    "kind": "rare-drop",
+    "where": "Rare drop: Lump Wizard"
+  },
+  {
+    "item": "wizards-staff",
+    "kind": "rare-drop",
+    "where": "Rare drop: Demon Thunderer"
+  },
+  {
+    "item": "wizards-staff",
+    "kind": "rare-drop",
+    "where": "Rare drop: Siren"
+  },
+  {
+    "item": "rune-staff",
+    "kind": "found",
+    "where": "Pickham: chest",
+    "location": "pickham-locked-room"
+  },
+  {
+    "item": "rune-staff",
+    "kind": "casino",
+    "where": "Casino prize: 3,000 tokens",
+    "location": "pickham-casino",
+    "tokens": 3000
+  },
+  {
+    "item": "rune-staff",
+    "kind": "rare-drop",
+    "where": "Rare drop: Wight Priest"
+  },
+  {
+    "item": "magical-mace",
+    "kind": "found",
+    "where": "Swamp west of Empycchu: chest",
+    "location": "empycchu"
+  },
+  {
+    "item": "hunters-bow",
+    "kind": "drop",
+    "where": "Drop: Hunter Mech"
+  },
+  {
+    "item": "hunters-bow",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bodkin Fletcher"
+  },
+  {
+    "item": "short-bow",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bodkin Bowyer"
+  },
+  {
+    "item": "cheirons-bow",
+    "kind": "found",
+    "where": "Rydon's Tower level 11: chest",
+    "location": "rydons-tower"
+  },
+  {
+    "item": "plain-clothes",
+    "kind": "found",
+    "where": "Farebury inn: dresser",
+    "location": "farebury"
+  },
+  {
+    "item": "plain-clothes",
+    "kind": "found",
+    "where": "Farebury: cupboard",
+    "location": "farebury"
+  },
+  {
+    "item": "plain-clothes",
+    "kind": "found",
+    "where": "Ascantha: cupboard",
+    "location": "ascantha"
+  },
+  {
+    "item": "plain-clothes",
+    "kind": "gift",
+    "where": "Starting equipment: Hero",
+    "location": "farebury"
+  },
+  {
+    "item": "plain-clothes",
+    "kind": "drop",
+    "where": "Drop: Satyr"
+  },
+  {
+    "item": "plain-clothes",
+    "kind": "drop",
+    "where": "Drop: Bag o' Laughs"
+  },
+  {
+    "item": "bandits-grass-skirt",
+    "kind": "found",
+    "where": "Ruined Abbey level 3: dresser",
+    "location": "ruined-abbey"
+  },
+  {
+    "item": "bandits-grass-skirt",
+    "kind": "gift",
+    "where": "Starting equipment: Yangus",
+    "location": "farebury"
+  },
+  {
+    "item": "bandits-grass-skirt",
+    "kind": "drop",
+    "where": "Drop: Dancing Flame"
+  },
+  {
+    "item": "bandits-grass-skirt",
+    "kind": "rare-drop",
+    "where": "Rare drop: Candy Cat"
+  },
+  {
+    "item": "bandits-grass-skirt",
+    "kind": "rare-drop",
+    "where": "Rare drop: See Urchin"
+  },
+  {
+    "item": "wayfarers-clothes",
+    "kind": "found",
+    "where": "Alexandria: cupboard",
+    "location": "alexandria"
+  },
+  {
+    "item": "wayfarers-clothes",
+    "kind": "found",
+    "where": "Argonia inn: dresser",
+    "location": "argonia"
+  },
+  {
+    "item": "wayfarers-clothes",
+    "kind": "gift",
+    "where": "Starting equipment: Jessica",
+    "location": "farebury"
+  },
+  {
+    "item": "wayfarers-clothes",
+    "kind": "drop",
+    "where": "Drop: Fencing Fox"
+  },
+  {
+    "item": "wayfarers-clothes",
+    "kind": "rare-drop",
+    "where": "Rare drop: Satyr"
+  },
+  {
+    "item": "wayfarers-clothes",
+    "kind": "rare-drop",
+    "where": "Rare drop: Toxic Zombie"
+  },
+  {
+    "item": "boxer-shorts",
+    "kind": "found",
+    "where": "West of Farebury: chest",
+    "location": "farebury"
+  },
+  {
+    "item": "boxer-shorts",
+    "kind": "found",
+    "where": "Pickham: bag",
+    "location": "pickham"
+  },
+  {
+    "item": "boxer-shorts",
+    "kind": "drop",
+    "where": "Drop: Caped Caperer"
+  },
+  {
+    "item": "boxer-shorts",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dancing Devil"
+  },
+  {
+    "item": "dancers-costume",
+    "kind": "found",
+    "where": "Baccarat: cupboard",
+    "location": "baccarat"
+  },
+  {
+    "item": "dancers-costume",
+    "kind": "rare-drop",
+    "where": "Rare drop: Puppet Master"
+  },
+  {
+    "item": "dancers-costume",
+    "kind": "rare-drop",
+    "where": "Rare drop: Squid Kid"
+  },
+  {
+    "item": "leather-kilt",
+    "kind": "found",
+    "where": "Peregrin Quay: pot",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "leather-kilt",
+    "kind": "rare-drop",
+    "where": "Rare drop: Pan Piper"
+  },
+  {
+    "item": "templars-uniform",
+    "kind": "gift",
+    "where": "Starting equipment: Angelo",
+    "location": "farebury"
+  },
+  {
+    "item": "templars-uniform",
+    "kind": "rare-drop",
+    "where": "Rare drop: Skeleton"
+  },
+  {
+    "item": "fur-poncho",
+    "kind": "found",
+    "where": "Empycchu: dresser",
+    "location": "empycchu"
+  },
+  {
+    "item": "cloak-of-evasion",
+    "kind": "found",
+    "where": "Argonia 4F: chest",
+    "location": "argonia-castle"
+  },
+  {
+    "item": "cloak-of-evasion",
+    "kind": "found",
+    "where": "Arcadia armour shop: dresser",
+    "location": "arcadia"
+  },
+  {
+    "item": "cloak-of-evasion",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hellspawn"
+  },
+  {
+    "item": "spangled-dress",
+    "kind": "found",
+    "where": "Baccarat: dresser",
+    "location": "baccarat"
+  },
+  {
+    "item": "spangled-dress",
+    "kind": "casino",
+    "where": "Casino prize: 3,000 tokens",
+    "location": "baccarat-casino",
+    "tokens": 3000
+  },
+  {
+    "item": "spangled-dress",
+    "kind": "drop",
+    "where": "Drop: Unholy Bishop"
+  },
+  {
+    "item": "spangled-dress",
+    "kind": "rare-drop",
+    "where": "Rare drop: Swingin' Hipster"
+  },
+  {
+    "item": "dark-robe",
+    "kind": "found",
+    "where": "Black Citadel: dresser",
+    "location": "black-citadel"
+  },
+  {
+    "item": "dark-robe",
+    "kind": "drop",
+    "where": "Drop: Invisible Swordsman"
+  },
+  {
+    "item": "dangerous-bustier",
+    "kind": "found",
+    "where": "Heavenly Dais level 1: chest",
+    "location": "heavenly-dais"
+  },
+  {
+    "item": "dangerous-bustier",
+    "kind": "medal",
+    "where": "Mini Medal prize: 99 medals",
+    "location": "princess-minnies-castle"
+  },
+  {
+    "item": "leather-armour",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mum"
+  },
+  {
+    "item": "chain-mail",
+    "kind": "found",
+    "where": "Northwest of Riverside Chapel: chest",
+    "location": "riverside-chapel"
+  },
+  {
+    "item": "chain-mail",
+    "kind": "found",
+    "where": "Pickham: dresser",
+    "location": "pickham"
+  },
+  {
+    "item": "chain-mail",
+    "kind": "rare-drop",
+    "where": "Rare drop: Walking Corpse"
+  },
+  {
+    "item": "iron-cuirass",
+    "kind": "drop",
+    "where": "Drop: Mars Rover"
+  },
+  {
+    "item": "iron-cuirass",
+    "kind": "drop",
+    "where": "Drop: Killing Machine"
+  },
+  {
+    "item": "iron-cuirass",
+    "kind": "rare-drop",
+    "where": "Rare drop: Robo-Robin"
+  },
+  {
+    "item": "iron-cuirass",
+    "kind": "rare-drop",
+    "where": "Rare drop: Buffalogre"
+  },
+  {
+    "item": "magic-armour",
+    "kind": "rare-drop",
+    "where": "Rare drop: Body Politic"
+  },
+  {
+    "item": "zombie-mail",
+    "kind": "found",
+    "where": "East of Dark Ruins: chest",
+    "location": "dark-ruins"
+  },
+  {
+    "item": "zombie-mail",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Dullahan"
+  },
+  {
+    "item": "heavy-armour",
+    "kind": "rare-drop",
+    "where": "Rare drop: Lethal Armour"
+  },
+  {
+    "item": "platinum-mail",
+    "kind": "drop",
+    "where": "Drop: Hell's Gatekeeper"
+  },
+  {
+    "item": "liquid-metal-armour",
+    "kind": "found",
+    "where": "Dragovian Path B2: chest",
+    "location": "dragovian-path"
+  },
+  {
+    "item": "liquid-metal-armour",
+    "kind": "casino",
+    "where": "Casino prize: 50,000 tokens",
+    "location": "baccarat-casino",
+    "tokens": 50000
+  },
+  {
+    "item": "magic-vestment",
+    "kind": "found",
+    "where": "Arcadia: chest",
+    "location": "arcadia"
+  },
+  {
+    "item": "magic-vestment",
+    "kind": "drop",
+    "where": "Drop: Fallen Priest"
+  },
+  {
+    "item": "magic-vestment",
+    "kind": "drop",
+    "where": "Drop: Wight Priest"
+  },
+  {
+    "item": "sages-robe",
+    "kind": "found",
+    "where": "Lord High Priest's house: dresser",
+    "location": "lord-high-priests-residence"
+  },
+  {
+    "item": "pot-lid",
+    "kind": "found",
+    "where": "Farebury church: dresser",
+    "location": "farebury"
+  },
+  {
+    "item": "pot-lid",
+    "kind": "found",
+    "where": "Port Prospect: barrel",
+    "location": "port-prospect"
+  },
+  {
+    "item": "pot-lid",
+    "kind": "drop",
+    "where": "Drop: Mecha-Mynah"
+  },
+  {
+    "item": "pot-lid",
+    "kind": "rare-drop",
+    "where": "Rare drop: Cannibox"
+  },
+  {
+    "item": "leather-shield",
+    "kind": "found",
+    "where": "Farebury well: chest",
+    "location": "farebury"
+  },
+  {
+    "item": "leather-shield",
+    "kind": "drop",
+    "where": "Drop: Crocodog"
+  },
+  {
+    "item": "scale-shield",
+    "kind": "found",
+    "where": "Tower of Alexandra level 6: chest",
+    "location": "tower-of-alexandra"
+  },
+  {
+    "item": "scale-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Headhunter"
+  },
+  {
+    "item": "scale-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Yabby"
+  },
+  {
+    "item": "scale-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Wild Boarfish"
+  },
+  {
+    "item": "silver-platter",
+    "kind": "found",
+    "where": "Le Club Puff Puff: dresser",
+    "location": "le-club-puff-puff"
+  },
+  {
+    "item": "silver-platter",
+    "kind": "casino",
+    "where": "Casino prize: 500 tokens",
+    "location": "pickham-casino",
+    "tokens": 500
+  },
+  {
+    "item": "bronze-shield",
+    "kind": "found",
+    "where": "Ruined Abbey level 3: chest",
+    "location": "ruined-abbey"
+  },
+  {
+    "item": "bronze-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Skeleton"
+  },
+  {
+    "item": "templars-shield",
+    "kind": "found",
+    "where": "Wisher's Peak: chest",
+    "location": "wishers-peak"
+  },
+  {
+    "item": "templars-shield",
+    "kind": "drop",
+    "where": "Drop: Battle Beetle"
+  },
+  {
+    "item": "templars-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Slime Knight"
+  },
+  {
+    "item": "iron-shield",
+    "kind": "found",
+    "where": "Forest northwest of Swordsman's Labyrinth: chest",
+    "location": "swordsmans-labyrinth"
+  },
+  {
+    "item": "iron-shield",
+    "kind": "drop",
+    "where": "Drop: Restless Armour"
+  },
+  {
+    "item": "iron-shield",
+    "kind": "drop",
+    "where": "Drop: Bone Baron"
+  },
+  {
+    "item": "iron-shield",
+    "kind": "drop",
+    "where": "Drop: Octavian Pirate"
+  },
+  {
+    "item": "iron-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Woc"
+  },
+  {
+    "item": "iron-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mohawker"
+  },
+  {
+    "item": "light-shield",
+    "kind": "found",
+    "where": "West of Royal Hunting Ground: chest",
+    "location": "royal-hunting-ground"
+  },
+  {
+    "item": "steel-shield",
+    "kind": "found",
+    "where": "Lake southwest of Argonia, south end: chest",
+    "location": "argonia"
+  },
+  {
+    "item": "steel-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dullahan"
+  },
+  {
+    "item": "power-shield",
+    "kind": "found",
+    "where": "Pickham: chest",
+    "location": "pickham-locked-room"
+  },
+  {
+    "item": "power-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Left Wing"
+  },
+  {
+    "item": "ruinous-shield",
+    "kind": "found",
+    "where": "Flying spot southwest of Dark Ruins: chest",
+    "location": "aerial-islands"
+  },
+  {
+    "item": "ruinous-shield",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hell's Gatekeeper"
+  },
+  {
+    "item": "thanatos-shield",
+    "kind": "found",
+    "where": "Dragovian Path B2: chest",
+    "location": "dragovian-path"
+  },
+  {
+    "item": "bandana",
+    "kind": "gift",
+    "where": "Starting equipment: Hero",
+    "location": "farebury"
+  },
+  {
+    "item": "bandana",
+    "kind": "drop",
+    "where": "Drop: Bodkin Archer"
+  },
+  {
+    "item": "bandana",
+    "kind": "drop",
+    "where": "Drop: Jailcat"
+  },
+  {
+    "item": "bandana",
+    "kind": "drop",
+    "where": "Drop: Mummy Boy"
+  },
+  {
+    "item": "bandana",
+    "kind": "drop",
+    "where": "Drop: Blood Mummy"
+  },
+  {
+    "item": "bandana",
+    "kind": "rare-drop",
+    "where": "Rare drop: Skullrider"
+  },
+  {
+    "item": "bandana",
+    "kind": "rare-drop",
+    "where": "Rare drop: Killer Croaker"
+  },
+  {
+    "item": "leather-hat",
+    "kind": "found",
+    "where": "Waterfall Cave level 1: chest",
+    "location": "waterfall-cave"
+  },
+  {
+    "item": "leather-hat",
+    "kind": "gift",
+    "where": "Starting equipment: Yangus",
+    "location": "farebury"
+  },
+  {
+    "item": "leather-hat",
+    "kind": "drop",
+    "where": "Drop: Bunicorn"
+  },
+  {
+    "item": "leather-hat",
+    "kind": "drop",
+    "where": "Drop: High Roller"
+  },
+  {
+    "item": "leather-hat",
+    "kind": "drop",
+    "where": "Drop: Dark Sabrecat"
+  },
+  {
+    "item": "leather-hat",
+    "kind": "rare-drop",
+    "where": "Rare drop: Beetleboy"
+  },
+  {
+    "item": "hairband",
+    "kind": "found",
+    "where": "Red's house: dresser",
+    "location": "reds-house"
+  },
+  {
+    "item": "hairband",
+    "kind": "found",
+    "where": "Argonia: dresser",
+    "location": "argonia"
+  },
+  {
+    "item": "hairband",
+    "kind": "gift",
+    "where": "Starting equipment: Jessica",
+    "location": "farebury"
+  },
+  {
+    "item": "hairband",
+    "kind": "drop",
+    "where": "Drop: Dingaling"
+  },
+  {
+    "item": "hairband",
+    "kind": "drop",
+    "where": "Drop: Garuda"
+  },
+  {
+    "item": "hairband",
+    "kind": "drop",
+    "where": "Drop: Heligator"
+  },
+  {
+    "item": "hairband",
+    "kind": "drop",
+    "where": "Drop: Darkodile"
+  },
+  {
+    "item": "hairband",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bag o' Laughs"
+  },
+  {
+    "item": "hairband",
+    "kind": "rare-drop",
+    "where": "Rare drop: Chimaera"
+  },
+  {
+    "item": "pointy-hat",
+    "kind": "drop",
+    "where": "Drop: Squid Kid"
+  },
+  {
+    "item": "feathered-cap",
+    "kind": "found",
+    "where": "East of Peregrin Quay: chest",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "feathered-cap",
+    "kind": "found",
+    "where": "Argonia: barrel",
+    "location": "argonia"
+  },
+  {
+    "item": "feathered-cap",
+    "kind": "rare-drop",
+    "where": "Rare drop: Night Fox"
+  },
+  {
+    "item": "silver-tiara",
+    "kind": "found",
+    "where": "Northeast of Arcadia: chest",
+    "location": "arcadia"
+  },
+  {
+    "item": "stone-hardhat",
+    "kind": "found",
+    "where": "Mole Hole level 2: chest",
+    "location": "mole-hole"
+  },
+  {
+    "item": "stone-hardhat",
+    "kind": "drop",
+    "where": "Drop: Cockateer"
+  },
+  {
+    "item": "stone-hardhat",
+    "kind": "drop",
+    "where": "Drop: Bomboulder"
+  },
+  {
+    "item": "stone-hardhat",
+    "kind": "drop",
+    "where": "Drop: Living Statue"
+  },
+  {
+    "item": "stone-hardhat",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mad Mole"
+  },
+  {
+    "item": "iron-helmet",
+    "kind": "found",
+    "where": "Southeast of Argonia: chest",
+    "location": "argonia"
+  },
+  {
+    "item": "iron-helmet",
+    "kind": "drop",
+    "where": "Drop: Claws"
+  },
+  {
+    "item": "iron-helmet",
+    "kind": "drop",
+    "where": "Drop: Octavian Sentry"
+  },
+  {
+    "item": "iron-helmet",
+    "kind": "rare-drop",
+    "where": "Rare drop: Battle Beetle"
+  },
+  {
+    "item": "iron-helmet",
+    "kind": "rare-drop",
+    "where": "Rare drop: Jab"
+  },
+  {
+    "item": "iron-helmet",
+    "kind": "rare-drop",
+    "where": "Rare drop: Iron Rhino"
+  },
+  {
+    "item": "coral-hairpin",
+    "kind": "drop",
+    "where": "Drop: Siren"
+  },
+  {
+    "item": "coral-hairpin",
+    "kind": "rare-drop",
+    "where": "Rare drop: Wailin' Weed"
+  },
+  {
+    "item": "coral-hairpin",
+    "kind": "rare-drop",
+    "where": "Rare drop: King Kelp"
+  },
+  {
+    "item": "magical-hat",
+    "kind": "found",
+    "where": "Argonia 4F: chest",
+    "location": "argonia-castle"
+  },
+  {
+    "item": "magical-hat",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Slime"
+  },
+  {
+    "item": "magical-hat",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mucho Macho"
+  },
+  {
+    "item": "magical-hat",
+    "kind": "rare-drop",
+    "where": "Rare drop: Grim Rider"
+  },
+  {
+    "item": "happy-hat",
+    "kind": "gift",
+    "where": "Dodgy Dave reward 5 (trade: Sandstorm Spear)",
+    "location": "dodgy-dave"
+  },
+  {
+    "item": "hades-helm",
+    "kind": "found",
+    "where": "Pirate's Cove level 3: chest",
+    "location": "pirates-cove-dungeon"
+  },
+  {
+    "item": "hades-helm",
+    "kind": "drop",
+    "where": "Drop: Hell Gladiator"
+  },
+  {
+    "item": "hades-helm",
+    "kind": "drop",
+    "where": "Drop: Servant of Darkness"
+  },
+  {
+    "item": "slime-crown",
+    "kind": "found",
+    "where": "Hilltop Hut: well outside",
+    "location": "hilltop-hut"
+  },
+  {
+    "item": "slime-crown",
+    "kind": "found",
+    "where": "Tryan Gully bar: barrel",
+    "location": "tryan-gully"
+  },
+  {
+    "item": "slime-crown",
+    "kind": "drop",
+    "where": "Drop: Metal King Slime"
+  },
+  {
+    "item": "slime-crown",
+    "kind": "rare-drop",
+    "where": "Rare drop: King Slime"
+  },
+  {
+    "item": "mercurys-bandana",
+    "kind": "rare-drop",
+    "where": "Rare drop: Seasaur"
+  },
+  {
+    "item": "thinking-cap",
+    "kind": "rare-drop",
+    "where": "Rare drop: Head of State"
+  },
+  {
+    "item": "iron-headgear",
+    "kind": "found",
+    "where": "Northwest of Dark Empycchu: chest",
+    "location": "empycchu"
+  },
+  {
+    "item": "iron-headgear",
+    "kind": "drop",
+    "where": "Drop: Dark Devildog"
+  },
+  {
+    "item": "skull-helm",
+    "kind": "found",
+    "where": "Flying spot east of the Godbird's Eyrie: chest",
+    "location": "aerial-islands"
+  },
+  {
+    "item": "skull-helm",
+    "kind": "found",
+    "where": "Heavenly Dais level 2: chest",
+    "location": "heavenly-dais"
+  },
+  {
+    "item": "agility-ring",
+    "kind": "found",
+    "where": "Far corner northeast of Riverside Chapel: chest",
+    "location": "riverside-chapel-locked-chests"
+  },
+  {
+    "item": "agility-ring",
+    "kind": "found",
+    "where": "Southeast of Neos: chest",
+    "location": "neos"
+  },
+  {
+    "item": "agility-ring",
+    "kind": "found",
+    "where": "South-southwest of Orkutsk: chest",
+    "location": "orkutsk"
+  },
+  {
+    "item": "agility-ring",
+    "kind": "casino",
+    "where": "Casino prize: 1,000 tokens",
+    "location": "pickham-casino",
+    "tokens": 1000
+  },
+  {
+    "item": "meteorite-bracer",
+    "kind": "medal",
+    "where": "Mini Medal prize: 60 medals",
+    "location": "princess-minnies-castle"
+  },
+  {
+    "item": "strength-ring",
+    "kind": "found",
+    "where": "Arcadia: dresser",
+    "location": "arcadia"
+  },
+  {
+    "item": "strength-ring",
+    "kind": "gift",
+    "where": "Monster Arena rank G prize",
+    "location": "monster-arena"
+  },
+  {
+    "item": "strength-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: Muddy Hand"
+  },
+  {
+    "item": "gold-ring",
+    "kind": "found",
+    "where": "Forest north-northwest of Red's house: chest",
+    "location": "pickham-fields-locked-chests"
+  },
+  {
+    "item": "gold-ring",
+    "kind": "found",
+    "where": "Baccarat: dresser",
+    "location": "baccarat"
+  },
+  {
+    "item": "gold-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dieablo"
+  },
+  {
+    "item": "gold-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: Night Emperor"
+  },
+  {
+    "item": "gold-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: Gold Golem"
+  },
+  {
+    "item": "gold-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: Ghoul"
+  },
+  {
+    "item": "gold-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bloody Hand"
+  },
+  {
+    "item": "prayer-ring",
+    "kind": "found",
+    "where": "Northeast of the campsite west of Argonia: chest",
+    "location": "campsite-west-of-argonia"
+  },
+  {
+    "item": "prayer-ring",
+    "kind": "found",
+    "where": "Northwest of Desert Chapel: chest",
+    "location": "desert-chapel"
+  },
+  {
+    "item": "prayer-ring",
+    "kind": "found",
+    "where": "Black Citadel: barrel",
+    "location": "black-citadel"
+  },
+  {
+    "item": "prayer-ring",
+    "kind": "casino",
+    "where": "Casino prize: 1,000 tokens",
+    "location": "baccarat-casino",
+    "tokens": 1000
+  },
+  {
+    "item": "prayer-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: Goodybag"
+  },
+  {
+    "item": "prayer-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: High Roller"
+  },
+  {
+    "item": "recovery-ring",
+    "kind": "found",
+    "where": "Rydon's Tower level 9: chest",
+    "location": "rydons-tower"
+  },
+  {
+    "item": "recovery-ring",
+    "kind": "drop",
+    "where": "Drop: Pandora's Box"
+  },
+  {
+    "item": "life-bracer",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Devildog"
+  },
+  {
+    "item": "mighty-armlet",
+    "kind": "found",
+    "where": "Southwest of Empycchu: chest",
+    "location": "empycchu"
+  },
+  {
+    "item": "mighty-armlet",
+    "kind": "gift",
+    "where": "Monster Arena rank D prize",
+    "location": "monster-arena"
+  },
+  {
+    "item": "mighty-armlet",
+    "kind": "rare-drop",
+    "where": "Rare drop: Stone Guardian"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "found",
+    "where": "Trodain 2F: bag",
+    "location": "trodain"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "found",
+    "where": "Arcadia: dresser",
+    "location": "arcadia"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "gift",
+    "where": "Khalamari, the ferry boss",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "drop",
+    "where": "Drop: Goodybag"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "drop",
+    "where": "Drop: Dieablo"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "drop",
+    "where": "Drop: Gold Golem"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "rare-drop",
+    "where": "Rare drop: Fencing Fox"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "rare-drop",
+    "where": "Rare drop: Chainine"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dingaling"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "rare-drop",
+    "where": "Rare drop: Lesser Demon"
+  },
+  {
+    "item": "gold-bracer",
+    "kind": "rare-drop",
+    "where": "Rare drop: Notso Macho"
+  },
+  {
+    "item": "ruby-of-protection",
+    "kind": "found",
+    "where": "Baccarat Gold Bank: chest",
+    "location": "baccarat"
+  },
+  {
+    "item": "ruby-of-protection",
+    "kind": "found",
+    "where": "Orkutsk: pot",
+    "location": "orkutsk"
+  },
+  {
+    "item": "ruby-of-protection",
+    "kind": "rare-drop",
+    "where": "Rare drop: Living Statue"
+  },
+  {
+    "item": "ruby-of-protection",
+    "kind": "rare-drop",
+    "where": "Rare drop: Elysium Bird"
+  },
+  {
+    "item": "titan-belt",
+    "kind": "found",
+    "where": "Forest north of Arcadia: chest",
+    "location": "arcadia"
+  },
+  {
+    "item": "titan-belt",
+    "kind": "found",
+    "where": "Arcadia: chest",
+    "location": "arcadia-item-shop-back"
+  },
+  {
+    "item": "titan-belt",
+    "kind": "casino",
+    "where": "Casino prize: 1,500 tokens",
+    "location": "pickham-casino",
+    "tokens": 1500
+  },
+  {
+    "item": "titan-belt",
+    "kind": "drop",
+    "where": "Drop: Skeleton Soldier"
+  },
+  {
+    "item": "titan-belt",
+    "kind": "drop",
+    "where": "Drop: Jackal Ripper"
+  },
+  {
+    "item": "titan-belt",
+    "kind": "drop",
+    "where": "Drop: Icikiller"
+  },
+  {
+    "item": "titan-belt",
+    "kind": "rare-drop",
+    "where": "Rare drop: Cockateer"
+  },
+  {
+    "item": "titan-belt",
+    "kind": "rare-drop",
+    "where": "Rare drop: Golem"
+  },
+  {
+    "item": "scholars-specs",
+    "kind": "found",
+    "where": "Neos: bag",
+    "location": "neos"
+  },
+  {
+    "item": "scholars-specs",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mummy"
+  },
+  {
+    "item": "scholars-specs",
+    "kind": "rare-drop",
+    "where": "Rare drop: Puppet Player"
+  },
+  {
+    "item": "scholars-specs",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dead Ringer"
+  },
+  {
+    "item": "scholars-specs",
+    "kind": "rare-drop",
+    "where": "Rare drop: Sea Dragon"
+  },
+  {
+    "item": "tough-guy-tattoo",
+    "kind": "found",
+    "where": "Behind Seaview Church: chest",
+    "location": "seaview-church"
+  },
+  {
+    "item": "tough-guy-tattoo",
+    "kind": "drop",
+    "where": "Drop: Hoodlum"
+  },
+  {
+    "item": "tough-guy-tattoo",
+    "kind": "drop",
+    "where": "Drop: Troll"
+  },
+  {
+    "item": "tough-guy-tattoo",
+    "kind": "drop",
+    "where": "Drop: Belial"
+  },
+  {
+    "item": "tough-guy-tattoo",
+    "kind": "drop",
+    "where": "Drop: Anchorman"
+  },
+  {
+    "item": "slime-earrings",
+    "kind": "found",
+    "where": "South end of the Alexandria gate: chest",
+    "location": "alexandria"
+  },
+  {
+    "item": "slime-earrings",
+    "kind": "drop",
+    "where": "Drop: Slime Knight"
+  },
+  {
+    "item": "slime-earrings",
+    "kind": "drop",
+    "where": "Drop: Metal Slime Knight"
+  },
+  {
+    "item": "slime-earrings",
+    "kind": "drop",
+    "where": "Drop: King Slime"
+  },
+  {
+    "item": "slime-earrings",
+    "kind": "rare-drop",
+    "where": "Rare drop: She-Slime"
+  },
+  {
+    "item": "slime-earrings",
+    "kind": "rare-drop",
+    "where": "Rare drop: Puppeteer"
+  },
+  {
+    "item": "slime-earrings",
+    "kind": "rare-drop",
+    "where": "Rare drop: Magic Marionette"
+  },
+  {
+    "item": "devils-tail",
+    "kind": "found",
+    "where": "Argonia 4F: chest",
+    "location": "argonia-castle"
+  },
+  {
+    "item": "devils-tail",
+    "kind": "found",
+    "where": "Herb Grotto level 3: chest",
+    "location": "herb-grotto"
+  },
+  {
+    "item": "devils-tail",
+    "kind": "found",
+    "where": "Northwest of Dark Empycchu: chest",
+    "location": "empycchu"
+  },
+  {
+    "item": "devils-tail",
+    "kind": "drop",
+    "where": "Drop: Demon Thunderer"
+  },
+  {
+    "item": "devils-tail",
+    "kind": "rare-drop",
+    "where": "Rare drop: Tap Devil"
+  },
+  {
+    "item": "devils-tail",
+    "kind": "rare-drop",
+    "where": "Rare drop: Caped Caperer"
+  },
+  {
+    "item": "fishnet-stockings",
+    "kind": "medal",
+    "where": "Mini Medal prize: 28 medals",
+    "location": "princess-minnies-castle"
+  },
+  {
+    "item": "fishnet-stockings",
+    "kind": "drop",
+    "where": "Drop: Ice Queen"
+  },
+  {
+    "item": "garter",
+    "kind": "found",
+    "where": "Trodain 3F: dresser",
+    "location": "trodain"
+  },
+  {
+    "item": "garter",
+    "kind": "found",
+    "where": "Baccarat: dresser",
+    "location": "baccarat"
+  },
+  {
+    "item": "garter",
+    "kind": "found",
+    "where": "Red's house: chest",
+    "location": "reds-house-basement"
+  },
+  {
+    "item": "garter",
+    "kind": "drop",
+    "where": "Drop: Dark Turkey"
+  },
+  {
+    "item": "garter",
+    "kind": "drop",
+    "where": "Drop: Fowlfighter"
+  },
+  {
+    "item": "garter",
+    "kind": "rare-drop",
+    "where": "Rare drop: Witch"
+  },
+  {
+    "item": "gold-rosary",
+    "kind": "found",
+    "where": "Neos: cupboard",
+    "location": "neos"
+  },
+  {
+    "item": "gold-rosary",
+    "kind": "found",
+    "where": "Ruined Abbey level 3: Tortured Soul (boss)",
+    "location": "ruined-abbey"
+  },
+  {
+    "item": "skull-ring",
+    "kind": "found",
+    "where": "Argonia 1F: chest",
+    "location": "argonia-treasury"
+  },
+  {
+    "item": "skull-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: Wight King"
+  },
+  {
+    "item": "full-moon-ring",
+    "kind": "rare-drop",
+    "where": "Rare drop: Tentacular"
+  },
+  {
+    "item": "ring-of-clarity",
+    "kind": "gift",
+    "where": "Monster Arena rank E prize",
+    "location": "monster-arena"
+  },
+  {
+    "item": "ring-of-truth",
+    "kind": "found",
+    "where": "Godbird's Eyrie (Dark World) level 3: chest",
+    "location": "godbirds-eyrie"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "found",
+    "where": "South of Dragon Graveyard: chest",
+    "location": "dragon-graveyard"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "found",
+    "where": "Royal Hunting Ground: chest",
+    "location": "royal-hunting-ground"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "found",
+    "where": "Dark Ruins B1: chest",
+    "location": "dark-ruins-interior"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "found",
+    "where": "Arcadia: cupboard",
+    "location": "arcadia"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "found",
+    "where": "Dark Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "drop",
+    "where": "Drop: Hackasaurus"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "drop",
+    "where": "Drop: Frost Wyvine"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "drop",
+    "where": "Drop: Tyrantosaurus"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "drop",
+    "where": "Drop: Sea Dragon"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "drop",
+    "where": "Drop: Seasaur"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dragurn"
+  },
+  {
+    "item": "dragon-scale",
+    "kind": "rare-drop",
+    "where": "Rare drop: Frou-Frou"
+  },
+  {
+    "item": "elevating-shoes",
+    "kind": "rare-drop",
+    "where": "Rare drop: Liquid Metal Slime"
+  },
+  {
+    "item": "elevating-shoes",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hell Hopper"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Farebury inn: bag",
+    "location": "farebury"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Farebury: pot",
+    "location": "farebury"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Farebury: barrel",
+    "location": "farebury"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Farebury church: pot",
+    "location": "farebury"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Waterfall Cave level 1: chest",
+    "location": "waterfall-cave"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Alexandria: pot",
+    "location": "alexandria"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Tower of Alexandra level 1: barrel",
+    "location": "tower-of-alexandra"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Tower of Alexandra level 4: barrel",
+    "location": "tower-of-alexandra"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Port Prospect: barrel",
+    "location": "port-prospect"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Port Prospect: pot",
+    "location": "port-prospect"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Peregrin Quay: barrel",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Peregrin Quay: pot",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "found",
+    "where": "Ascantha 2F: pot",
+    "location": "ascantha"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Slime"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Candy Cat"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Lips"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Dracky"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: She-Slime"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Mischievous Mole"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Skipper"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Drackmage"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Beetleboy"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Healslime"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Frogface"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Spiked Hare"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Chainine"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Brownie"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Pan Piper"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Treeface"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Headhunter"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Cureslime"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Muddy Hand"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Mad Mole"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Dragonthorn"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Great Sabrecat"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Puppet Player"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Orc"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Skullrider"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Notso Macho"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Woc"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Swingin' Hipster"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Dark Slime"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Hellhound"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Dark Star"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Bloody Hand"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Great Troll"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: See Urchin"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Merman"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Poison Eveel"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "drop",
+    "where": "Drop: Tentacular"
+  },
+  {
+    "item": "medicinal-herb",
+    "kind": "rare-drop",
+    "where": "Rare drop: Merking"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "found",
+    "where": "Farebury inn: bag",
+    "location": "farebury"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "found",
+    "where": "Farebury town: dresser",
+    "location": "farebury"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "found",
+    "where": "Farebury bar: barrel",
+    "location": "farebury"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "found",
+    "where": "Tower of Alexandra level 6: pot",
+    "location": "tower-of-alexandra"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "found",
+    "where": "Port Prospect: barrel",
+    "location": "port-prospect"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "found",
+    "where": "Peregrin Quay: barrel",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "found",
+    "where": "Swordsman's Labyrinth level 2: pot",
+    "location": "swordsmans-labyrinth"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Bubble Slime"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Funghoul"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Scorpion"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Walking Corpse"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Devilmoth"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Bodkin Fletcher"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Toxic Zombie"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Ghoul"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Kee"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Death Scorpion"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Dark Dullahan"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Wild Boarfish"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Eveel"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Pigmalion"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "drop",
+    "where": "Drop: Merking"
+  },
+  {
+    "item": "antidotal-herb",
+    "kind": "rare-drop",
+    "where": "Rare drop: Killer Moth"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "found",
+    "where": "Alexandria: barrel",
+    "location": "alexandria"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "found",
+    "where": "Tower of Alexandra level 1: barrel",
+    "location": "tower-of-alexandra"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "found",
+    "where": "Neos: pot",
+    "location": "neos"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Drackyma"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Night Sneaker"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Hell Hornet"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Venom Wasp"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Jab"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Soulspawn"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Smacker"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Dark Skeleton"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Solaris"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "drop",
+    "where": "Drop: Man o' War"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "rare-drop",
+    "where": "Rare drop: Lips"
+  },
+  {
+    "item": "moonwort-bulb",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bubble Slime"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "found",
+    "where": "Argonia inn: barrel",
+    "location": "argonia"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "found",
+    "where": "Baccarat: barrel",
+    "location": "baccarat"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "drop",
+    "where": "Drop: Treevil"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "drop",
+    "where": "Drop: Hades Condor"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "drop",
+    "where": "Drop: Gargoyle"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "drop",
+    "where": "Drop: Stone Golem"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "drop",
+    "where": "Drop: Mucho Macho"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "drop",
+    "where": "Drop: Dark Macarbour"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "drop",
+    "where": "Drop: Red Horn"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "rare-drop",
+    "where": "Rare drop: Treeface"
+  },
+  {
+    "item": "strong-medicine",
+    "kind": "rare-drop",
+    "where": "Rare drop: King Squid"
+  },
+  {
+    "item": "special-medicine",
+    "kind": "found",
+    "where": "Marta's Cottage: pot",
+    "location": "martas-cottage"
+  },
+  {
+    "item": "special-medicine",
+    "kind": "found",
+    "where": "Empycchu: chest",
+    "location": "empycchu"
+  },
+  {
+    "item": "special-medicine",
+    "kind": "drop",
+    "where": "Drop: Jabberwockee"
+  },
+  {
+    "item": "special-medicine",
+    "kind": "drop",
+    "where": "Drop: Boss Troll"
+  },
+  {
+    "item": "lesser-panacea",
+    "kind": "found",
+    "where": "Southeast of Trodain: chest",
+    "location": "trodain"
+  },
+  {
+    "item": "lesser-panacea",
+    "kind": "found",
+    "where": "Arcadia: pot",
+    "location": "arcadia"
+  },
+  {
+    "item": "lesser-panacea",
+    "kind": "found",
+    "where": "By the lake southwest of Empycchu: chest",
+    "location": "empycchu"
+  },
+  {
+    "item": "rose-root",
+    "kind": "found",
+    "where": "Herb Grotto level 2: pot",
+    "location": "herb-grotto"
+  },
+  {
+    "item": "rose-wort",
+    "kind": "found",
+    "where": "Herb Grotto level 1: pot",
+    "location": "herb-grotto"
+  },
+  {
+    "item": "strong-antidote",
+    "kind": "found",
+    "where": "Argonia: barrel",
+    "location": "argonia"
+  },
+  {
+    "item": "strong-antidote",
+    "kind": "drop",
+    "where": "Drop: Blue Fang"
+  },
+  {
+    "item": "moons-mercy",
+    "kind": "drop",
+    "where": "Drop: Hell Hopper"
+  },
+  {
+    "item": "moons-mercy",
+    "kind": "rare-drop",
+    "where": "Rare drop: Cureslime"
+  },
+  {
+    "item": "moons-mercy",
+    "kind": "rare-drop",
+    "where": "Rare drop: Spitnik"
+  },
+  {
+    "item": "mystifying-mixture",
+    "kind": "found",
+    "where": "Arcadia special shop: pot",
+    "location": "arcadia"
+  },
+  {
+    "item": "yggdrasil-leaf",
+    "kind": "found",
+    "where": "Northeast part of beach south of Argonia: chest",
+    "location": "ship-shores"
+  },
+  {
+    "item": "yggdrasil-leaf",
+    "kind": "found",
+    "where": "South of Orkutsk: chest",
+    "location": "orkutsk"
+  },
+  {
+    "item": "yggdrasil-leaf",
+    "kind": "found",
+    "where": "Flying spot by the big red tree: pot",
+    "location": "aerial-islands"
+  },
+  {
+    "item": "yggdrasil-leaf",
+    "kind": "found",
+    "where": "Black Citadel: barrel",
+    "location": "black-citadel"
+  },
+  {
+    "item": "yggdrasil-leaf",
+    "kind": "gift",
+    "where": "Baumren's tree, after the Sand of Serenity",
+    "location": "chateau-felix"
+  },
+  {
+    "item": "yggdrasil-leaf",
+    "kind": "rare-drop",
+    "where": "Rare drop: Treevil"
+  },
+  {
+    "item": "yggdrasil-leaf",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Macarbour"
+  },
+  {
+    "item": "yggdrasil-dew",
+    "kind": "found",
+    "where": "Trodain 2F: chest",
+    "location": "trodain-locked-room"
+  },
+  {
+    "item": "yggdrasil-dew",
+    "kind": "found",
+    "where": "Tryan Gully: pot",
+    "location": "tryan-gully"
+  },
+  {
+    "item": "yggdrasil-dew",
+    "kind": "found",
+    "where": "Island west of Lakeside Cabin: chest",
+    "location": "aerial-islands"
+  },
+  {
+    "item": "yggdrasil-dew",
+    "kind": "found",
+    "where": "Dragovian Sanctuary: pot",
+    "location": "dragovian-sanctuary"
+  },
+  {
+    "item": "yggdrasil-dew",
+    "kind": "found",
+    "where": "Black Citadel level 4: Megalodon (boss)",
+    "location": "black-citadel"
+  },
+  {
+    "item": "yggdrasil-dew",
+    "kind": "rare-drop",
+    "where": "Rare drop: King Cureslime"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "found",
+    "where": "Pickham well: pot",
+    "location": "pickham"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "found",
+    "where": "Baccarat: barrel",
+    "location": "baccarat"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "found",
+    "where": "Arcadia bar: barrel",
+    "location": "arcadia"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "found",
+    "where": "Orkutsk bar: barrel",
+    "location": "orkutsk"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "drop",
+    "where": "Drop: King Cureslime"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "drop",
+    "where": "Drop: Phantom Swordsman"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "drop",
+    "where": "Drop: Cyclops"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "drop",
+    "where": "Drop: Gigantes"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "drop",
+    "where": "Drop: See Angel"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "rare-drop",
+    "where": "Rare drop: Slime"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "rare-drop",
+    "where": "Rare drop: Firespirit"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "rare-drop",
+    "where": "Rare drop: Healslime"
+  },
+  {
+    "item": "amor-seco-essence",
+    "kind": "rare-drop",
+    "where": "Rare drop: Frogface"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "found",
+    "where": "Farebury inn: chest",
+    "location": "farebury"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "found",
+    "where": "Waterfall Cave level 1: chest",
+    "location": "waterfall-cave"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "found",
+    "where": "Alexandria: dresser",
+    "location": "alexandria"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "found",
+    "where": "Port Prospect: barrel",
+    "location": "port-prospect"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "found",
+    "where": "Peregrin Quay: barrel",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "found",
+    "where": "Neos: pot",
+    "location": "neos"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "found",
+    "where": "Orkutsk: pot",
+    "location": "orkutsk"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "found",
+    "where": "Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: Dancing Devil"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: Imp"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: Diemon"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: Chimaera"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: Hawk Man"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: Hocus Chimaera"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: Puppet Master"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: Gryphon"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: Dark Condor"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "drop",
+    "where": "Drop: War Gryphon"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dracky"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mecha-Mynah"
+  },
+  {
+    "item": "chimaera-wing",
+    "kind": "rare-drop",
+    "where": "Rare drop: Drackmage"
+  },
+  {
+    "item": "holy-water",
+    "kind": "found",
+    "where": "Farebury inn: dresser",
+    "location": "farebury"
+  },
+  {
+    "item": "holy-water",
+    "kind": "found",
+    "where": "House on top of the Waterfall Cave: bag",
+    "location": "waterfall-cave"
+  },
+  {
+    "item": "holy-water",
+    "kind": "found",
+    "where": "Alexandria: pot",
+    "location": "alexandria"
+  },
+  {
+    "item": "holy-water",
+    "kind": "found",
+    "where": "Port Prospect: cupboard",
+    "location": "port-prospect"
+  },
+  {
+    "item": "holy-water",
+    "kind": "found",
+    "where": "Maella Abbey: barrel",
+    "location": "maella-abbey"
+  },
+  {
+    "item": "holy-water",
+    "kind": "found",
+    "where": "Pickham: cupboard",
+    "location": "pickham"
+  },
+  {
+    "item": "holy-water",
+    "kind": "found",
+    "where": "Neos: barrel",
+    "location": "neos"
+  },
+  {
+    "item": "holy-water",
+    "kind": "drop",
+    "where": "Drop: Firespirit"
+  },
+  {
+    "item": "holy-water",
+    "kind": "drop",
+    "where": "Drop: Winky"
+  },
+  {
+    "item": "holy-water",
+    "kind": "drop",
+    "where": "Drop: Lost Soul"
+  },
+  {
+    "item": "holy-water",
+    "kind": "drop",
+    "where": "Drop: Peeper"
+  },
+  {
+    "item": "holy-water",
+    "kind": "drop",
+    "where": "Drop: Lump Wizard"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "West of Peregrin Quay: chest",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "Pickham: cupboard",
+    "location": "pickham"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "Argonia: dresser",
+    "location": "argonia"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "Northeast of Neos: chest",
+    "location": "neos"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "Northwest of Savella Cathedral: chest",
+    "location": "savella-cathedral"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "Arcadia: pot",
+    "location": "arcadia"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "Arcadia bar: barrel",
+    "location": "arcadia"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "Orkutsk: pot",
+    "location": "orkutsk"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "Baccarat: barrel",
+    "location": "baccarat"
+  },
+  {
+    "item": "magic-water",
+    "kind": "found",
+    "where": "Pirate's Cove level 2: barrel",
+    "location": "pirates-cove-dungeon"
+  },
+  {
+    "item": "magic-water",
+    "kind": "casino",
+    "where": "Casino prize: 100 tokens",
+    "location": "pickham-casino",
+    "tokens": 100
+  },
+  {
+    "item": "magic-water",
+    "kind": "drop",
+    "where": "Drop: Frostburn"
+  },
+  {
+    "item": "magic-water",
+    "kind": "drop",
+    "where": "Drop: Hellstalker"
+  },
+  {
+    "item": "magic-water",
+    "kind": "rare-drop",
+    "where": "Rare drop: Winky"
+  },
+  {
+    "item": "magic-water",
+    "kind": "rare-drop",
+    "where": "Rare drop: Lost Soul"
+  },
+  {
+    "item": "magic-water",
+    "kind": "rare-drop",
+    "where": "Rare drop: Peeper"
+  },
+  {
+    "item": "magic-water",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hocus Chimaera"
+  },
+  {
+    "item": "magic-water",
+    "kind": "rare-drop",
+    "where": "Rare drop: Phantom Swordsman"
+  },
+  {
+    "item": "rockbomb-shard",
+    "kind": "found",
+    "where": "Orkutsk: barrel",
+    "location": "orkutsk"
+  },
+  {
+    "item": "rockbomb-shard",
+    "kind": "drop",
+    "where": "Drop: Archdemon"
+  },
+  {
+    "item": "rockbomb-shard",
+    "kind": "rare-drop",
+    "where": "Rare drop: Minidemon"
+  },
+  {
+    "item": "rockbomb-shard",
+    "kind": "rare-drop",
+    "where": "Rare drop: Rockbomb"
+  },
+  {
+    "item": "rockbomb-shard",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bomboulder"
+  },
+  {
+    "item": "rockbomb-shard",
+    "kind": "rare-drop",
+    "where": "Rare drop: Stone Golem"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Tower of Alexandra level 4: pot",
+    "location": "tower-of-alexandra"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Alexandria beach: chest",
+    "location": "alexandria"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Southeast of the barn by Maella Abbey: chest",
+    "location": "maella-abbey"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Pickham: bag",
+    "location": "pickham"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Baccarat: cupboard",
+    "location": "baccarat"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Argonia 3F: cupboard",
+    "location": "argonia-castle"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Southwest corner of beach south of Argonia: chest",
+    "location": "ship-shores"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Arcadia: dresser",
+    "location": "arcadia"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Princess Minnie's Castle: chest",
+    "location": "minnies-locked-room"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "found",
+    "where": "Waterfall Cave level 3: Geyzer (boss)",
+    "location": "waterfall-cave"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "gift",
+    "where": "Trolls' Maze reward: 2",
+    "location": "trolls-maze"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mimic"
+  },
+  {
+    "item": "seed-of-strength",
+    "kind": "rare-drop",
+    "where": "Rare drop: Red Horn"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "found",
+    "where": "House on top of the Waterfall Cave: bag",
+    "location": "waterfall-cave"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "found",
+    "where": "Tower of Alexandra level 1F: chest",
+    "location": "tower-of-alexandra"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "found",
+    "where": "Port Prospect: pot",
+    "location": "port-prospect"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "found",
+    "where": "North of Riverside Chapel: chest",
+    "location": "riverside-chapel"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "found",
+    "where": "Far east of Chateau Felix: chest",
+    "location": "chateau-felix"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "found",
+    "where": "Northwest of the lake southwest of Argonia: chest",
+    "location": "argonia"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "found",
+    "where": "Red's house: chest",
+    "location": "reds-house-basement"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "found",
+    "where": "South of Dark Empycchu: chest",
+    "location": "empycchu"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "drop",
+    "where": "Drop: Liquid Metal Slime"
+  },
+  {
+    "item": "seed-of-agility",
+    "kind": "rare-drop",
+    "where": "Rare drop: Metal Slime"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Farebury town: pot",
+    "location": "farebury"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Peregrin Quay: barrel",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Beach south of Ascantha: chest",
+    "location": "ascantha"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Over the mountains northeast of Pickham: chest",
+    "location": "pickham-fields-locked-chests"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Southeast of Hilltop Hut: chest",
+    "location": "hilltop-hut"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Mole Hole level 2: pot",
+    "location": "mole-hole"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Northeast of Savella Cathedral: chest",
+    "location": "savella-cathedral"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Baccarat: pot",
+    "location": "baccarat"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Southeast of Seaview Church (across two rivers): chest",
+    "location": "seaview-church"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Orkutsk: barrel",
+    "location": "orkutsk"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Tryan Gully: barrel",
+    "location": "tryan-gully"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "found",
+    "where": "Black Citadel: barrel",
+    "location": "black-citadel"
+  },
+  {
+    "item": "seed-of-defence",
+    "kind": "drop",
+    "where": "Drop: Metal Slime"
+  },
+  {
+    "item": "seed-of-wisdom",
+    "kind": "found",
+    "where": "Port Prospect: pot",
+    "location": "port-prospect"
+  },
+  {
+    "item": "seed-of-wisdom",
+    "kind": "found",
+    "where": "Southeast of Peregrin Quay: chest",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "seed-of-wisdom",
+    "kind": "found",
+    "where": "Pickham: pot",
+    "location": "pickham"
+  },
+  {
+    "item": "seed-of-wisdom",
+    "kind": "found",
+    "where": "Savella Cathedral armour shop: chest",
+    "location": "savella-cathedral"
+  },
+  {
+    "item": "seed-of-wisdom",
+    "kind": "found",
+    "where": "Southwest of Arcadia: chest",
+    "location": "arcadia"
+  },
+  {
+    "item": "seed-of-wisdom",
+    "kind": "found",
+    "where": "Baccarat: pot",
+    "location": "baccarat"
+  },
+  {
+    "item": "seed-of-wisdom",
+    "kind": "gift",
+    "where": "Farebury: Lady's Ring owner's husband (missable)",
+    "location": "farebury"
+  },
+  {
+    "item": "seed-of-wisdom",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mimic King"
+  },
+  {
+    "item": "seed-of-wisdom",
+    "kind": "rare-drop",
+    "where": "Rare drop: Blue Fang"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "North of Farebury: chest",
+    "location": "farebury"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "East of Port Prospect: chest",
+    "location": "port-prospect"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "Port Prospect: barrel",
+    "location": "port-prospect"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "Above Wisher's Peak: chest",
+    "location": "wishers-peak"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "Pickham: barrel",
+    "location": "pickham"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "South of Mole Hole: chest",
+    "location": "mole-hole"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "Cape West of Pickham: chest",
+    "location": "ship-shores"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "Arcadia: pot",
+    "location": "arcadia"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "Herb Grotto level 2: pot",
+    "location": "herb-grotto"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "Princess Minnie's Castle: chest",
+    "location": "minnies-locked-room"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "Lord High Priest's house: barrel",
+    "location": "lord-high-priests-residence"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "found",
+    "where": "Black Citadel: barrel",
+    "location": "black-citadel"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "gift",
+    "where": "Savella Cathedral: talk to a bird",
+    "location": "savella-cathedral"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "gift",
+    "where": "Trolls' Maze reward: 3",
+    "location": "trolls-maze"
+  },
+  {
+    "item": "seed-of-life",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mumboh-Jumboe"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Alexandria: barrel",
+    "location": "alexandria"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Peregrin Quay: dresser",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Riverside Chapel: dresser",
+    "location": "riverside-chapel"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Far east of Peregrin Quay: chest",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Swordsman's Labyrinth level 2: pot",
+    "location": "swordsmans-labyrinth"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Southwest of West Trodain Church: chest",
+    "location": "west-trodain-church"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Pirate's Cove level 1: pot",
+    "location": "pirates-cove-dungeon"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Neos: barrel",
+    "location": "neos"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Trodain 2F: chest",
+    "location": "trodain-locked-room"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Arcadia: chest",
+    "location": "arcadia-item-shop-back"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "Dark Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "After the bazaar at Argonia moves indoors: barrel",
+    "location": "argonia-indoor-bazaar"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "found",
+    "where": "West of Dark Empycchu: Empyrea (boss)",
+    "location": "empycchu"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "gift",
+    "where": "Savella Cathedral: talk to a bird",
+    "location": "savella-cathedral"
+  },
+  {
+    "item": "seed-of-magic",
+    "kind": "drop",
+    "where": "Drop: Democrobot"
+  },
+  {
+    "item": "orichalcum",
+    "kind": "found",
+    "where": "Godbird's Eyrie (Light World) level 5: chest",
+    "location": "godbirds-eyrie-light"
+  },
+  {
+    "item": "orichalcum",
+    "kind": "found",
+    "where": "Black Citadel: chest",
+    "location": "black-citadel"
+  },
+  {
+    "item": "orichalcum",
+    "kind": "found",
+    "where": "Black Citadel: barrel",
+    "location": "black-citadel"
+  },
+  {
+    "item": "orichalcum",
+    "kind": "found",
+    "where": "Heavenly Dais level 2: chest",
+    "location": "heavenly-dais"
+  },
+  {
+    "item": "orichalcum",
+    "kind": "found",
+    "where": "Black Citadel: the Ruin (boss)",
+    "location": "black-citadel"
+  },
+  {
+    "item": "orichalcum",
+    "kind": "medal",
+    "where": "Mini Medal prize: 83 medals",
+    "location": "princess-minnies-castle"
+  },
+  {
+    "item": "orichalcum",
+    "kind": "rare-drop",
+    "where": "Rare drop: Metal King Slime"
+  },
+  {
+    "item": "orichalcum",
+    "kind": "rare-drop",
+    "where": "Rare drop: Pandora's Box"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "found",
+    "where": "Forest west of Simpleton: chest",
+    "location": "simpleton"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "found",
+    "where": "Pickham: cupboard",
+    "location": "pickham"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "found",
+    "where": "Baccarat: dresser",
+    "location": "baccarat"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "found",
+    "where": "Arcadia: cupboard",
+    "location": "arcadia"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "drop",
+    "where": "Drop: Dark Gryphon"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bunicorn"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "rare-drop",
+    "where": "Rare drop: Skipper"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "rare-drop",
+    "where": "Rare drop: Spiked Hare"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "rare-drop",
+    "where": "Rare drop: Night Sneaker"
+  },
+  {
+    "item": "bunny-tail",
+    "kind": "rare-drop",
+    "where": "Rare drop: See Angel"
+  },
+  {
+    "item": "gold-nugget",
+    "kind": "found",
+    "where": "Godbird's Eyrie (Dark World) level 2: chest",
+    "location": "godbirds-eyrie"
+  },
+  {
+    "item": "gold-nugget",
+    "kind": "found",
+    "where": "Godbird's Eyrie (Light World) level 2: chest",
+    "location": "godbirds-eyrie-light"
+  },
+  {
+    "item": "gold-nugget",
+    "kind": "medal",
+    "where": "Mini Medal prize: 52 medals",
+    "location": "princess-minnies-castle"
+  },
+  {
+    "item": "gold-nugget",
+    "kind": "rare-drop",
+    "where": "Rare drop: Democrobot"
+  },
+  {
+    "item": "iron-nail",
+    "kind": "found",
+    "where": "Ruined Abbey level 2: dresser",
+    "location": "ruined-abbey"
+  },
+  {
+    "item": "iron-nail",
+    "kind": "gift",
+    "where": "Peregrin Quay inn: man in green",
+    "location": "peregrin-quay"
+  },
+  {
+    "item": "iron-nail",
+    "kind": "drop",
+    "where": "Drop: Clockwork Cuckoo"
+  },
+  {
+    "item": "iron-nail",
+    "kind": "drop",
+    "where": "Drop: Cannibox"
+  },
+  {
+    "item": "iron-nail",
+    "kind": "drop",
+    "where": "Drop: Iron Scorpion"
+  },
+  {
+    "item": "iron-nail",
+    "kind": "drop",
+    "where": "Drop: Mimic"
+  },
+  {
+    "item": "iron-nail",
+    "kind": "drop",
+    "where": "Drop: Magic Marionette"
+  },
+  {
+    "item": "iron-nail",
+    "kind": "drop",
+    "where": "Drop: Robo-Robin"
+  },
+  {
+    "item": "iron-nail",
+    "kind": "drop",
+    "where": "Drop: Mimic King"
+  },
+  {
+    "item": "cowpat",
+    "kind": "found",
+    "where": "Pickham: pot",
+    "location": "pickham"
+  },
+  {
+    "item": "cowpat",
+    "kind": "found",
+    "where": "Swordsman's Labyrinth level 3: pot",
+    "location": "swordsmans-labyrinth"
+  },
+  {
+    "item": "cowpat",
+    "kind": "found",
+    "where": "Arcadia: barrel",
+    "location": "arcadia"
+  },
+  {
+    "item": "cowpat",
+    "kind": "found",
+    "where": "Dark Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "cowpat",
+    "kind": "drop",
+    "where": "Drop: Bullfinch"
+  },
+  {
+    "item": "cowpat",
+    "kind": "drop",
+    "where": "Drop: Flyguy"
+  },
+  {
+    "item": "cowpat",
+    "kind": "drop",
+    "where": "Drop: Buffalo Wing"
+  },
+  {
+    "item": "cowpat",
+    "kind": "drop",
+    "where": "Drop: Bulldozer"
+  },
+  {
+    "item": "cowpat",
+    "kind": "drop",
+    "where": "Drop: Freeze Fly"
+  },
+  {
+    "item": "cowpat",
+    "kind": "drop",
+    "where": "Drop: Beelzebuzz"
+  },
+  {
+    "item": "dragon-dung",
+    "kind": "found",
+    "where": "East of Dragon Graveyard: chest",
+    "location": "dragon-graveyard"
+  },
+  {
+    "item": "dragon-dung",
+    "kind": "found",
+    "where": "Arcadia: barrel",
+    "location": "arcadia"
+  },
+  {
+    "item": "dragon-dung",
+    "kind": "found",
+    "where": "Dragon Graveyard level 1: bag",
+    "location": "dragon-graveyard"
+  },
+  {
+    "item": "dragon-dung",
+    "kind": "found",
+    "where": "Godbird's Eyrie (Light World) level 4: chest",
+    "location": "godbirds-eyrie-light"
+  },
+  {
+    "item": "dragon-dung",
+    "kind": "drop",
+    "where": "Drop: Dragurn"
+  },
+  {
+    "item": "dragon-dung",
+    "kind": "drop",
+    "where": "Drop: Bobonga"
+  },
+  {
+    "item": "dragon-dung",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hackasaurus"
+  },
+  {
+    "item": "dragon-dung",
+    "kind": "rare-drop",
+    "where": "Rare drop: Freeze Fly"
+  },
+  {
+    "item": "dragon-dung",
+    "kind": "rare-drop",
+    "where": "Rare drop: Beelzebuzz"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "found",
+    "where": "Trodain 1F: pot",
+    "location": "trodain"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "found",
+    "where": "Argonia 1F: barrel",
+    "location": "argonia-castle"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "found",
+    "where": "Arcadia: barrel",
+    "location": "arcadia"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "found",
+    "where": "Arcadia weapon shop: barrel",
+    "location": "arcadia"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "found",
+    "where": "Pirate's Cove level 3: pot",
+    "location": "pirates-cove-dungeon"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "found",
+    "where": "Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "found",
+    "where": "Dark Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "found",
+    "where": "Black Citadel: barrel",
+    "location": "black-citadel"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "found",
+    "where": "Dragovian Sanctuary: pot",
+    "location": "dragovian-sanctuary"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "drop",
+    "where": "Drop: Mud Mannequin"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "drop",
+    "where": "Drop: Rockbomb"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "drop",
+    "where": "Drop: Ber"
+  },
+  {
+    "item": "rock-salt",
+    "kind": "drop",
+    "where": "Drop: Stone Guardian"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "found",
+    "where": "Dark Ruins B2: chest",
+    "location": "dark-ruins-interior"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "found",
+    "where": "Godbird's Eyrie (Dark World) level 5: chest",
+    "location": "godbirds-eyrie"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "found",
+    "where": "Black Citadel: barrel",
+    "location": "black-citadel"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "found",
+    "where": "Dragovian Sanctuary: bag",
+    "location": "dragovian-sanctuary"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "gift",
+    "where": "Monster Arena rank C prize",
+    "location": "monster-arena-rank-c"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "casino",
+    "where": "Casino prize: 5,000 tokens",
+    "location": "baccarat-casino",
+    "tokens": 5000
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "drop",
+    "where": "Drop: Wight King"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Minister"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Moth"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Gryphon"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Sabrecat"
+  },
+  {
+    "item": "saints-ashes",
+    "kind": "rare-drop",
+    "where": "Rare drop: Silhouette"
+  },
+  {
+    "item": "wing-of-bat",
+    "kind": "found",
+    "where": "Orkutsk: pot",
+    "location": "orkutsk"
+  },
+  {
+    "item": "wing-of-bat",
+    "kind": "drop",
+    "where": "Drop: Fat Bat"
+  },
+  {
+    "item": "wing-of-bat",
+    "kind": "drop",
+    "where": "Drop: Minidemon"
+  },
+  {
+    "item": "wing-of-bat",
+    "kind": "drop",
+    "where": "Drop: Night Emperor"
+  },
+  {
+    "item": "wing-of-bat",
+    "kind": "drop",
+    "where": "Drop: Redtail Hipster"
+  },
+  {
+    "item": "wing-of-bat",
+    "kind": "rare-drop",
+    "where": "Rare drop: Drackyma"
+  },
+  {
+    "item": "wing-of-bat",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hipster"
+  },
+  {
+    "item": "wing-of-bat",
+    "kind": "rare-drop",
+    "where": "Rare drop: Shade"
+  },
+  {
+    "item": "wing-of-bat",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dark Condor"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "found",
+    "where": "Trodain 2F: barrel",
+    "location": "trodain"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "drop",
+    "where": "Drop: Gorerilla"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "drop",
+    "where": "Drop: Jumping Jackal"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "drop",
+    "where": "Drop: Silenus"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "drop",
+    "where": "Drop: Orc King"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "drop",
+    "where": "Drop: Frou-Frou"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bullfinch"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "rare-drop",
+    "where": "Rare drop: Diemon"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "rare-drop",
+    "where": "Rare drop: Fat Bat"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "rare-drop",
+    "where": "Rare drop: Pink Pongo"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "rare-drop",
+    "where": "Rare drop: Great Sabrecat"
+  },
+  {
+    "item": "magic-beast-hide",
+    "kind": "rare-drop",
+    "where": "Rare drop: Hellhound"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "found",
+    "where": "Cows on the overworld"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "found",
+    "where": "Pickham: barrel",
+    "location": "pickham"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "found",
+    "where": "Arcadia: barrel",
+    "location": "arcadia"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "found",
+    "where": "Baccarat: pot",
+    "location": "baccarat"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "found",
+    "where": "Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "found",
+    "where": "Dark Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "found",
+    "where": "Dragovian Sanctuary: pot",
+    "location": "dragovian-sanctuary"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "rare-drop",
+    "where": "Rare drop: Jargon"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "rare-drop",
+    "where": "Rare drop: Buffalo Wing"
+  },
+  {
+    "item": "fresh-milk",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bobonga"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "found",
+    "where": "Ascantha: pot",
+    "location": "ascantha"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "found",
+    "where": "Pickham: pot",
+    "location": "pickham"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "found",
+    "where": "Argonia: pot",
+    "location": "argonia"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "found",
+    "where": "Argonia 3F: pot",
+    "location": "argonia-castle"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "found",
+    "where": "Arcadia: barrel",
+    "location": "arcadia"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "found",
+    "where": "Arcadia: pot",
+    "location": "arcadia"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "found",
+    "where": "Baccarat: barrel",
+    "location": "baccarat"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "found",
+    "where": "Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "drop",
+    "where": "Drop: Giant Moth"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "drop",
+    "where": "Drop: Jargon"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "drop",
+    "where": "Drop: Shade"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "drop",
+    "where": "Drop: Killer Moth"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "drop",
+    "where": "Drop: Golem"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "drop",
+    "where": "Drop: Dark Moth"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "drop",
+    "where": "Drop: Silhouette"
+  },
+  {
+    "item": "rennet-powder",
+    "kind": "rare-drop",
+    "where": "Rare drop: Devilmoth"
+  },
+  {
+    "item": "red-mould",
+    "kind": "found",
+    "where": "Ascantha castle 2F: barrel",
+    "location": "ascantha"
+  },
+  {
+    "item": "red-mould",
+    "kind": "found",
+    "where": "Pickham: barrel",
+    "location": "pickham"
+  },
+  {
+    "item": "red-mould",
+    "kind": "found",
+    "where": "Swordsman's Labyrinth: pot",
+    "location": "swordsmans-labyrinth"
+  },
+  {
+    "item": "red-mould",
+    "kind": "found",
+    "where": "Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "red-mould",
+    "kind": "drop",
+    "where": "Drop: Morphean Mushroom"
+  },
+  {
+    "item": "red-mould",
+    "kind": "drop",
+    "where": "Drop: Paprikan"
+  },
+  {
+    "item": "red-mould",
+    "kind": "drop",
+    "where": "Drop: Hipster"
+  },
+  {
+    "item": "red-mould",
+    "kind": "drop",
+    "where": "Drop: Wailin' Weed"
+  },
+  {
+    "item": "red-mould",
+    "kind": "drop",
+    "where": "Drop: Lump Shaman"
+  },
+  {
+    "item": "red-mould",
+    "kind": "drop",
+    "where": "Drop: Mushroom Mage"
+  },
+  {
+    "item": "red-mould",
+    "kind": "drop",
+    "where": "Drop: Lesser Demon"
+  },
+  {
+    "item": "red-mould",
+    "kind": "drop",
+    "where": "Drop: Magic Dumbbell"
+  },
+  {
+    "item": "red-mould",
+    "kind": "drop",
+    "where": "Drop: Buffalogre"
+  },
+  {
+    "item": "red-mould",
+    "kind": "rare-drop",
+    "where": "Rare drop: Giant Moth"
+  },
+  {
+    "item": "red-mould",
+    "kind": "rare-drop",
+    "where": "Rare drop: Kisser"
+  },
+  {
+    "item": "red-mould",
+    "kind": "rare-drop",
+    "where": "Rare drop: Blood Mummy"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "found",
+    "where": "Ruined Abbey level 3: barrel",
+    "location": "ruined-abbey"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "found",
+    "where": "Pickham: barrel",
+    "location": "pickham"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "found",
+    "where": "Trodain 1F: pot",
+    "location": "trodain"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "found",
+    "where": "Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "drop",
+    "where": "Drop: Kisser"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "drop",
+    "where": "Drop: Frogman"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "drop",
+    "where": "Drop: Dark Sea-Diva"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "drop",
+    "where": "Drop: Killer Croaker"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "drop",
+    "where": "Drop: Mohawker"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "drop",
+    "where": "Drop: Khalamari Kid"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "drop",
+    "where": "Drop: King Kelp"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "drop",
+    "where": "Drop: Abyss Diver"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "rare-drop",
+    "where": "Rare drop: Mushroom Mage"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "rare-drop",
+    "where": "Rare drop: Smacker"
+  },
+  {
+    "item": "waterweed-mould",
+    "kind": "rare-drop",
+    "where": "Rare drop: Pigmalion"
+  },
+  {
+    "item": "premium-mould",
+    "kind": "found",
+    "where": "Dark Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "premium-mould",
+    "kind": "found",
+    "where": "Tryan Gully: barrel",
+    "location": "tryan-gully"
+  },
+  {
+    "item": "premium-mould",
+    "kind": "found",
+    "where": "Black Citadel: pot",
+    "location": "black-citadel"
+  },
+  {
+    "item": "premium-mould",
+    "kind": "found",
+    "where": "Dragovian Sanctuary: bag",
+    "location": "dragovian-sanctuary"
+  },
+  {
+    "item": "premium-mould",
+    "kind": "rare-drop",
+    "where": "Rare drop: Boss Troll"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "found",
+    "where": "Alexandria: pot",
+    "location": "alexandria"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "found",
+    "where": "Argonia: barrel",
+    "location": "argonia"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "gift",
+    "where": "Waterfall hut woodsman: 8, returning the Tool Bag",
+    "location": "waterfall-cave"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "drop",
+    "where": "Drop: Mumboh-Jumboe"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "drop",
+    "where": "Drop: Mum"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "drop",
+    "where": "Drop: Boh"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "drop",
+    "where": "Drop: Jum"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "drop",
+    "where": "Drop: Boe"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bodkin Archer"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Funghoul"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Jailcat"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Morphean Mushroom"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Flyguy"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Bulldozer"
+  },
+  {
+    "item": "plain-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Man o' War"
+  },
+  {
+    "item": "spicy-cheese",
+    "kind": "found",
+    "where": "Neos: bag",
+    "location": "neos"
+  },
+  {
+    "item": "spicy-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Dancing Flame"
+  },
+  {
+    "item": "spicy-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: War Gryphon"
+  },
+  {
+    "item": "spicy-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Abyss Diver"
+  },
+  {
+    "item": "super-spicy-cheese",
+    "kind": "found",
+    "where": "West of Tryan Gully: chest",
+    "location": "tryan-gully"
+  },
+  {
+    "item": "cool-cheese",
+    "kind": "found",
+    "where": "Argonia: pot",
+    "location": "argonia"
+  },
+  {
+    "item": "cool-cheese",
+    "kind": "found",
+    "where": "Baccarat: barrel",
+    "location": "baccarat"
+  },
+  {
+    "item": "cool-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Imp"
+  },
+  {
+    "item": "cool-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Frogman"
+  },
+  {
+    "item": "cool-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Demonrider"
+  },
+  {
+    "item": "chilly-cheese",
+    "kind": "found",
+    "where": "Orkutsk: dresser",
+    "location": "orkutsk"
+  },
+  {
+    "item": "chilly-cheese",
+    "kind": "drop",
+    "where": "Drop: Dead Ringer"
+  },
+  {
+    "item": "chilly-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Frostburn"
+  },
+  {
+    "item": "chilly-cheese",
+    "kind": "rare-drop",
+    "where": "Rare drop: Abominape"
+  },
+  {
+    "item": "cold-cheese",
+    "kind": "found",
+    "where": "Dark Empycchu: pot",
+    "location": "empycchu"
+  },
+  {
+    "item": "cured-cheese",
+    "kind": "found",
+    "where": "Black Citadel: barrel",
+    "location": "black-citadel"
+  },
+  {
+    "item": "cured-cheese",
+    "kind": "gift",
+    "where": "Waterfall hut woodsman: 2, after the Hunting Ground",
+    "location": "waterfall-hut-later"
+  },
+  {
+    "item": "nook-grass",
+    "kind": "found",
+    "where": "Dragovian Sanctuary: bag",
+    "location": "dragovian-sanctuary"
+  },
+  {
+    "item": "nook-grass",
+    "kind": "gift",
+    "where": "Marek's house in Orkutsk: 4, after the Soulstone",
+    "location": "mareks-house"
+  },
+  {
+    "item": "nook-grass",
+    "kind": "gift",
+    "where": "Marek at his mother's grave: 4, after Marcello",
+    "location": "mareks-mothers-grave"
+  },
+  {
+    "item": "nook-grass",
+    "kind": "drop",
+    "where": "Drop: Hellspawn"
+  }
+]

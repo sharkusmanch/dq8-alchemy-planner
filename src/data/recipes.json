@@ -1,0 +1,1540 @@
+[
+  {
+    "recipeIndex": 0,
+    "result": "strong-medicine",
+    "ingredients": [
+      "medicinal-herb",
+      "medicinal-herb"
+    ]
+  },
+  {
+    "recipeIndex": 1,
+    "result": "special-medicine",
+    "ingredients": [
+      "strong-medicine",
+      "strong-medicine"
+    ]
+  },
+  {
+    "recipeIndex": 2,
+    "result": "lesser-panacea",
+    "ingredients": [
+      "special-medicine",
+      "special-medicine"
+    ]
+  },
+  {
+    "recipeIndex": 3,
+    "result": "greater-panacea",
+    "ingredients": [
+      "special-medicine",
+      "special-medicine",
+      "special-medicine"
+    ]
+  },
+  {
+    "recipeIndex": 4,
+    "result": "greater-panacea",
+    "ingredients": [
+      "rose-root",
+      "rose-wort",
+      "lesser-panacea"
+    ]
+  },
+  {
+    "recipeIndex": 5,
+    "result": "rose-root",
+    "ingredients": [
+      "medicinal-herb",
+      "medicinal-herb",
+      "medicinal-herb"
+    ]
+  },
+  {
+    "recipeIndex": 6,
+    "result": "rose-root",
+    "ingredients": [
+      "medicinal-herb",
+      "strong-medicine"
+    ]
+  },
+  {
+    "recipeIndex": 7,
+    "result": "rose-wort",
+    "ingredients": [
+      "medicinal-herb",
+      "medicinal-herb",
+      "moonwort-bulb"
+    ]
+  },
+  {
+    "recipeIndex": 8,
+    "result": "rose-wort",
+    "ingredients": [
+      "strong-medicine",
+      "moonwort-bulb"
+    ]
+  },
+  {
+    "recipeIndex": 9,
+    "result": "strong-antidote",
+    "ingredients": [
+      "medicinal-herb",
+      "antidotal-herb"
+    ]
+  },
+  {
+    "recipeIndex": 10,
+    "result": "special-antidote",
+    "ingredients": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "antidotal-herb"
+    ]
+  },
+  {
+    "recipeIndex": 11,
+    "result": "special-antidote",
+    "ingredients": [
+      "strong-antidote",
+      "strong-antidote"
+    ]
+  },
+  {
+    "recipeIndex": 12,
+    "result": "moons-mercy",
+    "ingredients": [
+      "moonwort-bulb",
+      "moonwort-bulb",
+      "moonwort-bulb"
+    ]
+  },
+  {
+    "recipeIndex": 13,
+    "result": "mystifying-mixture",
+    "ingredients": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "moonwort-bulb"
+    ]
+  },
+  {
+    "recipeIndex": 14,
+    "result": "mystifying-mixture",
+    "ingredients": [
+      "holy-water",
+      "cowpat",
+      "wing-of-bat"
+    ]
+  },
+  {
+    "recipeIndex": 15,
+    "result": "thiefs-key",
+    "ingredients": [
+      "bronze-knife",
+      "iron-nail"
+    ]
+  },
+  {
+    "recipeIndex": 16,
+    "result": "elfin-elixir",
+    "ingredients": [
+      "magic-water",
+      "yggdrasil-dew"
+    ],
+    "recipeIndexUnconfirmed": true
+  },
+  {
+    "recipeIndex": 17,
+    "result": "timbrel-of-tension",
+    "ingredients": [
+      "sun-crown",
+      "magic-beast-hide",
+      "tough-guy-tattoo"
+    ]
+  },
+  {
+    "recipeIndex": 18,
+    "result": "yggdrasil-dew",
+    "ingredients": [
+      "magic-water",
+      "yggdrasil-leaf"
+    ]
+  },
+  {
+    "recipeIndex": 19,
+    "result": "amor-seco-essence",
+    "ingredients": [
+      "holy-water",
+      "strong-medicine"
+    ]
+  },
+  {
+    "recipeIndex": 20,
+    "result": "chimaera-wing",
+    "ingredients": [
+      "wing-of-bat",
+      "wing-of-bat"
+    ]
+  },
+  {
+    "recipeIndex": 21,
+    "result": "holy-water",
+    "ingredients": [
+      "rock-salt",
+      "amor-seco-essence"
+    ]
+  },
+  {
+    "recipeIndex": 22,
+    "result": "magic-water",
+    "ingredients": [
+      "holy-water",
+      "seed-of-magic"
+    ],
+    "recipeIndexUnconfirmed": true
+  },
+  {
+    "recipeIndex": 23,
+    "result": "sages-stone",
+    "ingredients": [
+      "yggdrasil-dew",
+      "gold-nugget",
+      "orichalcum"
+    ]
+  },
+  {
+    "recipeIndex": 24,
+    "result": "premium-mould",
+    "ingredients": [
+      "red-mould",
+      "waterweed-mould",
+      "yggdrasil-leaf"
+    ]
+  },
+  {
+    "recipeIndex": 25,
+    "result": "agility-ring",
+    "ingredients": [
+      "prayer-ring",
+      "seed-of-agility"
+    ]
+  },
+  {
+    "recipeIndex": 26,
+    "result": "meteorite-bracer",
+    "ingredients": [
+      "agility-ring",
+      "agility-ring",
+      "orichalcum"
+    ]
+  },
+  {
+    "recipeIndex": 27,
+    "result": "strength-ring",
+    "ingredients": [
+      "prayer-ring",
+      "seed-of-strength"
+    ]
+  },
+  {
+    "recipeIndex": 28,
+    "result": "recovery-ring",
+    "ingredients": [
+      "prayer-ring",
+      "seed-of-life"
+    ]
+  },
+  {
+    "recipeIndex": 29,
+    "result": "goddess-ring",
+    "ingredients": [
+      "recovery-ring",
+      "orichalcum"
+    ]
+  },
+  {
+    "recipeIndex": 30,
+    "result": "life-bracer",
+    "ingredients": [
+      "recovery-ring",
+      "gold-bracer"
+    ]
+  },
+  {
+    "recipeIndex": 31,
+    "result": "mighty-armlet",
+    "ingredients": [
+      "strength-ring",
+      "titan-belt"
+    ]
+  },
+  {
+    "recipeIndex": 32,
+    "result": "ruby-of-protection",
+    "ingredients": [
+      "prayer-ring",
+      "seed-of-defence"
+    ]
+  },
+  {
+    "recipeIndex": 33,
+    "result": "titan-belt",
+    "ingredients": [
+      "strength-ring",
+      "leather-kilt"
+    ]
+  },
+  {
+    "recipeIndex": 34,
+    "result": "scholars-specs",
+    "ingredients": [
+      "seed-of-wisdom",
+      "ring-of-clarity",
+      "ring-of-awakening"
+    ]
+  },
+  {
+    "recipeIndex": 35,
+    "result": "holy-talisman",
+    "ingredients": [
+      "holy-water",
+      "gold-rosary",
+      "tough-guy-tattoo"
+    ]
+  },
+  {
+    "recipeIndex": 36,
+    "result": "ring-of-awakening",
+    "ingredients": [
+      "gold-ring",
+      "dream-blade"
+    ]
+  },
+  {
+    "recipeIndex": 37,
+    "result": "full-moon-ring",
+    "ingredients": [
+      "gold-ring",
+      "poison-moth-knife"
+    ]
+  },
+  {
+    "recipeIndex": 38,
+    "result": "ring-of-clarity",
+    "ingredients": [
+      "gold-ring",
+      "fallen-angel-rapier"
+    ]
+  },
+  {
+    "recipeIndex": 39,
+    "result": "ring-of-truth",
+    "ingredients": [
+      "gold-ring",
+      "sandstorm-spear"
+    ]
+  },
+  {
+    "recipeIndex": 40,
+    "result": "ring-of-immunity",
+    "ingredients": [
+      "gold-ring",
+      "poison-needle"
+    ]
+  },
+  {
+    "recipeIndex": 41,
+    "result": "catholicon-ring",
+    "ingredients": [
+      "full-moon-ring",
+      "ring-of-immunity",
+      "ring-of-truth"
+    ]
+  },
+  {
+    "recipeIndex": 42,
+    "result": "skull-ring",
+    "ingredients": [
+      "sorcerers-ring",
+      "devils-tail"
+    ]
+  },
+  {
+    "recipeIndex": 43,
+    "result": "sorcerers-ring",
+    "ingredients": [
+      "skull-ring",
+      "saints-ashes",
+      "saints-ashes"
+    ]
+  },
+  {
+    "recipeIndex": 44,
+    "result": "elevating-shoes",
+    "ingredients": [
+      "fishnet-stockings",
+      "happy-hat"
+    ]
+  },
+  {
+    "recipeIndex": 45,
+    "result": "copper-sword",
+    "ingredients": [
+      "bronze-knife",
+      "bronze-knife"
+    ]
+  },
+  {
+    "recipeIndex": 46,
+    "result": "uber-falcon-blade",
+    "ingredients": [
+      "falcon-blade",
+      "meteorite-bracer"
+    ]
+  },
+  {
+    "recipeIndex": 47,
+    "result": "zombie-slayer",
+    "ingredients": [
+      "holy-talisman",
+      "zombiesbane"
+    ]
+  },
+  {
+    "recipeIndex": 48,
+    "result": "dragon-slayer",
+    "ingredients": [
+      "dragonsbane",
+      "mighty-armlet"
+    ]
+  },
+  {
+    "recipeIndex": 49,
+    "result": "blizzard-blade",
+    "ingredients": [
+      "bastard-sword",
+      "icicle-dirk",
+      "cold-cheese"
+    ]
+  },
+  {
+    "recipeIndex": 50,
+    "result": "uber-miracle-sword",
+    "ingredients": [
+      "miracle-sword",
+      "life-bracer"
+    ]
+  },
+  {
+    "recipeIndex": 51,
+    "result": "double-edged-sword",
+    "ingredients": [
+      "uber-double-edge",
+      "devils-tail"
+    ]
+  },
+  {
+    "recipeIndex": 52,
+    "result": "uber-double-edge",
+    "ingredients": [
+      "double-edged-sword",
+      "saints-ashes",
+      "saints-ashes"
+    ]
+  },
+  {
+    "recipeIndex": 53,
+    "result": "liquid-metal-sword",
+    "ingredients": [
+      "rusty-old-sword",
+      "slime-crown",
+      "orichalcum"
+    ]
+  },
+  {
+    "recipeIndex": 54,
+    "result": "rusty-old-sword",
+    "ingredients": [
+      "liquid-metal-sword",
+      "mystifying-mixture",
+      "cowpat"
+    ]
+  },
+  {
+    "recipeIndex": 55,
+    "result": "dragovian-king-sword",
+    "ingredients": [
+      "dragovian-sword",
+      "liquid-metal-sword"
+    ]
+  },
+  {
+    "recipeIndex": 56,
+    "result": "fallen-angel-rapier",
+    "ingredients": [
+      "holy-silver-rapier",
+      "devils-tail",
+      "wing-of-bat"
+    ]
+  },
+  {
+    "recipeIndex": 57,
+    "result": "shamshir-of-light",
+    "ingredients": [
+      "rune-staff",
+      "light-shield",
+      "shimmering-dress"
+    ]
+  },
+  {
+    "recipeIndex": 58,
+    "result": "mercurys-rapier",
+    "ingredients": [
+      "fallen-angel-rapier",
+      "mercurys-bandana",
+      "mercurys-bandana"
+    ]
+  },
+  {
+    "recipeIndex": 59,
+    "result": "assassins-dagger",
+    "ingredients": [
+      "eagle-dagger",
+      "poison-needle"
+    ]
+  },
+  {
+    "recipeIndex": 60,
+    "result": "falcon-knife",
+    "ingredients": [
+      "slime-earrings",
+      "tough-guy-tattoo",
+      "agility-ring"
+    ]
+  },
+  {
+    "recipeIndex": 61,
+    "result": "imp-knife",
+    "ingredients": [
+      "assassins-dagger",
+      "devils-tail"
+    ]
+  },
+  {
+    "recipeIndex": 62,
+    "result": "iron-lance",
+    "ingredients": [
+      "cypress-stick",
+      "dagger"
+    ]
+  },
+  {
+    "recipeIndex": 63,
+    "result": "holy-lance",
+    "ingredients": [
+      "long-spear",
+      "gold-rosary"
+    ]
+  },
+  {
+    "recipeIndex": 64,
+    "result": "long-spear",
+    "ingredients": [
+      "cypress-stick",
+      "cypress-stick",
+      "iron-lance"
+    ]
+  },
+  {
+    "recipeIndex": 65,
+    "result": "sandstorm-spear",
+    "ingredients": [
+      "saints-ashes",
+      "partisan"
+    ]
+  },
+  {
+    "recipeIndex": 66,
+    "result": "demon-spear",
+    "ingredients": [
+      "poison-needle",
+      "devils-tail",
+      "battle-fork"
+    ]
+  },
+  {
+    "recipeIndex": 67,
+    "result": "reinforced-boomerang",
+    "ingredients": [
+      "boomerang",
+      "iron-nail"
+    ]
+  },
+  {
+    "recipeIndex": 68,
+    "result": "metal-wing-boomerang",
+    "ingredients": [
+      "razor-wing-boomerang",
+      "metal-king-spear"
+    ]
+  },
+  {
+    "recipeIndex": 69,
+    "result": "razor-wing-boomerang",
+    "ingredients": [
+      "edged-boomerang",
+      "steel-scythe",
+      "wing-of-bat"
+    ]
+  },
+  {
+    "recipeIndex": 70,
+    "result": "stone-axe",
+    "ingredients": [
+      "stone-hardhat",
+      "cypress-stick"
+    ]
+  },
+  {
+    "recipeIndex": 71,
+    "result": "iron-axe",
+    "ingredients": [
+      "farmers-scythe",
+      "farmers-scythe"
+    ]
+  },
+  {
+    "recipeIndex": 72,
+    "result": "king-axe",
+    "ingredients": [
+      "golden-axe",
+      "slime-crown"
+    ]
+  },
+  {
+    "recipeIndex": 73,
+    "result": "moon-axe",
+    "ingredients": [
+      "golden-axe",
+      "moons-mercy"
+    ]
+  },
+  {
+    "recipeIndex": 74,
+    "result": "bandit-axe",
+    "ingredients": [
+      "battle-axe",
+      "thiefs-key"
+    ]
+  },
+  {
+    "recipeIndex": 75,
+    "result": "golden-axe",
+    "ingredients": [
+      "iron-axe",
+      "gold-nugget"
+    ]
+  },
+  {
+    "recipeIndex": 76,
+    "result": "sledgehammer",
+    "ingredients": [
+      "giant-mallet",
+      "iron-helmet",
+      "iron-helmet"
+    ]
+  },
+  {
+    "recipeIndex": 77,
+    "result": "uber-war-hammer",
+    "ingredients": [
+      "war-hammer",
+      "mighty-armlet"
+    ]
+  },
+  {
+    "recipeIndex": 78,
+    "result": "megaton-hammer",
+    "ingredients": [
+      "uber-war-hammer",
+      "conquerors-axe",
+      "orichalcum"
+    ]
+  },
+  {
+    "recipeIndex": 79,
+    "result": "hell-scythe",
+    "ingredients": [
+      "steel-scythe",
+      "poison-moth-knife",
+      "hades-helm"
+    ]
+  },
+  {
+    "recipeIndex": 80,
+    "result": "leather-whip",
+    "ingredients": [
+      "devils-tail",
+      "saints-ashes"
+    ]
+  },
+  {
+    "recipeIndex": 81,
+    "result": "snakeskin-whip",
+    "ingredients": [
+      "leather-whip",
+      "scale-shield"
+    ]
+  },
+  {
+    "recipeIndex": 82,
+    "result": "dragontail-whip",
+    "ingredients": [
+      "snakeskin-whip",
+      "dragon-scale",
+      "dragon-scale"
+    ]
+  },
+  {
+    "recipeIndex": 83,
+    "result": "demon-whip",
+    "ingredients": [
+      "scourge-whip",
+      "devils-tail"
+    ]
+  },
+  {
+    "recipeIndex": 84,
+    "result": "scourge-whip",
+    "ingredients": [
+      "demon-whip",
+      "saints-ashes"
+    ]
+  },
+  {
+    "recipeIndex": 85,
+    "result": "magma-staff",
+    "ingredients": [
+      "wizards-staff",
+      "rockbomb-shard"
+    ]
+  },
+  {
+    "recipeIndex": 86,
+    "result": "staff-of-antimagic",
+    "ingredients": [
+      "rune-staff",
+      "wizards-staff"
+    ]
+  },
+  {
+    "recipeIndex": 87,
+    "result": "staff-of-resurrection",
+    "ingredients": [
+      "rune-staff",
+      "life-bracer",
+      "yggdrasil-leaf"
+    ]
+  },
+  {
+    "recipeIndex": 88,
+    "result": "hunters-bow",
+    "ingredients": [
+      "strength-ring",
+      "cypress-stick",
+      "cypress-stick"
+    ]
+  },
+  {
+    "recipeIndex": 89,
+    "result": "hunters-bow",
+    "ingredients": [
+      "short-bow",
+      "chain-whip"
+    ]
+  },
+  {
+    "recipeIndex": 90,
+    "result": "cheirons-bow",
+    "ingredients": [
+      "eros-bow",
+      "power-shield"
+    ]
+  },
+  {
+    "recipeIndex": 91,
+    "result": "eros-bow",
+    "ingredients": [
+      "hunters-bow",
+      "garter"
+    ]
+  },
+  {
+    "recipeIndex": 92,
+    "result": "odins-bow",
+    "ingredients": [
+      "great-bow",
+      "eros-bow",
+      "cheirons-bow"
+    ]
+  },
+  {
+    "recipeIndex": 93,
+    "result": "wayfarers-clothes",
+    "ingredients": [
+      "plain-clothes",
+      "plain-clothes"
+    ]
+  },
+  {
+    "recipeIndex": 94,
+    "result": "boxer-shorts",
+    "ingredients": [
+      "bandana",
+      "bandits-grass-skirt"
+    ]
+  },
+  {
+    "recipeIndex": 95,
+    "result": "leather-kilt",
+    "ingredients": [
+      "boxer-shorts",
+      "magic-beast-hide"
+    ]
+  },
+  {
+    "recipeIndex": 96,
+    "result": "leather-kilt",
+    "ingredients": [
+      "leather-whip",
+      "bandana"
+    ]
+  },
+  {
+    "recipeIndex": 97,
+    "result": "leather-dress",
+    "ingredients": [
+      "dancers-costume",
+      "magic-beast-hide"
+    ]
+  },
+  {
+    "recipeIndex": 98,
+    "result": "templars-uniform",
+    "ingredients": [
+      "wayfarers-clothes",
+      "templars-shield"
+    ]
+  },
+  {
+    "recipeIndex": 99,
+    "result": "fur-poncho",
+    "ingredients": [
+      "magic-beast-hide",
+      "magic-beast-hide"
+    ]
+  },
+  {
+    "recipeIndex": 100,
+    "result": "magical-skirt",
+    "ingredients": [
+      "magical-mace",
+      "magical-hat",
+      "bandits-grass-skirt"
+    ]
+  },
+  {
+    "recipeIndex": 101,
+    "result": "shimmering-dress",
+    "ingredients": [
+      "spangled-dress",
+      "ruby-of-protection",
+      "gold-bracer"
+    ]
+  },
+  {
+    "recipeIndex": 102,
+    "result": "dark-robe",
+    "ingredients": [
+      "cloak-of-evasion",
+      "devils-tail",
+      "wing-of-bat"
+    ]
+  },
+  {
+    "recipeIndex": 103,
+    "result": "divine-bustier",
+    "ingredients": [
+      "dangerous-bustier",
+      "shimmering-dress"
+    ]
+  },
+  {
+    "recipeIndex": 104,
+    "result": "leather-armour",
+    "ingredients": [
+      "wayfarers-clothes",
+      "magic-beast-hide"
+    ]
+  },
+  {
+    "recipeIndex": 105,
+    "result": "scale-armour",
+    "ingredients": [
+      "leather-armour",
+      "dragon-scale"
+    ]
+  },
+  {
+    "recipeIndex": 106,
+    "result": "chain-mail",
+    "ingredients": [
+      "wayfarers-clothes",
+      "chain-whip"
+    ]
+  },
+  {
+    "recipeIndex": 107,
+    "result": "bronze-armour",
+    "ingredients": [
+      "chain-mail",
+      "bronze-shield"
+    ]
+  },
+  {
+    "recipeIndex": 108,
+    "result": "iron-cuirass",
+    "ingredients": [
+      "iron-shield",
+      "iron-shield"
+    ]
+  },
+  {
+    "recipeIndex": 109,
+    "result": "silver-cuirass",
+    "ingredients": [
+      "iron-cuirass",
+      "silver-platter",
+      "silver-platter"
+    ]
+  },
+  {
+    "recipeIndex": 110,
+    "result": "zombie-mail",
+    "ingredients": [
+      "platinum-mail",
+      "devils-tail"
+    ]
+  },
+  {
+    "recipeIndex": 111,
+    "result": "platinum-mail",
+    "ingredients": [
+      "saints-ashes",
+      "zombie-mail"
+    ]
+  },
+  {
+    "recipeIndex": 112,
+    "result": "dancers-mail",
+    "ingredients": [
+      "dancers-costume",
+      "silver-mail"
+    ]
+  },
+  {
+    "recipeIndex": 113,
+    "result": "dragon-mail",
+    "ingredients": [
+      "silver-mail",
+      "dragon-scale",
+      "dragon-scale"
+    ]
+  },
+  {
+    "recipeIndex": 114,
+    "result": "magic-armour",
+    "ingredients": [
+      "full-plate-armour",
+      "ruby-of-protection",
+      "prayer-ring"
+    ]
+  },
+  {
+    "recipeIndex": 115,
+    "result": "bandit-mail",
+    "ingredients": [
+      "heavy-armour",
+      "bandit-axe",
+      "bandits-grass-skirt"
+    ]
+  },
+  {
+    "recipeIndex": 116,
+    "result": "spiked-armour",
+    "ingredients": [
+      "magic-armour",
+      "edged-boomerang"
+    ]
+  },
+  {
+    "recipeIndex": 117,
+    "result": "gigant-armour",
+    "ingredients": [
+      "bandit-mail",
+      "mighty-armlet",
+      "mighty-armlet"
+    ]
+  },
+  {
+    "recipeIndex": 118,
+    "result": "mirror-armour",
+    "ingredients": [
+      "silver-mail",
+      "mirror-shield",
+      "mirror-shield"
+    ]
+  },
+  {
+    "recipeIndex": 119,
+    "result": "metal-king-armour",
+    "ingredients": [
+      "liquid-metal-armour",
+      "slime-crown",
+      "orichalcum"
+    ]
+  },
+  {
+    "recipeIndex": 120,
+    "result": "robe-of-serenity",
+    "ingredients": [
+      "boxer-shorts",
+      "cloak-of-evasion"
+    ]
+  },
+  {
+    "recipeIndex": 121,
+    "result": "angels-robe",
+    "ingredients": [
+      "flowing-dress",
+      "magical-skirt"
+    ]
+  },
+  {
+    "recipeIndex": 122,
+    "result": "sages-robe",
+    "ingredients": [
+      "scholars-cap",
+      "magic-vestment"
+    ]
+  },
+  {
+    "recipeIndex": 123,
+    "result": "crimson-robe",
+    "ingredients": [
+      "sages-robe",
+      "magic-water",
+      "nook-grass"
+    ]
+  },
+  {
+    "recipeIndex": 124,
+    "result": "princesss-robe",
+    "ingredients": [
+      "angels-robe",
+      "gold-rosary",
+      "shimmering-dress"
+    ]
+  },
+  {
+    "recipeIndex": 125,
+    "result": "leather-shield",
+    "ingredients": [
+      "pot-lid",
+      "magic-beast-hide"
+    ]
+  },
+  {
+    "recipeIndex": 126,
+    "result": "scale-shield",
+    "ingredients": [
+      "leather-shield",
+      "dragon-scale"
+    ]
+  },
+  {
+    "recipeIndex": 127,
+    "result": "bronze-shield",
+    "ingredients": [
+      "leather-shield",
+      "bronze-knife"
+    ]
+  },
+  {
+    "recipeIndex": 128,
+    "result": "templars-shield",
+    "ingredients": [
+      "templars-uniform",
+      "iron-shield"
+    ]
+  },
+  {
+    "recipeIndex": 129,
+    "result": "white-shield",
+    "ingredients": [
+      "light-shield",
+      "fresh-milk",
+      "fresh-milk"
+    ]
+  },
+  {
+    "recipeIndex": 130,
+    "result": "white-shield",
+    "ingredients": [
+      "iron-shield",
+      "silver-platter"
+    ]
+  },
+  {
+    "recipeIndex": 131,
+    "result": "magic-shield",
+    "ingredients": [
+      "steel-shield",
+      "ruby-of-protection",
+      "prayer-ring"
+    ]
+  },
+  {
+    "recipeIndex": 132,
+    "result": "dragon-shield",
+    "ingredients": [
+      "steel-shield",
+      "dragon-scale",
+      "dragon-scale"
+    ]
+  },
+  {
+    "recipeIndex": 133,
+    "result": "power-shield",
+    "ingredients": [
+      "strength-ring",
+      "magic-shield",
+      "cured-cheese"
+    ]
+  },
+  {
+    "recipeIndex": 134,
+    "result": "silver-shield",
+    "ingredients": [
+      "mirror-shield",
+      "amor-seco-essence",
+      "magic-water"
+    ]
+  },
+  {
+    "recipeIndex": 135,
+    "result": "saintess-shield",
+    "ingredients": [
+      "mirror-shield",
+      "white-shield",
+      "holy-water"
+    ]
+  },
+  {
+    "recipeIndex": 136,
+    "result": "ruinous-shield",
+    "ingredients": [
+      "metal-king-shield",
+      "devils-tail"
+    ]
+  },
+  {
+    "recipeIndex": 137,
+    "result": "thanatos-shield",
+    "ingredients": [
+      "goddess-shield",
+      "devils-tail"
+    ]
+  },
+  {
+    "recipeIndex": 138,
+    "result": "goddess-shield",
+    "ingredients": [
+      "thanatos-shield",
+      "saints-ashes"
+    ]
+  },
+  {
+    "recipeIndex": 139,
+    "result": "metal-king-shield",
+    "ingredients": [
+      "ruinous-shield",
+      "saints-ashes",
+      "orichalcum"
+    ]
+  },
+  {
+    "recipeIndex": 140,
+    "result": "pointy-hat",
+    "ingredients": [
+      "leather-hat",
+      "iron-nail"
+    ]
+  },
+  {
+    "recipeIndex": 141,
+    "result": "feathered-cap",
+    "ingredients": [
+      "chimaera-wing",
+      "leather-hat"
+    ]
+  },
+  {
+    "recipeIndex": 142,
+    "result": "turban",
+    "ingredients": [
+      "bandana",
+      "bandana"
+    ]
+  },
+  {
+    "recipeIndex": 143,
+    "result": "stone-hardhat",
+    "ingredients": [
+      "stone-axe",
+      "pointy-hat"
+    ]
+  },
+  {
+    "recipeIndex": 144,
+    "result": "scholars-cap",
+    "ingredients": [
+      "magical-hat",
+      "scholars-specs"
+    ]
+  },
+  {
+    "recipeIndex": 145,
+    "result": "silver-tiara",
+    "ingredients": [
+      "coral-hairpin",
+      "silver-platter"
+    ]
+  },
+  {
+    "recipeIndex": 146,
+    "result": "bunny-ears",
+    "ingredients": [
+      "hairband",
+      "bunny-tail"
+    ]
+  },
+  {
+    "recipeIndex": 147,
+    "result": "fur-hood",
+    "ingredients": [
+      "feathered-cap",
+      "fur-poncho"
+    ]
+  },
+  {
+    "recipeIndex": 148,
+    "result": "bronze-helmet",
+    "ingredients": [
+      "stone-hardhat",
+      "bronze-knife",
+      "bronze-knife"
+    ]
+  },
+  {
+    "recipeIndex": 149,
+    "result": "thinking-cap",
+    "ingredients": [
+      "scholars-cap",
+      "iron-headgear"
+    ]
+  },
+  {
+    "recipeIndex": 150,
+    "result": "raging-bull-helm",
+    "ingredients": [
+      "mythril-helm",
+      "cowpat",
+      "fresh-milk"
+    ]
+  },
+  {
+    "recipeIndex": 151,
+    "result": "phantom-mask",
+    "ingredients": [
+      "iron-headgear",
+      "dark-robe"
+    ]
+  },
+  {
+    "recipeIndex": 152,
+    "result": "hermes-hat",
+    "ingredients": [
+      "feathered-cap",
+      "mercurys-bandana"
+    ]
+  },
+  {
+    "recipeIndex": 153,
+    "result": "happy-hat",
+    "ingredients": [
+      "feathered-cap",
+      "elevating-shoes"
+    ]
+  },
+  {
+    "recipeIndex": 154,
+    "result": "hades-helm",
+    "ingredients": [
+      "mythril-helm",
+      "devils-tail"
+    ]
+  },
+  {
+    "recipeIndex": 155,
+    "result": "mercurys-bandana",
+    "ingredients": [
+      "agility-ring",
+      "bandana"
+    ]
+  },
+  {
+    "recipeIndex": 156,
+    "result": "skull-helm",
+    "ingredients": [
+      "sun-crown",
+      "devils-tail"
+    ]
+  },
+  {
+    "recipeIndex": 157,
+    "result": "sun-crown",
+    "ingredients": [
+      "skull-helm",
+      "saints-ashes"
+    ]
+  },
+  {
+    "recipeIndex": 158,
+    "result": "mythril-helm",
+    "ingredients": [
+      "hades-helm",
+      "saints-ashes"
+    ]
+  },
+  {
+    "recipeIndex": 159,
+    "result": "golden-tiara",
+    "ingredients": [
+      "thinking-cap",
+      "silver-tiara",
+      "gold-nugget"
+    ]
+  },
+  {
+    "recipeIndex": 160,
+    "result": "plain-cheese",
+    "ingredients": [
+      "fresh-milk",
+      "rennet-powder"
+    ]
+  },
+  {
+    "recipeIndex": 161,
+    "result": "plain-cheese",
+    "ingredients": [
+      "scorching-cheese",
+      "c-c-cold-cheese"
+    ]
+  },
+  {
+    "recipeIndex": 162,
+    "result": "spicy-cheese",
+    "ingredients": [
+      "plain-cheese",
+      "red-mould"
+    ]
+  },
+  {
+    "recipeIndex": 163,
+    "result": "super-spicy-cheese",
+    "ingredients": [
+      "spicy-cheese",
+      "red-mould",
+      "red-mould"
+    ]
+  },
+  {
+    "recipeIndex": 164,
+    "result": "super-spicy-cheese",
+    "ingredients": [
+      "spicy-cheese",
+      "nook-grass"
+    ]
+  },
+  {
+    "recipeIndex": 165,
+    "result": "scorching-cheese",
+    "ingredients": [
+      "premium-mould",
+      "dragon-dung",
+      "super-spicy-cheese"
+    ]
+  },
+  {
+    "recipeIndex": 166,
+    "result": "cool-cheese",
+    "ingredients": [
+      "plain-cheese",
+      "waterweed-mould"
+    ]
+  },
+  {
+    "recipeIndex": 167,
+    "result": "chilly-cheese",
+    "ingredients": [
+      "cool-cheese",
+      "waterweed-mould"
+    ]
+  },
+  {
+    "recipeIndex": 168,
+    "result": "cold-cheese",
+    "ingredients": [
+      "chilly-cheese",
+      "waterweed-mould",
+      "waterweed-mould"
+    ]
+  },
+  {
+    "recipeIndex": 169,
+    "result": "c-c-cold-cheese",
+    "ingredients": [
+      "premium-mould",
+      "dragon-dung",
+      "cold-cheese"
+    ]
+  },
+  {
+    "recipeIndex": 170,
+    "result": "mild-cheese",
+    "ingredients": [
+      "plain-cheese",
+      "amor-seco-essence"
+    ]
+  },
+  {
+    "recipeIndex": 171,
+    "result": "cured-cheese",
+    "ingredients": [
+      "premium-mould",
+      "fresh-milk",
+      "amor-seco-essence"
+    ]
+  },
+  {
+    "recipeIndex": 172,
+    "result": "angel-cheese",
+    "ingredients": [
+      "premium-mould",
+      "fresh-milk",
+      "yggdrasil-dew"
+    ]
+  },
+  {
+    "recipeIndex": 173,
+    "result": "hard-cheese",
+    "ingredients": [
+      "plain-cheese",
+      "rock-salt"
+    ]
+  },
+  {
+    "recipeIndex": 174,
+    "result": "soft-cheese",
+    "ingredients": [
+      "rock-salt",
+      "fresh-milk",
+      "rennet-powder"
+    ]
+  },
+  {
+    "recipeIndex": 175,
+    "result": "chunky-cheese",
+    "ingredients": [
+      "plain-cheese",
+      "magic-water"
+    ]
+  },
+  {
+    "recipeIndex": 176,
+    "result": "highly-strung-cheese",
+    "ingredients": [
+      "super-spicy-cheese",
+      "cold-cheese",
+      "rock-salt"
+    ]
+  },
+  {
+    "recipeIndex": 177,
+    "result": "holy-silver-rapier",
+    "ingredients": [
+      "holy-talisman",
+      "templars-sword"
+    ]
+  },
+  {
+    "recipeIndex": 178,
+    "result": "flametang-boomerang",
+    "ingredients": [
+      "swallowtail",
+      "flame-shield"
+    ]
+  },
+  {
+    "recipeIndex": 179,
+    "result": "bunny-suit",
+    "ingredients": [
+      "silk-bustier",
+      "bunny-tail"
+    ]
+  },
+  {
+    "recipeIndex": 180,
+    "result": "zombie-mail",
+    "ingredients": [
+      "silver-mail",
+      "zombiesbane"
+    ]
+  },
+  {
+    "recipeIndex": 181,
+    "result": "ice-shield",
+    "ingredients": [
+      "magic-shield",
+      "icicle-dirk"
+    ]
+  },
+  {
+    "recipeIndex": 182,
+    "result": "flame-shield",
+    "ingredients": [
+      "magic-shield",
+      "flametang-boomerang"
+    ]
+  },
+  {
+    "recipeIndex": 183,
+    "result": "prayer-ring",
+    "ingredients": [
+      "gold-ring",
+      "seed-of-magic"
+    ]
+  }
+]

@@ -1,0 +1,2572 @@
+[
+  {
+    "id": "cypress-stick",
+    "gameId": 1,
+    "name": "Cypress Stick",
+    "category": "weapon",
+    "buy": 10,
+    "sell": 5
+  },
+  {
+    "id": "soldiers-sword",
+    "gameId": 2,
+    "name": "Soldier's Sword",
+    "category": "weapon",
+    "sell": 75
+  },
+  {
+    "id": "copper-sword",
+    "gameId": 3,
+    "name": "Copper Sword",
+    "category": "weapon",
+    "buy": 270,
+    "sell": 135
+  },
+  {
+    "id": "steel-broadsword",
+    "gameId": 4,
+    "name": "Steel Broadsword",
+    "category": "weapon",
+    "buy": 2000,
+    "sell": 1000
+  },
+  {
+    "id": "platinum-sword",
+    "gameId": 5,
+    "name": "Platinum Sword",
+    "category": "weapon",
+    "sell": 3000
+  },
+  {
+    "id": "dream-blade",
+    "gameId": 6,
+    "name": "Dream Blade",
+    "category": "weapon",
+    "buy": 4700,
+    "sell": 3150
+  },
+  {
+    "id": "falcon-blade",
+    "gameId": 7,
+    "name": "Falcon Blade",
+    "category": "weapon",
+    "sell": 5000
+  },
+  {
+    "id": "uber-falcon-blade",
+    "gameId": 8,
+    "name": "Uber Falcon Blade",
+    "category": "weapon",
+    "sell": 25000
+  },
+  {
+    "id": "zombiesbane",
+    "gameId": 9,
+    "name": "Zombiesbane",
+    "category": "weapon",
+    "buy": 6300,
+    "sell": 3150
+  },
+  {
+    "id": "zombie-slayer",
+    "gameId": 10,
+    "name": "Zombie Slayer",
+    "category": "weapon",
+    "sell": 10000
+  },
+  {
+    "id": "dragonsbane",
+    "gameId": 11,
+    "name": "Dragonsbane",
+    "category": "weapon",
+    "buy": 11000,
+    "sell": 6000
+  },
+  {
+    "id": "dragon-slayer",
+    "gameId": 12,
+    "name": "Dragon Slayer",
+    "category": "weapon",
+    "sell": 22500
+  },
+  {
+    "id": "blizzard-blade",
+    "gameId": 13,
+    "name": "Blizzard Blade",
+    "category": "weapon",
+    "buy": 21000,
+    "sell": 10500
+  },
+  {
+    "id": "miracle-sword",
+    "gameId": 14,
+    "name": "Miracle Sword",
+    "category": "weapon",
+    "sell": 1000
+  },
+  {
+    "id": "uber-miracle-sword",
+    "gameId": 15,
+    "name": "Uber Miracle Sword",
+    "category": "weapon",
+    "sell": 1500
+  },
+  {
+    "id": "bastard-sword",
+    "gameId": 16,
+    "name": "Bastard Sword",
+    "category": "weapon",
+    "buy": 8800,
+    "sell": 4400
+  },
+  {
+    "id": "liquid-metal-sword",
+    "gameId": 17,
+    "name": "Liquid Metal Sword",
+    "category": "weapon",
+    "sell": 5000
+  },
+  {
+    "id": "double-edged-sword",
+    "gameId": 18,
+    "name": "Double-edged Sword",
+    "category": "weapon",
+    "sell": 2500
+  },
+  {
+    "id": "uber-double-edge",
+    "gameId": 19,
+    "name": "Uber Double-edge",
+    "category": "weapon",
+    "sell": 3750
+  },
+  {
+    "id": "rusty-old-sword",
+    "gameId": 20,
+    "name": "Rusty Old Sword",
+    "category": "weapon"
+  },
+  {
+    "id": "dragovian-sword",
+    "gameId": 21,
+    "name": "Dragovian Sword",
+    "category": "weapon"
+  },
+  {
+    "id": "dragovian-king-sword",
+    "gameId": 22,
+    "name": "Dragovian King Sword",
+    "category": "weapon"
+  },
+  {
+    "id": "rapier",
+    "gameId": 23,
+    "name": "Rapier",
+    "category": "weapon",
+    "buy": 300,
+    "sell": 150
+  },
+  {
+    "id": "templars-sword",
+    "gameId": 24,
+    "name": "Templar's Sword",
+    "category": "weapon",
+    "sell": 1175
+  },
+  {
+    "id": "hell-sabre",
+    "gameId": 25,
+    "name": "Hell Sabre",
+    "category": "weapon",
+    "sell": 7300
+  },
+  {
+    "id": "holy-silver-rapier",
+    "gameId": 26,
+    "name": "Holy Silver Rapier",
+    "category": "weapon",
+    "buy": 6600,
+    "sell": 3300
+  },
+  {
+    "id": "fallen-angel-rapier",
+    "gameId": 27,
+    "name": "Fallen Angel Rapier",
+    "category": "weapon",
+    "sell": 8500
+  },
+  {
+    "id": "shamshir-of-light",
+    "gameId": 28,
+    "name": "Shamshir of Light",
+    "category": "weapon",
+    "sell": 9000
+  },
+  {
+    "id": "mercurys-rapier",
+    "gameId": 29,
+    "name": "Mercury's Rapier",
+    "category": "weapon",
+    "buy": 10500,
+    "sell": 5100
+  },
+  {
+    "id": "bronze-knife",
+    "gameId": 30,
+    "name": "Bronze Knife",
+    "category": "weapon",
+    "buy": 150,
+    "sell": 75
+  },
+  {
+    "id": "dagger",
+    "gameId": 31,
+    "name": "Dagger",
+    "category": "weapon",
+    "buy": 350,
+    "sell": 175
+  },
+  {
+    "id": "poison-moth-knife",
+    "gameId": 32,
+    "name": "Poison Moth Knife",
+    "category": "weapon",
+    "buy": 950,
+    "sell": 475
+  },
+  {
+    "id": "assassins-dagger",
+    "gameId": 33,
+    "name": "Assassin's Dagger",
+    "category": "weapon",
+    "sell": 1250
+  },
+  {
+    "id": "icicle-dirk",
+    "gameId": 34,
+    "name": "Icicle Dirk",
+    "category": "weapon",
+    "sell": 4000
+  },
+  {
+    "id": "poison-needle",
+    "gameId": 35,
+    "name": "Poison Needle",
+    "category": "weapon",
+    "buy": 1900,
+    "sell": 1000
+  },
+  {
+    "id": "falcon-knife",
+    "gameId": 36,
+    "name": "Falcon Knife",
+    "category": "weapon",
+    "buy": 7700,
+    "sell": 4400
+  },
+  {
+    "id": "imp-knife",
+    "gameId": 37,
+    "name": "Imp Knife",
+    "category": "weapon",
+    "sell": 2250
+  },
+  {
+    "id": "sword-breaker",
+    "gameId": 38,
+    "name": "Sword Breaker",
+    "category": "weapon",
+    "buy": 5500,
+    "sell": 2750
+  },
+  {
+    "id": "eagle-dagger",
+    "gameId": 39,
+    "name": "Eagle Dagger",
+    "category": "weapon",
+    "buy": 3900,
+    "sell": 1950
+  },
+  {
+    "id": "iron-lance",
+    "gameId": 40,
+    "name": "Iron Lance",
+    "category": "weapon",
+    "buy": 750,
+    "sell": 375
+  },
+  {
+    "id": "holy-lance",
+    "gameId": 41,
+    "name": "Holy Lance",
+    "category": "weapon",
+    "buy": 2700,
+    "sell": 1350
+  },
+  {
+    "id": "long-spear",
+    "gameId": 42,
+    "name": "Long Spear",
+    "category": "weapon",
+    "buy": 1700,
+    "sell": 850
+  },
+  {
+    "id": "partisan",
+    "gameId": 43,
+    "name": "Partisan",
+    "category": "weapon",
+    "buy": 4400,
+    "sell": 2200
+  },
+  {
+    "id": "battle-fork",
+    "gameId": 44,
+    "name": "Battle Fork",
+    "category": "weapon",
+    "sell": 3300
+  },
+  {
+    "id": "sandstorm-spear",
+    "gameId": 45,
+    "name": "Sandstorm Spear",
+    "category": "weapon",
+    "sell": 5300
+  },
+  {
+    "id": "demon-spear",
+    "gameId": 46,
+    "name": "Demon Spear",
+    "category": "weapon",
+    "sell": 12500
+  },
+  {
+    "id": "hero-spear",
+    "gameId": 47,
+    "name": "Hero Spear",
+    "category": "weapon",
+    "sell": 15000
+  },
+  {
+    "id": "metal-king-spear",
+    "gameId": 48,
+    "name": "Metal King Spear",
+    "category": "weapon",
+    "sell": 24000
+  },
+  {
+    "id": "boomerang",
+    "gameId": 49,
+    "name": "Boomerang",
+    "category": "weapon",
+    "buy": 420,
+    "sell": 210
+  },
+  {
+    "id": "reinforced-boomerang",
+    "gameId": 50,
+    "name": "Reinforced Boomerang",
+    "category": "weapon",
+    "sell": 840
+  },
+  {
+    "id": "edged-boomerang",
+    "gameId": 51,
+    "name": "Edged Boomerang",
+    "category": "weapon",
+    "buy": 1360,
+    "sell": 680
+  },
+  {
+    "id": "metal-wing-boomerang",
+    "gameId": 52,
+    "name": "Metal Wing Boomerang",
+    "category": "weapon",
+    "sell": 36000
+  },
+  {
+    "id": "razor-wing-boomerang",
+    "gameId": 53,
+    "name": "Razor Wing Boomerang",
+    "category": "weapon",
+    "buy": 3800,
+    "sell": 1900
+  },
+  {
+    "id": "swallowtail",
+    "gameId": 54,
+    "name": "Swallowtail",
+    "category": "weapon",
+    "buy": 6800,
+    "sell": 3400
+  },
+  {
+    "id": "flametang-boomerang",
+    "gameId": 55,
+    "name": "Flametang Boomerang",
+    "category": "weapon",
+    "sell": 7250
+  },
+  {
+    "id": "stone-axe",
+    "gameId": 56,
+    "name": "Stone Axe",
+    "category": "weapon",
+    "buy": 550,
+    "sell": 275
+  },
+  {
+    "id": "iron-axe",
+    "gameId": 57,
+    "name": "Iron Axe",
+    "category": "weapon",
+    "buy": 2600,
+    "sell": 1300
+  },
+  {
+    "id": "king-axe",
+    "gameId": 58,
+    "name": "King Axe",
+    "category": "weapon",
+    "buy": 17000,
+    "sell": 8500
+  },
+  {
+    "id": "moon-axe",
+    "gameId": 59,
+    "name": "Moon Axe",
+    "category": "weapon",
+    "sell": 11000
+  },
+  {
+    "id": "bandit-axe",
+    "gameId": 60,
+    "name": "Bandit Axe",
+    "category": "weapon",
+    "sell": 6500
+  },
+  {
+    "id": "golden-axe",
+    "gameId": 61,
+    "name": "Golden Axe",
+    "category": "weapon",
+    "sell": 5000
+  },
+  {
+    "id": "battle-axe",
+    "gameId": 62,
+    "name": "Battle-axe",
+    "category": "weapon",
+    "buy": 4300,
+    "sell": 2150
+  },
+  {
+    "id": "conquerors-axe",
+    "gameId": 63,
+    "name": "Conqueror's Axe",
+    "category": "weapon",
+    "sell": 7500
+  },
+  {
+    "id": "oaken-club",
+    "gameId": 64,
+    "name": "Oaken Club",
+    "category": "weapon",
+    "buy": 110,
+    "sell": 55
+  },
+  {
+    "id": "giant-mallet",
+    "gameId": 65,
+    "name": "Giant Mallet",
+    "category": "weapon",
+    "buy": 240,
+    "sell": 120
+  },
+  {
+    "id": "sledgehammer",
+    "gameId": 66,
+    "name": "Sledgehammer",
+    "category": "weapon",
+    "buy": 1700,
+    "sell": 1000
+  },
+  {
+    "id": "war-hammer",
+    "gameId": 67,
+    "name": "War Hammer",
+    "category": "weapon",
+    "buy": 6700,
+    "sell": 3400
+  },
+  {
+    "id": "uber-war-hammer",
+    "gameId": 68,
+    "name": "Uber War Hammer",
+    "category": "weapon",
+    "sell": 16000
+  },
+  {
+    "id": "megaton-hammer",
+    "gameId": 70,
+    "name": "Megaton Hammer",
+    "category": "weapon",
+    "sell": 55500
+  },
+  {
+    "id": "flail-of-fury",
+    "gameId": 71,
+    "name": "Flail of Fury",
+    "category": "weapon"
+  },
+  {
+    "id": "flail-of-destruction",
+    "gameId": 72,
+    "name": "Flail of Destruction",
+    "category": "weapon",
+    "sell": 22250
+  },
+  {
+    "id": "thorn-whip",
+    "gameId": 73,
+    "name": "Thorn Whip",
+    "category": "weapon",
+    "buy": 350,
+    "sell": 175
+  },
+  {
+    "id": "leather-whip",
+    "gameId": 74,
+    "name": "Leather Whip",
+    "category": "weapon",
+    "sell": 85
+  },
+  {
+    "id": "snakeskin-whip",
+    "gameId": 75,
+    "name": "Snakeskin Whip",
+    "category": "weapon",
+    "sell": 1250
+  },
+  {
+    "id": "chain-whip",
+    "gameId": 76,
+    "name": "Chain Whip",
+    "category": "weapon",
+    "buy": 2200,
+    "sell": 1100
+  },
+  {
+    "id": "dragontail-whip",
+    "gameId": 77,
+    "name": "Dragontail Whip",
+    "category": "weapon",
+    "sell": 7400
+  },
+  {
+    "id": "spiked-steel-whip",
+    "gameId": 78,
+    "name": "Spiked Steel Whip",
+    "category": "weapon",
+    "buy": 8300,
+    "sell": 4300
+  },
+  {
+    "id": "demon-whip",
+    "gameId": 79,
+    "name": "Demon Whip",
+    "category": "weapon",
+    "sell": 3500
+  },
+  {
+    "id": "scourge-whip",
+    "gameId": 80,
+    "name": "Scourge Whip",
+    "category": "weapon",
+    "sell": 9250
+  },
+  {
+    "id": "gringham-whip",
+    "gameId": 81,
+    "name": "Gringham Whip",
+    "category": "weapon",
+    "sell": 10000
+  },
+  {
+    "id": "farmers-scythe",
+    "gameId": 82,
+    "name": "Farmer's Scythe",
+    "category": "weapon",
+    "buy": 910,
+    "sell": 460
+  },
+  {
+    "id": "heavy-hatchet",
+    "gameId": 84,
+    "name": "Heavy Hatchet",
+    "category": "weapon",
+    "buy": 29000,
+    "sell": 15000
+  },
+  {
+    "id": "bardiche-of-binding",
+    "gameId": 85,
+    "name": "Bardiche of Binding",
+    "category": "weapon",
+    "sell": 12000
+  },
+  {
+    "id": "hell-scythe",
+    "gameId": 86,
+    "name": "Hell Scythe",
+    "category": "weapon",
+    "buy": 9500,
+    "sell": 5000
+  },
+  {
+    "id": "steel-scythe",
+    "gameId": 87,
+    "name": "Steel Scythe",
+    "category": "weapon",
+    "buy": 3700,
+    "sell": 1650
+  },
+  {
+    "id": "wizards-staff",
+    "gameId": 88,
+    "name": "Wizard's Staff",
+    "category": "weapon",
+    "buy": 1300,
+    "sell": 650
+  },
+  {
+    "id": "lightning-staff",
+    "gameId": 89,
+    "name": "Lightning Staff",
+    "category": "weapon",
+    "sell": 2300
+  },
+  {
+    "id": "staff-of-divine-wrath",
+    "gameId": 90,
+    "name": "Staff of Divine Wrath",
+    "category": "weapon",
+    "sell": 2500
+  },
+  {
+    "id": "magma-staff",
+    "gameId": 91,
+    "name": "Magma Staff",
+    "category": "weapon",
+    "sell": 2500
+  },
+  {
+    "id": "staff-of-antimagic",
+    "gameId": 93,
+    "name": "Staff of Antimagic",
+    "category": "weapon",
+    "sell": 3000
+  },
+  {
+    "id": "rune-staff",
+    "gameId": 94,
+    "name": "Rune Staff",
+    "category": "weapon",
+    "sell": 3150
+  },
+  {
+    "id": "staff-of-resurrection",
+    "gameId": 95,
+    "name": "Staff of Resurrection",
+    "category": "weapon",
+    "buy": 45000,
+    "sell": 22500
+  },
+  {
+    "id": "magical-mace",
+    "gameId": 96,
+    "name": "Magical Mace",
+    "category": "weapon",
+    "buy": 9000,
+    "sell": 4500
+  },
+  {
+    "id": "hunters-bow",
+    "gameId": 98,
+    "name": "Hunter's Bow",
+    "category": "weapon",
+    "buy": 1700,
+    "sell": 850
+  },
+  {
+    "id": "great-bow",
+    "gameId": 99,
+    "name": "Great Bow",
+    "category": "weapon",
+    "buy": 28000,
+    "sell": 14000
+  },
+  {
+    "id": "short-bow",
+    "gameId": 100,
+    "name": "Short Bow",
+    "category": "weapon",
+    "buy": 750,
+    "sell": 375
+  },
+  {
+    "id": "odins-bow",
+    "gameId": 101,
+    "name": "Odin's Bow",
+    "category": "weapon",
+    "sell": 48000
+  },
+  {
+    "id": "cheirons-bow",
+    "gameId": 102,
+    "name": "Cheiron's Bow",
+    "category": "weapon",
+    "sell": 4500
+  },
+  {
+    "id": "eros-bow",
+    "gameId": 103,
+    "name": "Eros' Bow",
+    "category": "weapon",
+    "sell": 5800
+  },
+  {
+    "id": "plain-clothes",
+    "gameId": 104,
+    "name": "Plain Clothes",
+    "category": "armour",
+    "buy": 30,
+    "sell": 15
+  },
+  {
+    "id": "bandits-grass-skirt",
+    "gameId": 105,
+    "name": "Bandit's Grass Skirt",
+    "category": "armour",
+    "buy": 35,
+    "sell": 18
+  },
+  {
+    "id": "wayfarers-clothes",
+    "gameId": 106,
+    "name": "Wayfarer's Clothes",
+    "category": "armour",
+    "buy": 70,
+    "sell": 35
+  },
+  {
+    "id": "boxer-shorts",
+    "gameId": 107,
+    "name": "Boxer shorts",
+    "category": "armour",
+    "sell": 50
+  },
+  {
+    "id": "dancers-costume",
+    "gameId": 108,
+    "name": "Dancer's Costume",
+    "category": "armour",
+    "buy": 1300,
+    "sell": 650
+  },
+  {
+    "id": "leather-kilt",
+    "gameId": 109,
+    "name": "Leather Kilt",
+    "category": "armour",
+    "buy": 220,
+    "sell": 110
+  },
+  {
+    "id": "leather-dress",
+    "gameId": 110,
+    "name": "Leather Dress",
+    "category": "armour",
+    "buy": 380,
+    "sell": 190
+  },
+  {
+    "id": "templars-uniform",
+    "gameId": 111,
+    "name": "Templar's Uniform",
+    "category": "armour",
+    "sell": 275
+  },
+  {
+    "id": "fur-poncho",
+    "gameId": 112,
+    "name": "Fur Poncho",
+    "category": "armour",
+    "sell": 1100
+  },
+  {
+    "id": "cloak-of-evasion",
+    "gameId": 113,
+    "name": "Cloak of Evasion",
+    "category": "armour",
+    "buy": 3000,
+    "sell": 1500
+  },
+  {
+    "id": "bunny-suit",
+    "gameId": 114,
+    "name": "Bunny Suit",
+    "category": "armour",
+    "sell": 1775
+  },
+  {
+    "id": "silk-bustier",
+    "gameId": 115,
+    "name": "Silk Bustier",
+    "category": "armour",
+    "buy": 5500,
+    "sell": 2750
+  },
+  {
+    "id": "magic-bikini",
+    "gameId": 116,
+    "name": "Magic Bikini",
+    "category": "armour",
+    "buy": 13800,
+    "sell": 6900
+  },
+  {
+    "id": "spangled-dress",
+    "gameId": 117,
+    "name": "Spangled Dress",
+    "category": "armour",
+    "sell": 2350
+  },
+  {
+    "id": "posh-waistcoat",
+    "gameId": 118,
+    "name": "Posh Waistcoat",
+    "category": "armour",
+    "sell": 3250
+  },
+  {
+    "id": "magical-skirt",
+    "gameId": 119,
+    "name": "Magical Skirt",
+    "category": "armour",
+    "sell": 3350
+  },
+  {
+    "id": "shimmering-dress",
+    "gameId": 120,
+    "name": "Shimmering Dress",
+    "category": "armour",
+    "sell": 8800
+  },
+  {
+    "id": "dark-robe",
+    "gameId": 121,
+    "name": "Dark Robe",
+    "category": "armour",
+    "sell": 10500
+  },
+  {
+    "id": "dangerous-bustier",
+    "gameId": 123,
+    "name": "Dangerous Bustier",
+    "category": "armour",
+    "sell": 2900
+  },
+  {
+    "id": "divine-bustier",
+    "gameId": 124,
+    "name": "Divine Bustier",
+    "category": "armour",
+    "sell": 37000
+  },
+  {
+    "id": "jessicas-outfit",
+    "gameId": 125,
+    "name": "Jessica's Outfit",
+    "category": "armour",
+    "sell": 60
+  },
+  {
+    "id": "leather-armour",
+    "gameId": 126,
+    "name": "Leather Armour",
+    "category": "armour",
+    "buy": 180,
+    "sell": 90
+  },
+  {
+    "id": "scale-armour",
+    "gameId": 127,
+    "name": "Scale Armour",
+    "category": "armour",
+    "buy": 350,
+    "sell": 175
+  },
+  {
+    "id": "chain-mail",
+    "gameId": 128,
+    "name": "Chain Mail",
+    "category": "armour",
+    "buy": 500,
+    "sell": 250
+  },
+  {
+    "id": "bronze-armour",
+    "gameId": 129,
+    "name": "Bronze Armour",
+    "category": "armour",
+    "buy": 840,
+    "sell": 420
+  },
+  {
+    "id": "iron-cuirass",
+    "gameId": 130,
+    "name": "Iron Cuirass",
+    "category": "armour",
+    "buy": 1000,
+    "sell": 500
+  },
+  {
+    "id": "iron-armour",
+    "gameId": 131,
+    "name": "Iron Armour",
+    "category": "armour",
+    "buy": 1800,
+    "sell": 900
+  },
+  {
+    "id": "turtle-shell",
+    "gameId": 132,
+    "name": "Turtle Shell",
+    "category": "armour",
+    "buy": 2300,
+    "sell": 1100
+  },
+  {
+    "id": "full-plate-armour",
+    "gameId": 133,
+    "name": "Full Plate Armour",
+    "category": "armour",
+    "buy": 2300,
+    "sell": 1150
+  },
+  {
+    "id": "silver-cuirass",
+    "gameId": 134,
+    "name": "Silver Cuirass",
+    "category": "armour",
+    "buy": 3200,
+    "sell": 1600
+  },
+  {
+    "id": "dancers-mail",
+    "gameId": 135,
+    "name": "Dancer's Mail",
+    "category": "armour",
+    "sell": 8200
+  },
+  {
+    "id": "silver-mail",
+    "gameId": 136,
+    "name": "Silver Mail",
+    "category": "armour",
+    "buy": 4300,
+    "sell": 3400
+  },
+  {
+    "id": "dragon-mail",
+    "gameId": 137,
+    "name": "Dragon Mail",
+    "category": "armour",
+    "buy": 12000,
+    "sell": 6000
+  },
+  {
+    "id": "magic-armour",
+    "gameId": 138,
+    "name": "Magic Armour",
+    "category": "armour",
+    "buy": 6100,
+    "sell": 3750
+  },
+  {
+    "id": "zombie-mail",
+    "gameId": 139,
+    "name": "Zombie Mail",
+    "category": "armour",
+    "sell": 250
+  },
+  {
+    "id": "heavy-armour",
+    "gameId": 140,
+    "name": "Heavy Armour",
+    "category": "armour",
+    "buy": 5000,
+    "sell": 2500
+  },
+  {
+    "id": "spiked-armour",
+    "gameId": 141,
+    "name": "Spiked Armour",
+    "category": "armour",
+    "sell": 9500
+  },
+  {
+    "id": "platinum-mail",
+    "gameId": 142,
+    "name": "Platinum Mail",
+    "category": "armour",
+    "sell": 4900
+  },
+  {
+    "id": "bandit-mail",
+    "gameId": 143,
+    "name": "Bandit Mail",
+    "category": "armour",
+    "buy": 13000,
+    "sell": 7000
+  },
+  {
+    "id": "sacred-armour",
+    "gameId": 144,
+    "name": "Sacred Armour",
+    "category": "armour",
+    "sell": 7750
+  },
+  {
+    "id": "gigant-armour",
+    "gameId": 146,
+    "name": "Gigant Armour",
+    "category": "armour",
+    "buy": 18000,
+    "sell": 9000
+  },
+  {
+    "id": "mirror-armour",
+    "gameId": 147,
+    "name": "Mirror Armour",
+    "category": "armour",
+    "buy": 21000,
+    "sell": 15000
+  },
+  {
+    "id": "liquid-metal-armour",
+    "gameId": 148,
+    "name": "Liquid Metal Armour",
+    "category": "armour",
+    "sell": 4750
+  },
+  {
+    "id": "dragovian-armour",
+    "gameId": 149,
+    "name": "Dragovian Armour",
+    "category": "armour"
+  },
+  {
+    "id": "metal-king-armour",
+    "gameId": 150,
+    "name": "Metal King Armour",
+    "category": "armour",
+    "sell": 5000
+  },
+  {
+    "id": "silk-robe",
+    "gameId": 151,
+    "name": "Silk Robe",
+    "category": "armour",
+    "buy": 420,
+    "sell": 210
+  },
+  {
+    "id": "leather-cape",
+    "gameId": 152,
+    "name": "Leather Cape",
+    "category": "armour",
+    "buy": 1100,
+    "sell": 550
+  },
+  {
+    "id": "robe-of-serenity",
+    "gameId": 153,
+    "name": "Robe of Serenity",
+    "category": "armour",
+    "sell": 3600
+  },
+  {
+    "id": "magic-vestment",
+    "gameId": 154,
+    "name": "Magic Vestment",
+    "category": "armour",
+    "buy": 4400,
+    "sell": 2200
+  },
+  {
+    "id": "flowing-dress",
+    "gameId": 155,
+    "name": "Flowing Dress",
+    "category": "armour",
+    "buy": 14800,
+    "sell": 7400
+  },
+  {
+    "id": "sages-robe",
+    "gameId": 156,
+    "name": "Sage's Robe",
+    "category": "armour",
+    "sell": 11000
+  },
+  {
+    "id": "angels-robe",
+    "gameId": 157,
+    "name": "Angel's Robe",
+    "category": "armour",
+    "sell": 25000
+  },
+  {
+    "id": "velvet-cape",
+    "gameId": 158,
+    "name": "Velvet Cape",
+    "category": "armour",
+    "buy": 9400,
+    "sell": 5300
+  },
+  {
+    "id": "crimson-robe",
+    "gameId": 159,
+    "name": "Crimson Robe",
+    "category": "armour",
+    "sell": 11250
+  },
+  {
+    "id": "princesss-robe",
+    "gameId": 160,
+    "name": "Princess's Robe",
+    "category": "armour",
+    "sell": 36000
+  },
+  {
+    "id": "dragon-robe",
+    "gameId": 161,
+    "name": "Dragon Robe",
+    "category": "armour",
+    "sell": 7500
+  },
+  {
+    "id": "pot-lid",
+    "gameId": 162,
+    "name": "Pot Lid",
+    "category": "shield",
+    "buy": 40,
+    "sell": 20
+  },
+  {
+    "id": "leather-shield",
+    "gameId": 163,
+    "name": "Leather Shield",
+    "category": "shield",
+    "buy": 70,
+    "sell": 35
+  },
+  {
+    "id": "scale-shield",
+    "gameId": 164,
+    "name": "Scale Shield",
+    "category": "shield",
+    "buy": 180,
+    "sell": 90
+  },
+  {
+    "id": "silver-platter",
+    "gameId": 165,
+    "name": "Silver Platter",
+    "category": "shield",
+    "sell": 100
+  },
+  {
+    "id": "kitty-shield",
+    "gameId": 166,
+    "name": "Kitty Shield",
+    "category": "shield",
+    "sell": 550
+  },
+  {
+    "id": "bronze-shield",
+    "gameId": 167,
+    "name": "Bronze Shield",
+    "category": "shield",
+    "buy": 370,
+    "sell": 185
+  },
+  {
+    "id": "templars-shield",
+    "gameId": 168,
+    "name": "Templar's Shield",
+    "category": "shield",
+    "sell": 875
+  },
+  {
+    "id": "iron-shield",
+    "gameId": 169,
+    "name": "Iron Shield",
+    "category": "shield",
+    "buy": 720,
+    "sell": 360
+  },
+  {
+    "id": "light-shield",
+    "gameId": 170,
+    "name": "Light Shield",
+    "category": "shield",
+    "buy": 2250,
+    "sell": 1125
+  },
+  {
+    "id": "white-shield",
+    "gameId": 171,
+    "name": "White Shield",
+    "category": "shield",
+    "sell": 1800
+  },
+  {
+    "id": "steel-shield",
+    "gameId": 172,
+    "name": "Steel Shield",
+    "category": "shield",
+    "buy": 2500,
+    "sell": 1250
+  },
+  {
+    "id": "magic-shield",
+    "gameId": 173,
+    "name": "Magic Shield",
+    "category": "shield",
+    "buy": 5000,
+    "sell": 2500
+  },
+  {
+    "id": "dragon-shield",
+    "gameId": 174,
+    "name": "Dragon Shield",
+    "category": "shield",
+    "buy": 6900,
+    "sell": 3450
+  },
+  {
+    "id": "power-shield",
+    "gameId": 176,
+    "name": "Power Shield",
+    "category": "shield",
+    "buy": 18000,
+    "sell": 9000
+  },
+  {
+    "id": "saintess-shield",
+    "gameId": 177,
+    "name": "Saintess Shield",
+    "category": "shield",
+    "sell": 28000
+  },
+  {
+    "id": "bone-shield",
+    "gameId": 178,
+    "name": "Bone Shield",
+    "category": "shield",
+    "sell": 8750
+  },
+  {
+    "id": "mirror-shield",
+    "gameId": 179,
+    "name": "Mirror Shield",
+    "category": "shield",
+    "buy": 15000,
+    "sell": 7500
+  },
+  {
+    "id": "ogre-shield",
+    "gameId": 180,
+    "name": "Ogre Shield",
+    "category": "shield",
+    "sell": 10500
+  },
+  {
+    "id": "silver-shield",
+    "gameId": 181,
+    "name": "Silver Shield",
+    "category": "shield",
+    "sell": 16000
+  },
+  {
+    "id": "big-boss-shield",
+    "gameId": 182,
+    "name": "Big Boss Shield",
+    "category": "shield",
+    "sell": 12000
+  },
+  {
+    "id": "ruinous-shield",
+    "gameId": 183,
+    "name": "Ruinous Shield",
+    "category": "shield",
+    "sell": 2900
+  },
+  {
+    "id": "thanatos-shield",
+    "gameId": 184,
+    "name": "Thanatos' Shield",
+    "category": "shield",
+    "sell": 3650
+  },
+  {
+    "id": "goddess-shield",
+    "gameId": 185,
+    "name": "Goddess Shield",
+    "category": "shield",
+    "sell": 47500
+  },
+  {
+    "id": "dragovian-shield",
+    "gameId": 186,
+    "name": "Dragovian Shield",
+    "category": "shield"
+  },
+  {
+    "id": "metal-king-shield",
+    "gameId": 187,
+    "name": "Metal King Shield",
+    "category": "shield",
+    "sell": 5000
+  },
+  {
+    "id": "bandana",
+    "gameId": 188,
+    "name": "Bandana",
+    "category": "helmet",
+    "buy": 45,
+    "sell": 23
+  },
+  {
+    "id": "leather-hat",
+    "gameId": 189,
+    "name": "Leather Hat",
+    "category": "helmet",
+    "buy": 65,
+    "sell": 33
+  },
+  {
+    "id": "hairband",
+    "gameId": 190,
+    "name": "Hairband",
+    "category": "helmet",
+    "buy": 150,
+    "sell": 75
+  },
+  {
+    "id": "pointy-hat",
+    "gameId": 191,
+    "name": "Pointy Hat",
+    "category": "helmet",
+    "buy": 70,
+    "sell": 35
+  },
+  {
+    "id": "feathered-cap",
+    "gameId": 192,
+    "name": "Feathered Cap",
+    "category": "helmet",
+    "sell": 200
+  },
+  {
+    "id": "turban",
+    "gameId": 193,
+    "name": "Turban",
+    "category": "helmet",
+    "buy": 410,
+    "sell": 205
+  },
+  {
+    "id": "silver-tiara",
+    "gameId": 194,
+    "name": "Silver Tiara",
+    "category": "helmet",
+    "buy": 1450,
+    "sell": 725
+  },
+  {
+    "id": "bunny-ears",
+    "gameId": 195,
+    "name": "Bunny Ears",
+    "category": "helmet",
+    "sell": 450
+  },
+  {
+    "id": "stone-hardhat",
+    "gameId": 196,
+    "name": "Stone Hardhat",
+    "category": "helmet",
+    "sell": 435
+  },
+  {
+    "id": "iron-helmet",
+    "gameId": 197,
+    "name": "Iron Helmet",
+    "category": "helmet",
+    "buy": 1100,
+    "sell": 550
+  },
+  {
+    "id": "fur-hood",
+    "gameId": 198,
+    "name": "Fur Hood",
+    "category": "helmet",
+    "buy": 1400,
+    "sell": 700
+  },
+  {
+    "id": "bronze-helmet",
+    "gameId": 199,
+    "name": "Bronze Helmet",
+    "category": "helmet",
+    "sell": 825
+  },
+  {
+    "id": "coral-hairpin",
+    "gameId": 200,
+    "name": "Coral Hairpin",
+    "category": "helmet",
+    "buy": 950,
+    "sell": 475
+  },
+  {
+    "id": "pirates-hat",
+    "gameId": 201,
+    "name": "Pirate's Hat",
+    "category": "helmet",
+    "sell": 1400
+  },
+  {
+    "id": "iron-mask",
+    "gameId": 202,
+    "name": "Iron Mask",
+    "category": "helmet",
+    "buy": 3500,
+    "sell": 1750
+  },
+  {
+    "id": "hermes-hat",
+    "gameId": 203,
+    "name": "Hermes' Hat",
+    "category": "helmet",
+    "sell": 1400
+  },
+  {
+    "id": "platinum-headgear",
+    "gameId": 204,
+    "name": "Platinum Headgear",
+    "category": "helmet",
+    "sell": 2050
+  },
+  {
+    "id": "magical-hat",
+    "gameId": 205,
+    "name": "Magical Hat",
+    "category": "helmet",
+    "buy": 2700,
+    "sell": 2000
+  },
+  {
+    "id": "happy-hat",
+    "gameId": 206,
+    "name": "Happy Hat",
+    "category": "helmet",
+    "sell": 10000
+  },
+  {
+    "id": "hades-helm",
+    "gameId": 207,
+    "name": "Hades' Helm",
+    "category": "helmet",
+    "sell": 4250
+  },
+  {
+    "id": "slime-crown",
+    "gameId": 208,
+    "name": "Slime Crown",
+    "category": "helmet",
+    "sell": 6000
+  },
+  {
+    "id": "mythril-helm",
+    "gameId": 209,
+    "name": "Mythril Helm",
+    "category": "helmet",
+    "buy": 13300,
+    "sell": 8800
+  },
+  {
+    "id": "mercurys-bandana",
+    "gameId": 210,
+    "name": "Mercury's Bandana",
+    "category": "helmet",
+    "sell": 2000
+  },
+  {
+    "id": "scholars-cap",
+    "gameId": 211,
+    "name": "Scholar's Cap",
+    "category": "helmet",
+    "sell": 5750
+  },
+  {
+    "id": "thinking-cap",
+    "gameId": 213,
+    "name": "Thinking Cap",
+    "category": "helmet",
+    "buy": 13000,
+    "sell": 6500
+  },
+  {
+    "id": "iron-headgear",
+    "gameId": 214,
+    "name": "Iron Headgear",
+    "category": "helmet",
+    "buy": 5500,
+    "sell": 2750
+  },
+  {
+    "id": "raging-bull-helm",
+    "gameId": 215,
+    "name": "Raging Bull Helm",
+    "category": "helmet",
+    "sell": 16500
+  },
+  {
+    "id": "golden-tiara",
+    "gameId": 216,
+    "name": "Golden Tiara",
+    "category": "helmet",
+    "sell": 26000
+  },
+  {
+    "id": "great-helm",
+    "gameId": 217,
+    "name": "Great Helm",
+    "category": "helmet",
+    "buy": 16000,
+    "sell": 8000
+  },
+  {
+    "id": "phantom-mask",
+    "gameId": 218,
+    "name": "Phantom Mask",
+    "category": "helmet",
+    "sell": 29000
+  },
+  {
+    "id": "skull-helm",
+    "gameId": 219,
+    "name": "Skull Helm",
+    "category": "helmet",
+    "sell": 4500
+  },
+  {
+    "id": "dragovian-helm",
+    "gameId": 220,
+    "name": "Dragovian Helm",
+    "category": "helmet"
+  },
+  {
+    "id": "sun-crown",
+    "gameId": 221,
+    "name": "Sun Crown",
+    "category": "helmet",
+    "sell": 37000
+  },
+  {
+    "id": "metal-king-helm",
+    "gameId": 222,
+    "name": "Metal King Helm",
+    "category": "helmet",
+    "sell": 10000
+  },
+  {
+    "id": "agility-ring",
+    "gameId": 224,
+    "name": "Agility Ring",
+    "category": "accessory",
+    "sell": 180
+  },
+  {
+    "id": "meteorite-bracer",
+    "gameId": 225,
+    "name": "Meteorite Bracer",
+    "category": "accessory",
+    "sell": 2500
+  },
+  {
+    "id": "strength-ring",
+    "gameId": 226,
+    "name": "Strength Ring",
+    "category": "accessory",
+    "sell": 325
+  },
+  {
+    "id": "gold-ring",
+    "gameId": 227,
+    "name": "Gold Ring",
+    "category": "accessory",
+    "buy": 2000,
+    "sell": 1000
+  },
+  {
+    "id": "prayer-ring",
+    "gameId": 228,
+    "name": "Prayer Ring",
+    "category": "accessory",
+    "buy": 9000,
+    "sell": 1500
+  },
+  {
+    "id": "recovery-ring",
+    "gameId": 229,
+    "name": "Recovery Ring",
+    "category": "accessory",
+    "sell": 4800
+  },
+  {
+    "id": "goddess-ring",
+    "gameId": 230,
+    "name": "Goddess Ring",
+    "category": "accessory",
+    "sell": 25500
+  },
+  {
+    "id": "gospel-ring",
+    "gameId": 231,
+    "name": "Gospel Ring",
+    "category": "accessory"
+  },
+  {
+    "id": "life-bracer",
+    "gameId": 232,
+    "name": "Life Bracer",
+    "category": "accessory",
+    "sell": 7000
+  },
+  {
+    "id": "mighty-armlet",
+    "gameId": 233,
+    "name": "Mighty Armlet",
+    "category": "accessory",
+    "sell": 4500
+  },
+  {
+    "id": "gold-bracer",
+    "gameId": 234,
+    "name": "Gold Bracer",
+    "category": "accessory",
+    "buy": 350,
+    "sell": 175
+  },
+  {
+    "id": "ruby-of-protection",
+    "gameId": 237,
+    "name": "Ruby of Protection",
+    "category": "accessory",
+    "buy": 3100,
+    "sell": 1550
+  },
+  {
+    "id": "titan-belt",
+    "gameId": 238,
+    "name": "Titan Belt",
+    "category": "accessory",
+    "sell": 1500
+  },
+  {
+    "id": "scholars-specs",
+    "gameId": 239,
+    "name": "Scholar's Specs",
+    "category": "accessory",
+    "buy": 2700,
+    "sell": 1350
+  },
+  {
+    "id": "tough-guy-tattoo",
+    "gameId": 240,
+    "name": "Tough Guy Tattoo",
+    "category": "accessory",
+    "buy": 2400,
+    "sell": 1200
+  },
+  {
+    "id": "slime-earrings",
+    "gameId": 241,
+    "name": "Slime Earrings",
+    "category": "accessory",
+    "buy": 400,
+    "sell": 200
+  },
+  {
+    "id": "devils-tail",
+    "gameId": 242,
+    "name": "Devil's Tail",
+    "category": "accessory",
+    "buy": 200,
+    "sell": 100
+  },
+  {
+    "id": "fishnet-stockings",
+    "gameId": 243,
+    "name": "Fishnet Stockings",
+    "category": "accessory",
+    "sell": 900
+  },
+  {
+    "id": "garter",
+    "gameId": 244,
+    "name": "Garter",
+    "category": "accessory",
+    "sell": 700
+  },
+  {
+    "id": "ladys-ring",
+    "gameId": 245,
+    "name": "Lady's Ring",
+    "category": "accessory"
+  },
+  {
+    "id": "gold-rosary",
+    "gameId": 246,
+    "name": "Gold Rosary",
+    "category": "accessory",
+    "buy": 500,
+    "sell": 250
+  },
+  {
+    "id": "sorcerers-ring",
+    "gameId": 248,
+    "name": "Sorcerer's Ring",
+    "category": "accessory",
+    "sell": 7250
+  },
+  {
+    "id": "skull-ring",
+    "gameId": 249,
+    "name": "Skull Ring",
+    "category": "accessory",
+    "sell": 425
+  },
+  {
+    "id": "holy-talisman",
+    "gameId": 250,
+    "name": "Holy Talisman",
+    "category": "accessory",
+    "sell": 2400
+  },
+  {
+    "id": "ring-of-awakening",
+    "gameId": 251,
+    "name": "Ring of Awakening",
+    "category": "accessory",
+    "sell": 550
+  },
+  {
+    "id": "full-moon-ring",
+    "gameId": 252,
+    "name": "Full Moon Ring",
+    "category": "accessory",
+    "sell": 600
+  },
+  {
+    "id": "ring-of-clarity",
+    "gameId": 253,
+    "name": "Ring of Clarity",
+    "category": "accessory",
+    "sell": 650
+  },
+  {
+    "id": "ring-of-truth",
+    "gameId": 254,
+    "name": "Ring of Truth",
+    "category": "accessory",
+    "sell": 700
+  },
+  {
+    "id": "ring-of-immunity",
+    "gameId": 255,
+    "name": "Ring of Immunity",
+    "category": "accessory",
+    "sell": 750
+  },
+  {
+    "id": "catholicon-ring",
+    "gameId": 256,
+    "name": "Catholicon Ring",
+    "category": "accessory",
+    "sell": 18000
+  },
+  {
+    "id": "dragon-scale",
+    "gameId": 259,
+    "name": "Dragon Scale",
+    "category": "accessory",
+    "sell": 240
+  },
+  {
+    "id": "elevating-shoes",
+    "gameId": 260,
+    "name": "Elevating Shoes",
+    "category": "accessory",
+    "sell": 50
+  },
+  {
+    "id": "medicinal-herb",
+    "gameId": 261,
+    "name": "Medicinal Herb",
+    "category": "item",
+    "buy": 8,
+    "sell": 4
+  },
+  {
+    "id": "antidotal-herb",
+    "gameId": 262,
+    "name": "Antidotal Herb",
+    "category": "item",
+    "buy": 10,
+    "sell": 5
+  },
+  {
+    "id": "moonwort-bulb",
+    "gameId": 263,
+    "name": "Moonwort Bulb",
+    "category": "item",
+    "buy": 30,
+    "sell": 15
+  },
+  {
+    "id": "strong-medicine",
+    "gameId": 264,
+    "name": "Strong Medicine",
+    "category": "item",
+    "sell": 88
+  },
+  {
+    "id": "special-medicine",
+    "gameId": 265,
+    "name": "Special Medicine",
+    "category": "item",
+    "sell": 170
+  },
+  {
+    "id": "lesser-panacea",
+    "gameId": 266,
+    "name": "Lesser Panacea",
+    "category": "item",
+    "sell": 550
+  },
+  {
+    "id": "greater-panacea",
+    "gameId": 267,
+    "name": "Greater Panacea",
+    "category": "item",
+    "sell": 880
+  },
+  {
+    "id": "rose-root",
+    "gameId": 268,
+    "name": "Rose-root",
+    "category": "item",
+    "sell": 118
+  },
+  {
+    "id": "rose-wort",
+    "gameId": 269,
+    "name": "Rose-wort",
+    "category": "item",
+    "sell": 148
+  },
+  {
+    "id": "strong-antidote",
+    "gameId": 270,
+    "name": "Strong Antidote",
+    "category": "item",
+    "sell": 95
+  },
+  {
+    "id": "special-antidote",
+    "gameId": 271,
+    "name": "Special Antidote",
+    "category": "item",
+    "sell": 275
+  },
+  {
+    "id": "moons-mercy",
+    "gameId": 272,
+    "name": "Moon's Mercy",
+    "category": "item",
+    "sell": 308
+  },
+  {
+    "id": "mystifying-mixture",
+    "gameId": 273,
+    "name": "Mystifying Mixture",
+    "category": "item",
+    "sell": 280
+  },
+  {
+    "id": "yggdrasil-leaf",
+    "gameId": 274,
+    "name": "Yggdrasil Leaf",
+    "category": "item",
+    "buy": 1000,
+    "sell": 500
+  },
+  {
+    "id": "yggdrasil-dew",
+    "gameId": 275,
+    "name": "Yggdrasil Dew",
+    "category": "item",
+    "sell": 1250
+  },
+  {
+    "id": "amor-seco-essence",
+    "gameId": 276,
+    "name": "Amor Seco Essence",
+    "category": "item",
+    "buy": 120,
+    "sell": 60
+  },
+  {
+    "id": "chimaera-wing",
+    "gameId": 277,
+    "name": "Chimaera Wing",
+    "category": "item",
+    "buy": 25,
+    "sell": 13
+  },
+  {
+    "id": "holy-water",
+    "gameId": 278,
+    "name": "Holy Water",
+    "category": "item",
+    "buy": 20,
+    "sell": 10
+  },
+  {
+    "id": "magic-water",
+    "gameId": 279,
+    "name": "Magic Water",
+    "category": "item",
+    "buy": 300,
+    "sell": 150
+  },
+  {
+    "id": "elfin-elixir",
+    "gameId": 280,
+    "name": "Elfin Elixir",
+    "category": "item",
+    "sell": 410
+  },
+  {
+    "id": "rockbomb-shard",
+    "gameId": 281,
+    "name": "Rockbomb Shard",
+    "category": "item",
+    "buy": 450,
+    "sell": 225
+  },
+  {
+    "id": "sages-stone",
+    "gameId": 282,
+    "name": "Sage's Stone",
+    "category": "item",
+    "sell": 20000
+  },
+  {
+    "id": "seed-of-strength",
+    "gameId": 284,
+    "name": "Seed of Strength",
+    "category": "item",
+    "sell": 15
+  },
+  {
+    "id": "seed-of-agility",
+    "gameId": 285,
+    "name": "Seed of Agility",
+    "category": "item",
+    "sell": 13
+  },
+  {
+    "id": "seed-of-defence",
+    "gameId": 286,
+    "name": "Seed of Defence",
+    "category": "item",
+    "sell": 15
+  },
+  {
+    "id": "seed-of-wisdom",
+    "gameId": 287,
+    "name": "Seed of Wisdom",
+    "category": "item",
+    "sell": 10
+  },
+  {
+    "id": "seed-of-skill",
+    "gameId": 288,
+    "name": "Seed of Skill",
+    "category": "item",
+    "buy": 2000,
+    "sell": 50
+  },
+  {
+    "id": "seed-of-life",
+    "gameId": 289,
+    "name": "Seed of Life",
+    "category": "item",
+    "sell": 18
+  },
+  {
+    "id": "seed-of-magic",
+    "gameId": 290,
+    "name": "Seed of Magic",
+    "category": "item",
+    "sell": 20
+  },
+  {
+    "id": "mini-medal",
+    "gameId": 291,
+    "name": "Mini Medal",
+    "category": "item"
+  },
+  {
+    "id": "thiefs-key",
+    "gameId": 293,
+    "name": "Thief's Key",
+    "category": "item"
+  },
+  {
+    "id": "magic-key",
+    "gameId": 294,
+    "name": "Magic Key",
+    "category": "item"
+  },
+  {
+    "id": "ultimate-key",
+    "gameId": 295,
+    "name": "Ultimate Key",
+    "category": "item"
+  },
+  {
+    "id": "orichalcum",
+    "gameId": 296,
+    "name": "Orichalcum",
+    "category": "item",
+    "sell": 5000
+  },
+  {
+    "id": "bunny-tail",
+    "gameId": 297,
+    "name": "Bunny Tail",
+    "category": "accessory",
+    "buy": 50,
+    "sell": 25
+  },
+  {
+    "id": "timbrel-of-tension",
+    "gameId": 298,
+    "name": "Timbrel of Tension",
+    "category": "item"
+  },
+  {
+    "id": "baumrens-bell",
+    "gameId": 301,
+    "name": "Baumren's Bell",
+    "category": "item"
+  },
+  {
+    "id": "gold-nugget",
+    "gameId": 302,
+    "name": "Gold Nugget",
+    "category": "item",
+    "sell": 5000
+  },
+  {
+    "id": "iron-nail",
+    "gameId": 303,
+    "name": "Iron Nail",
+    "category": "item",
+    "sell": 10
+  },
+  {
+    "id": "cowpat",
+    "gameId": 304,
+    "name": "Cowpat",
+    "category": "item",
+    "sell": 3
+  },
+  {
+    "id": "dragon-dung",
+    "gameId": 305,
+    "name": "Dragon Dung",
+    "category": "item",
+    "buy": 100,
+    "sell": 50
+  },
+  {
+    "id": "rock-salt",
+    "gameId": 306,
+    "name": "Rock Salt",
+    "category": "item",
+    "sell": 6
+  },
+  {
+    "id": "saints-ashes",
+    "gameId": 308,
+    "name": "Saint's Ashes",
+    "category": "item",
+    "buy": 12000,
+    "sell": 6000
+  },
+  {
+    "id": "wing-of-bat",
+    "gameId": 309,
+    "name": "Wing of Bat",
+    "category": "item",
+    "sell": 16
+  },
+  {
+    "id": "magic-beast-hide",
+    "gameId": 310,
+    "name": "Magic Beast Hide",
+    "category": "item",
+    "sell": 70
+  },
+  {
+    "id": "fresh-milk",
+    "gameId": 311,
+    "name": "Fresh Milk",
+    "category": "item",
+    "buy": 30,
+    "sell": 30
+  },
+  {
+    "id": "rennet-powder",
+    "gameId": 312,
+    "name": "Rennet Powder",
+    "category": "item",
+    "buy": 10,
+    "sell": 5
+  },
+  {
+    "id": "red-mould",
+    "gameId": 313,
+    "name": "Red Mould",
+    "category": "item",
+    "buy": 30,
+    "sell": 15
+  },
+  {
+    "id": "waterweed-mould",
+    "gameId": 314,
+    "name": "Waterweed Mould",
+    "category": "item",
+    "buy": 35,
+    "sell": 18
+  },
+  {
+    "id": "premium-mould",
+    "gameId": 315,
+    "name": "Premium Mould",
+    "category": "item",
+    "buy": 500,
+    "sell": 500
+  },
+  {
+    "id": "plain-cheese",
+    "gameId": 316,
+    "name": "Plain Cheese",
+    "category": "cheese",
+    "sell": 25
+  },
+  {
+    "id": "spicy-cheese",
+    "gameId": 318,
+    "name": "Spicy Cheese",
+    "category": "cheese",
+    "sell": 250
+  },
+  {
+    "id": "super-spicy-cheese",
+    "gameId": 319,
+    "name": "Super Spicy Cheese",
+    "category": "cheese",
+    "sell": 600
+  },
+  {
+    "id": "scorching-cheese",
+    "gameId": 320,
+    "name": "Scorching Cheese",
+    "category": "cheese",
+    "sell": 1200
+  },
+  {
+    "id": "cool-cheese",
+    "gameId": 322,
+    "name": "Cool Cheese",
+    "category": "cheese",
+    "sell": 88
+  },
+  {
+    "id": "chilly-cheese",
+    "gameId": 323,
+    "name": "Chilly Cheese",
+    "category": "cheese",
+    "sell": 300
+  },
+  {
+    "id": "cold-cheese",
+    "gameId": 324,
+    "name": "Cold Cheese",
+    "category": "cheese",
+    "sell": 550
+  },
+  {
+    "id": "c-c-cold-cheese",
+    "gameId": 325,
+    "name": "C-C-Cold Cheese",
+    "category": "cheese",
+    "sell": 1400
+  },
+  {
+    "id": "mild-cheese",
+    "gameId": 331,
+    "name": "Mild Cheese",
+    "category": "cheese",
+    "sell": 400
+  },
+  {
+    "id": "cured-cheese",
+    "gameId": 332,
+    "name": "Cured Cheese",
+    "category": "cheese",
+    "sell": 800
+  },
+  {
+    "id": "angel-cheese",
+    "gameId": 333,
+    "name": "Angel Cheese",
+    "category": "cheese",
+    "sell": 2100
+  },
+  {
+    "id": "hard-cheese",
+    "gameId": 334,
+    "name": "Hard Cheese",
+    "category": "cheese",
+    "sell": 500
+  },
+  {
+    "id": "soft-cheese",
+    "gameId": 335,
+    "name": "Soft Cheese",
+    "category": "cheese",
+    "sell": 600
+  },
+  {
+    "id": "chunky-cheese",
+    "gameId": 336,
+    "name": "Chunky Cheese",
+    "category": "cheese",
+    "sell": 500
+  },
+  {
+    "id": "highly-strung-cheese",
+    "gameId": 337,
+    "name": "Highly-strung Cheese",
+    "category": "cheese",
+    "sell": 550
+  },
+  {
+    "id": "crystal-ball",
+    "gameId": 339,
+    "name": "Crystal Ball",
+    "category": "other"
+  },
+  {
+    "id": "tool-bag",
+    "gameId": 340,
+    "name": "Tool Bag",
+    "category": "other"
+  },
+  {
+    "id": "jessicas-letter",
+    "gameId": 341,
+    "name": "Jessica's Letter",
+    "category": "other"
+  },
+  {
+    "id": "templars-ring",
+    "gameId": 342,
+    "name": "Templar's Ring",
+    "category": "accessory"
+  },
+  {
+    "id": "world-map",
+    "gameId": 343,
+    "name": "World Map",
+    "category": "other"
+  },
+  {
+    "id": "venus-tear",
+    "gameId": 344,
+    "name": "Venus' Tear",
+    "category": "other"
+  },
+  {
+    "id": "moonshadow-harp",
+    "gameId": 345,
+    "name": "Moonshadow Harp",
+    "category": "other"
+  },
+  {
+    "id": "sand-of-serenity",
+    "gameId": 346,
+    "name": "Sand of Serenity",
+    "category": "other"
+  },
+  {
+    "id": "lizard-humour",
+    "gameId": 347,
+    "name": "Lizard Humour",
+    "category": "other"
+  },
+  {
+    "id": "argon-heart",
+    "gameId": 349,
+    "name": "Argon Heart",
+    "category": "other"
+  },
+  {
+    "id": "great-big-argon-heart",
+    "gameId": 350,
+    "name": "Great Big Argon Heart",
+    "category": "other"
+  },
+  {
+    "id": "magic-mirror",
+    "gameId": 351,
+    "name": "Magic Mirror",
+    "category": "other"
+  },
+  {
+    "id": "sun-mirror",
+    "gameId": 352,
+    "name": "Sun Mirror",
+    "category": "other"
+  },
+  {
+    "id": "stone-sword",
+    "gameId": 353,
+    "name": "Stone Sword",
+    "category": "weapon"
+  },
+  {
+    "id": "kran-spinels",
+    "gameId": 354,
+    "name": "Kran Spinels",
+    "category": "other"
+  },
+  {
+    "id": "the-big-book-of-barriers",
+    "gameId": 355,
+    "name": "The Big Book of Barriers",
+    "category": "other"
+  },
+  {
+    "id": "martas-bag",
+    "gameId": 356,
+    "name": "Marta's Bag",
+    "category": "other"
+  },
+  {
+    "id": "illuminated-sea-chart",
+    "gameId": 357,
+    "name": "Illuminated Sea Chart",
+    "category": "other"
+  },
+  {
+    "id": "nook-grass",
+    "gameId": 358,
+    "name": "Nook Grass",
+    "category": "item",
+    "sell": 600
+  },
+  {
+    "id": "godbirds-soulstone",
+    "gameId": 359,
+    "name": "Godbird's Soulstone",
+    "category": "other"
+  },
+  {
+    "id": "darktree-leaf",
+    "gameId": 360,
+    "name": "Darktree Leaf",
+    "category": "other"
+  },
+  {
+    "id": "templar-captains-ring",
+    "gameId": 361,
+    "name": "Templar Captain's Ring",
+    "category": "accessory"
+  },
+  {
+    "id": "argon-ring",
+    "gameId": 363,
+    "name": "Argon Ring",
+    "category": "accessory"
+  },
+  {
+    "id": "echo-flute",
+    "gameId": 364,
+    "name": "Echo Flute",
+    "category": "other"
+  },
+  {
+    "id": "eros-bow-recipe",
+    "gameId": 365,
+    "name": "Eros' Bow Recipe",
+    "category": "other"
+  },
+  {
+    "id": "imp-knife-recipe",
+    "gameId": 366,
+    "name": "Imp Knife Recipe",
+    "category": "other"
+  },
+  {
+    "id": "dragon-slayer-recipe",
+    "gameId": 367,
+    "name": "Dragon Slayer Recipe",
+    "category": "other"
+  },
+  {
+    "id": "thiefs-key-recipe",
+    "gameId": 368,
+    "name": "Thief's Key Recipe",
+    "category": "other"
+  },
+  {
+    "id": "morries-memo-1",
+    "gameId": 369,
+    "name": "Morrie's Memo _1",
+    "category": "other"
+  },
+  {
+    "id": "morries-memo-2",
+    "gameId": 370,
+    "name": "Morrie's Memo _2",
+    "category": "other"
+  },
+  {
+    "id": "morries-memo-3",
+    "gameId": 371,
+    "name": "Morrie's Memo _3",
+    "category": "other"
+  },
+  {
+    "id": "monster-arena-key",
+    "gameId": 372,
+    "name": "Monster Arena Key",
+    "category": "other"
+  },
+  {
+    "id": "godbird-sceptre",
+    "gameId": 373,
+    "name": "Godbird Sceptre",
+    "category": "other"
+  },
+  {
+    "id": "gold-orb",
+    "gameId": 375,
+    "name": "Gold Orb",
+    "category": "other"
+  },
+  {
+    "id": "silver-orb",
+    "gameId": 376,
+    "name": "Silver Orb",
+    "category": "other"
+  },
+  {
+    "id": "red-orb",
+    "gameId": 377,
+    "name": "Red Orb",
+    "category": "other"
+  },
+  {
+    "id": "blue-orb",
+    "gameId": 378,
+    "name": "Blue Orb",
+    "category": "other"
+  },
+  {
+    "id": "green-orb",
+    "gameId": 379,
+    "name": "Green Orb",
+    "category": "other"
+  },
+  {
+    "id": "yellow-orb",
+    "gameId": 380,
+    "name": "Yellow Orb",
+    "category": "other"
+  },
+  {
+    "id": "purple-orb",
+    "gameId": 381,
+    "name": "Purple Orb",
+    "category": "other"
+  },
+  {
+    "id": "copper-monster-coin",
+    "gameId": 382,
+    "name": "Copper Monster Coin",
+    "category": "item",
+    "sell": 200
+  },
+  {
+    "id": "silver-monster-coin",
+    "gameId": 383,
+    "name": "Silver Monster Coin",
+    "category": "item",
+    "sell": 500
+  },
+  {
+    "id": "gold-monster-coin",
+    "gameId": 384,
+    "name": "Gold Monster Coin",
+    "category": "item",
+    "sell": 1000
+  },
+  {
+    "id": "flame-shield",
+    "gameId": 385,
+    "name": "Flame Shield",
+    "category": "shield",
+    "buy": 7100,
+    "sell": 3550
+  },
+  {
+    "id": "ice-shield",
+    "gameId": 386,
+    "name": "Ice Shield",
+    "category": "shield",
+    "buy": 8500,
+    "sell": 4300
+  }
+]

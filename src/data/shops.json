@@ -1,0 +1,637 @@
+[
+  {
+    "id": "farebury-weapon-shop",
+    "location": "farebury",
+    "name": "Weapon shop",
+    "stock": [
+      "cypress-stick",
+      "oaken-club",
+      "giant-mallet",
+      "copper-sword",
+      "boomerang"
+    ]
+  },
+  {
+    "id": "farebury-armour-shop",
+    "location": "farebury",
+    "name": "Armour shop",
+    "stock": [
+      "bandits-grass-skirt",
+      "wayfarers-clothes",
+      "leather-armour",
+      "leather-shield",
+      "leather-hat"
+    ]
+  },
+  {
+    "id": "farebury-item-shop",
+    "location": "farebury",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "chimaera-wing",
+      "plain-clothes"
+    ]
+  },
+  {
+    "id": "alexandria-weapon-shop",
+    "location": "alexandria",
+    "name": "Weapon shop",
+    "stock": [
+      "oaken-club",
+      "giant-mallet",
+      "copper-sword",
+      "boomerang",
+      "stone-axe"
+    ]
+  },
+  {
+    "id": "alexandria-armour-shop",
+    "location": "alexandria",
+    "name": "Armour shop",
+    "stock": [
+      "leather-kilt",
+      "scale-armour",
+      "scale-shield",
+      "medicinal-herb",
+      "holy-water",
+      "chimaera-wing"
+    ]
+  },
+  {
+    "id": "port-prospect-weapon-and-armour-shop",
+    "location": "port-prospect",
+    "name": "Weapon and armour shop",
+    "stock": [
+      "stone-axe",
+      "iron-lance",
+      "farmers-scythe",
+      "leather-kilt",
+      "scale-armour",
+      "scale-shield"
+    ]
+  },
+  {
+    "id": "port-prospect-item-shop",
+    "location": "port-prospect",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing"
+    ]
+  },
+  {
+    "id": "peregrin-quay-weapon-shop",
+    "location": "peregrin-quay",
+    "name": "Weapon shop",
+    "stock": [
+      "bronze-knife",
+      "thorn-whip",
+      "iron-lance",
+      "farmers-scythe"
+    ]
+  },
+  {
+    "id": "peregrin-quay-armour-shop",
+    "location": "peregrin-quay",
+    "name": "Armour shop",
+    "stock": [
+      "scale-armour",
+      "silk-robe",
+      "chain-mail",
+      "scale-shield",
+      "pointy-hat"
+    ]
+  },
+  {
+    "id": "peregrin-quay-item-shop",
+    "location": "peregrin-quay",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing"
+    ]
+  },
+  {
+    "id": "peregrin-quay-item-stall",
+    "location": "peregrin-quay",
+    "name": "Item stall (after opening its three chests)",
+    "stock": [
+      "cypress-stick",
+      "pot-lid",
+      "bandana",
+      "hairband",
+      "slime-earrings"
+    ]
+  },
+  {
+    "id": "simpleton-weapon-shop",
+    "location": "simpleton",
+    "name": "Weapon shop",
+    "stock": [
+      "rapier",
+      "thorn-whip",
+      "wizards-staff",
+      "long-spear",
+      "sledgehammer"
+    ]
+  },
+  {
+    "id": "simpleton-item-and-armour-shop",
+    "location": "simpleton",
+    "name": "Item and armour shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "chain-mail",
+      "turban"
+    ]
+  },
+  {
+    "id": "ascantha-weapon-shop",
+    "location": "ascantha",
+    "name": "Weapon shop",
+    "stock": [
+      "dagger",
+      "short-bow",
+      "wizards-staff",
+      "edged-boomerang",
+      "steel-broadsword"
+    ]
+  },
+  {
+    "id": "ascantha-armour-shop",
+    "location": "ascantha",
+    "name": "Armour shop",
+    "stock": [
+      "leather-dress",
+      "bronze-armour",
+      "iron-cuirass",
+      "bronze-shield",
+      "turban",
+      "slime-earrings"
+    ]
+  },
+  {
+    "id": "ascantha-item-shop",
+    "location": "ascantha",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "rennet-powder",
+      "holy-water",
+      "chimaera-wing",
+      "moonwort-bulb"
+    ]
+  },
+  {
+    "id": "pickham-weapon-shop",
+    "location": "pickham",
+    "name": "Weapon shop",
+    "stock": [
+      "poison-moth-knife",
+      "hunters-bow",
+      "steel-broadsword",
+      "iron-axe",
+      "holy-lance"
+    ]
+  },
+  {
+    "id": "pickham-armour-shop",
+    "location": "pickham",
+    "name": "Armour shop",
+    "stock": [
+      "bronze-armour",
+      "leather-cape",
+      "dancers-costume",
+      "iron-shield",
+      "iron-helmet"
+    ]
+  },
+  {
+    "id": "pickham-item-shop",
+    "location": "pickham",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "amor-seco-essence"
+    ]
+  },
+  {
+    "id": "west-trodain-church-item-shop",
+    "location": "west-trodain-church",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "leather-cape",
+      "fur-hood"
+    ]
+  },
+  {
+    "id": "princess-minnies-castle-item-shop",
+    "location": "princess-minnies-castle",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "chimaera-wing",
+      "red-mould",
+      "waterweed-mould"
+    ]
+  },
+  {
+    "id": "neos-weapon-shop",
+    "location": "neos",
+    "name": "Weapon shop",
+    "stock": [
+      "edged-boomerang",
+      "chain-whip",
+      "steel-scythe",
+      "dream-blade",
+      "holy-silver-rapier"
+    ],
+    "availableUntil": "black-citadel"
+  },
+  {
+    "id": "neos-armour-shop",
+    "location": "neos",
+    "name": "Armour shop",
+    "stock": [
+      "full-plate-armour",
+      "silver-cuirass",
+      "light-shield",
+      "steel-shield",
+      "iron-mask"
+    ],
+    "availableUntil": "black-citadel"
+  },
+  {
+    "id": "neos-item-shop",
+    "location": "neos",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "gold-rosary"
+    ],
+    "availableUntil": "black-citadel"
+  },
+  {
+    "id": "neos-item-shop-behind-inn",
+    "location": "neos",
+    "name": "Item shop behind the inn",
+    "stock": [
+      "medicinal-herb",
+      "moonwort-bulb",
+      "holy-water",
+      "dream-blade",
+      "turtle-shell",
+      "cloak-of-evasion"
+    ],
+    "availableFrom": "purgatory-island",
+    "availableUntil": "black-citadel"
+  },
+  {
+    "id": "savella-cathedral-weapon-shop",
+    "location": "savella-cathedral",
+    "name": "Weapon shop",
+    "stock": [
+      "steel-scythe",
+      "eagle-dagger",
+      "partisan",
+      "holy-silver-rapier"
+    ]
+  },
+  {
+    "id": "savella-cathedral-armour-shop",
+    "location": "savella-cathedral",
+    "name": "Armour shop",
+    "stock": [
+      "full-plate-armour",
+      "silver-mail",
+      "magic-vestment",
+      "steel-shield",
+      "iron-mask"
+    ]
+  },
+  {
+    "id": "savella-cathedral-item-shop",
+    "location": "savella-cathedral",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "moonwort-bulb",
+      "gold-rosary"
+    ]
+  },
+  {
+    "id": "baccarat-weapon-and-armour-shop",
+    "location": "baccarat",
+    "name": "Weapon and armour shop",
+    "stock": [
+      "poison-needle",
+      "steel-scythe",
+      "dancers-costume",
+      "iron-armour",
+      "light-shield",
+      "coral-hairpin"
+    ]
+  },
+  {
+    "id": "baccarat-item-shop",
+    "location": "baccarat",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "moonwort-bulb",
+      "amor-seco-essence"
+    ]
+  },
+  {
+    "id": "campsite-west-of-argonia-item-shop",
+    "location": "campsite-west-of-argonia",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "moonwort-bulb",
+      "holy-water",
+      "dream-blade",
+      "turtle-shell",
+      "cloak-of-evasion"
+    ],
+    "timeOfDay": "day"
+  },
+  {
+    "id": "argonia-weapon-and-armour-shop",
+    "location": "argonia",
+    "name": "Weapon and armour shop",
+    "stock": [
+      "battle-axe",
+      "partisan",
+      "silver-mail",
+      "magic-vestment",
+      "light-shield",
+      "silver-tiara"
+    ]
+  },
+  {
+    "id": "argonia-item-shop",
+    "location": "argonia",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "moonwort-bulb"
+    ]
+  },
+  {
+    "id": "argonia-bazaar-weapons",
+    "location": "argonia",
+    "name": "Bazaar weapon stall",
+    "stock": [
+      "chain-whip",
+      "razor-wing-boomerang",
+      "zombiesbane",
+      "war-hammer",
+      "falcon-knife"
+    ],
+    "availableFrom": "argonia-bazaar"
+  },
+  {
+    "id": "argonia-bazaar-armour",
+    "location": "argonia",
+    "name": "Bazaar armour stall",
+    "stock": [
+      "heavy-armour",
+      "silk-bustier",
+      "magic-armour",
+      "magic-shield",
+      "magical-hat",
+      "iron-mask"
+    ],
+    "availableFrom": "argonia-bazaar"
+  },
+  {
+    "id": "argonia-bazaar-yggdrasil-leaf",
+    "location": "argonia",
+    "name": "Bazaar Yggdrasil leaf stall",
+    "stock": [
+      "yggdrasil-leaf"
+    ],
+    "availableFrom": "argonia-bazaar"
+  },
+  {
+    "id": "argonia-bazaar-accessories",
+    "location": "argonia",
+    "name": "Bazaar accessory stall",
+    "stock": [
+      "bunny-tail",
+      "gold-bracer",
+      "gold-ring",
+      "tough-guy-tattoo",
+      "scholars-specs",
+      "ruby-of-protection"
+    ],
+    "availableFrom": "argonia-bazaar"
+  },
+  {
+    "id": "argonia-bazaar-cheese-ingredients",
+    "location": "argonia",
+    "name": "Bazaar cheese ingredient stall",
+    "stock": [
+      "rennet-powder",
+      "fresh-milk",
+      "red-mould",
+      "waterweed-mould"
+    ],
+    "availableFrom": "argonia-bazaar"
+  },
+  {
+    "id": "argonia-bazaar-items",
+    "location": "argonia",
+    "name": "Bazaar item stall",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "prayer-ring"
+    ],
+    "availableFrom": "argonia-bazaar"
+  },
+  {
+    "id": "desert-chapel-item-shop",
+    "location": "desert-chapel",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "chimaera-wing",
+      "amor-seco-essence",
+      "dream-blade"
+    ]
+  },
+  {
+    "id": "arcadia-weapon-shop",
+    "location": "arcadia",
+    "name": "Weapon shop",
+    "stock": [
+      "sword-breaker",
+      "swallowtail",
+      "bastard-sword",
+      "hell-scythe"
+    ]
+  },
+  {
+    "id": "arcadia-armour-shop",
+    "location": "arcadia",
+    "name": "Armour shop",
+    "stock": [
+      "cloak-of-evasion",
+      "magic-armour",
+      "magic-bikini",
+      "magic-shield",
+      "magical-hat",
+      "iron-mask"
+    ]
+  },
+  {
+    "id": "arcadia-item-shop",
+    "location": "arcadia",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "moonwort-bulb",
+      "rockbomb-shard"
+    ]
+  },
+  {
+    "id": "orkutsk-weapon-shop",
+    "location": "orkutsk",
+    "name": "Weapon shop",
+    "stock": [
+      "swallowtail",
+      "falcon-knife",
+      "spiked-steel-whip",
+      "dragonsbane",
+      "king-axe"
+    ],
+    "timeOfDay": "night"
+  },
+  {
+    "id": "orkutsk-armour-shop",
+    "location": "orkutsk",
+    "name": "Armour shop",
+    "stock": [
+      "velvet-cape",
+      "dragon-mail",
+      "dragon-shield",
+      "ice-shield",
+      "iron-headgear"
+    ],
+    "timeOfDay": "day"
+  },
+  {
+    "id": "orkutsk-item-shop",
+    "location": "orkutsk",
+    "name": "Item shop",
+    "stock": [
+      "medicinal-herb",
+      "antidotal-herb",
+      "holy-water",
+      "chimaera-wing",
+      "amor-seco-essence"
+    ]
+  },
+  {
+    "id": "empycchu-item-shop",
+    "location": "empycchu",
+    "name": "Item shop",
+    "stock": [
+      "holy-water",
+      "magical-mace",
+      "mercurys-rapier",
+      "bandit-mail",
+      "flame-shield",
+      "mythril-helm"
+    ]
+  },
+  {
+    "id": "tryan-gully-weapon-shop",
+    "location": "tryan-gully",
+    "name": "Weapon shop",
+    "stock": [
+      "dragonsbane",
+      "king-axe",
+      "blizzard-blade",
+      "great-bow",
+      "heavy-hatchet",
+      "staff-of-resurrection"
+    ]
+  },
+  {
+    "id": "tryan-gully-armour-shop",
+    "location": "tryan-gully",
+    "name": "Armour shop",
+    "stock": [
+      "gigant-armour",
+      "mirror-armour",
+      "mirror-shield",
+      "power-shield",
+      "thinking-cap",
+      "great-helm"
+    ]
+  },
+  {
+    "id": "tryan-gully-item-shop",
+    "location": "tryan-gully",
+    "name": "Item shop",
+    "stock": [
+      "flowing-dress",
+      "antidotal-herb",
+      "holy-water",
+      "amor-seco-essence",
+      "magic-water",
+      "rockbomb-shard"
+    ]
+  },
+  {
+    "id": "dragovian-sanctuary-item-shop",
+    "location": "dragovian-sanctuary",
+    "name": "Item shop",
+    "stock": [
+      "dragon-dung",
+      "devils-tail",
+      "magic-water",
+      "saints-ashes",
+      "premium-mould"
+    ]
+  }
+]

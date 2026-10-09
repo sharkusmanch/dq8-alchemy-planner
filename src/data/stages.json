@@ -1,0 +1,89 @@
+[
+  {
+    "id": "farebury",
+    "label": "Farebury"
+  },
+  {
+    "id": "alexandria",
+    "label": "Alexandria"
+  },
+  {
+    "id": "port-prospect",
+    "label": "Port Prospect"
+  },
+  {
+    "id": "basic-pot",
+    "label": "Peregrin Quay (alchemy pot)"
+  },
+  {
+    "id": "maella-abbey",
+    "label": "Maella Abbey & Simpleton"
+  },
+  {
+    "id": "ascantha",
+    "label": "Ascantha"
+  },
+  {
+    "id": "pickham",
+    "label": "Pickham"
+  },
+  {
+    "id": "improved-pot",
+    "label": "Medea recovered: Hilltop Hut & Trodain"
+  },
+  {
+    "id": "ship",
+    "label": "Ship: Minnie's Castle, Neos, Baccarat & Argonia"
+  },
+  {
+    "id": "baccarat",
+    "label": "Baccarat: Chateau Felix & the Dark Ruins barrier"
+  },
+  {
+    "id": "argonia",
+    "label": "Argonia castle & Royal Hunting Ground"
+  },
+  {
+    "id": "argonia-bazaar",
+    "label": "Argonia bazaar",
+    "storyMin": 11
+  },
+  {
+    "id": "arcadia",
+    "label": "Arcadia (after the Dark Ruins)"
+  },
+  {
+    "id": "orkutsk",
+    "label": "Orkutsk"
+  },
+  {
+    "id": "dragon-graveyard",
+    "label": "Dragon Graveyard (Baccarat casino reopens)"
+  },
+  {
+    "id": "empycchu",
+    "label": "Empycchu"
+  },
+  {
+    "id": "flight",
+    "label": "Godbird's Soulstone: Tryan Gully"
+  },
+  {
+    "id": "purgatory-island",
+    "label": "Purgatory Island escape"
+  },
+  {
+    "id": "black-citadel",
+    "label": "Black Citadel (Neos destroyed)",
+    "storyMin": 17
+  },
+  {
+    "id": "dragovian-sanctuary",
+    "label": "Dragovian Sanctuary (after the ending)"
+  },
+  {
+    "id": "postgame",
+    "label": "Dragovian Trials (instant pot)",
+    "trialMin": 1
+  }
+]

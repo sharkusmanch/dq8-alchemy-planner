@@ -1,0 +1,193 @@
+{
+  "brewThresholds": { "basic": 30, "improved": 100 },
+  "potStages": { "basic": "basic-pot", "improved": "improved-pot", "instant": "postgame" },
+  "milestones": [10, 25, 50, 100, 150, 184],
+  "dave": [
+    { "item": "special-medicine", "reward": "500 gold" },
+    { "item": "reinforced-boomerang", "reward": "1,200 gold" },
+    { "item": "ring-of-immunity", "reward": "Bandit Axe" },
+    { "item": "robe-of-serenity", "reward": "6,000 gold" },
+    { "item": "sandstorm-spear", "reward": "Happy Hat" },
+    { "item": "crimson-robe", "reward": "Big Boss Shield" }
+  ],
+  "scarce": [
+    {
+      "item": "icicle-dirk",
+      "sources": [
+        { "id": "icicle-dirk-1", "label": "Herb Grotto level 4: locked chest", "location": "herb-grotto",
+          "flag": { "address": "0x40979e", "bit": 7 } },
+        { "id": "icicle-dirk-2", "label": "Black Citadel: barrel in the hallway of barrels", "location": "black-citadel",
+          "flag": { "address": "0x4097c5", "bit": 3 } }
+      ]
+    },
+    {
+      "item": "orichalcum",
+      "sources": [
+        { "id": "orichalcum-1", "label": "Princess Minnie: prize for 83 Mini Medals", "location": "princess-minnies-castle",
+          "medalPrize": 8 },
+        { "id": "orichalcum-2", "label": "Godbird's Eyrie (world of light) level 5: chest on the spiral path", "location": "godbirds-eyrie-light",
+          "flag": { "address": "0x4097b8", "bit": 4 } },
+        { "id": "orichalcum-3", "label": "Black Citadel: locked chest at the top of the north-east tower", "location": "black-citadel",
+          "flag": { "address": "0x4097cb", "bit": 5 } },
+        { "id": "orichalcum-4", "label": "Black Citadel: barrel in the hallway of barrels", "location": "black-citadel",
+          "flag": { "address": "0x4097c5", "bit": 1 } },
+        { "id": "orichalcum-5", "label": "Black Citadel: the Ruin (boss, on the way out)", "location": "black-citadel",
+          "killCount": { "address": "0x40c920" } },
+        { "id": "orichalcum-6", "label": "Heavenly Dais level 2: chest on a side platform", "location": "heavenly-dais",
+          "flag": { "address": "0x4097d8", "bit": 1 } }
+      ]
+    },
+    {
+      "item": "slime-crown",
+      "sources": [
+        { "id": "slime-crown-1", "label": "Hilltop Hut: gift from the King Slime in the well", "location": "hilltop-hut",
+          "flag": { "address": "0x40950e", "bit": 1 } },
+        { "id": "slime-crown-2", "label": "Tryan Gully bar: barrel behind the bartender", "location": "tryan-gully",
+          "flag": { "address": "0x4097ba", "bit": 4 } }
+      ]
+    },
+    {
+      "item": "gold-nugget",
+      "sources": [
+        { "id": "gold-nugget-1", "label": "Princess Minnie: prize for 52 Mini Medals", "location": "princess-minnies-castle",
+          "medalPrize": 4 },
+        { "id": "gold-nugget-2", "label": "Godbird's Eyrie (world of darkness) level 2: chest in the east room", "location": "godbirds-eyrie",
+          "flag": { "address": "0x4097b4", "bit": 1 } },
+        { "id": "gold-nugget-3", "label": "Godbird's Eyrie (world of light) level 2: chest in the east room", "location": "godbirds-eyrie-light",
+          "flag": { "address": "0x4097b7", "bit": 2 } }
+      ]
+    },
+    {
+      "item": "templars-sword",
+      "sources": [
+        { "id": "templars-sword-1", "label": "Trodain castle 2F: chest in the front storeroom", "location": "trodain",
+          "flag": { "address": "0x409745", "bit": 4 } }
+      ]
+    },
+    {
+      "item": "battle-fork",
+      "sources": [
+        { "id": "battle-fork-1", "label": "Argonia castle 4F: chest in the vault", "location": "argonia-castle",
+          "flag": { "address": "0x409773", "bit": 7 } }
+      ]
+    },
+    {
+      "item": "miracle-sword",
+      "sources": [
+        { "id": "miracle-sword-1", "label": "Princess Minnie: prize for 68 Mini Medals", "location": "princess-minnies-castle",
+          "medalPrize": 6 }
+      ]
+    },
+    {
+      "item": "conquerors-axe",
+      "sources": [
+        { "id": "conquerors-axe-1", "label": "Howlwind Hill, the plateau north of Rydon's Tower: chest", "location": "aerial-islands",
+          "flag": { "address": "0x4097bf", "bit": 4 } }
+      ]
+    },
+    {
+      "item": "dangerous-bustier",
+      "sources": [
+        { "id": "dangerous-bustier-1", "label": "Princess Minnie: prize for 99 Mini Medals", "location": "princess-minnies-castle",
+          "medalPrize": 10 },
+        { "id": "dangerous-bustier-2", "label": "Heavenly Dais level 1: chest", "location": "heavenly-dais",
+          "flag": { "address": "0x4097d7", "bit": 2 } }
+      ]
+    },
+    {
+      "item": "metal-king-spear",
+      "sources": [
+        { "id": "metal-king-spear-1", "label": "Dragovian Path B3: chest on the south branch", "location": "dragovian-path",
+          "flag": { "address": "0x4097d0", "bit": 0 } }
+      ]
+    },
+    {
+      "item": "dragovian-sword",
+      "sources": [
+        { "id": "dragovian-sword-1", "label": "Dragovian Trials: one of the prizes for beating the Lord of the Dragovians", "location": "dragovian-trials",
+          "flag": { "address": "0x409540", "bit": 0 } }
+      ]
+    },
+    {
+      "item": "seed-of-life",
+      "sources": [
+        { "id": "seed-of-life-1", "label": "North of Farebury: chest", "location": "farebury",
+          "flag": { "address": "0x4097dd", "bit": 4 } },
+        { "id": "seed-of-life-2", "label": "East of Port Prospect: chest by the cliffs", "location": "port-prospect",
+          "flag": { "address": "0x4097de", "bit": 3 } },
+        { "id": "seed-of-life-3", "label": "Ferry from Port Prospect: barrel inside", "location": "port-prospect",
+          "flag": { "address": "0x40970f", "bit": 4 } },
+        { "id": "seed-of-life-4", "label": "Near Wisher's Peak: chest", "location": "wishers-peak",
+          "flag": { "address": "0x4097e0", "bit": 1 } },
+        { "id": "seed-of-life-5", "label": "Pickham, large building on the west side: barrel", "location": "pickham",
+          "flag": { "address": "0x409736", "bit": 1 } },
+        { "id": "seed-of-life-6", "label": "Land of the Moles: locked chest in the field", "location": "mole-hole",
+          "flag": { "address": "0x4097e2", "bit": 4 } },
+        { "id": "seed-of-life-7", "label": "Cape west of Pickham: locked chest on the hill", "location": "ship-shores",
+          "flag": { "address": "0x4097e4", "bit": 1 } },
+        { "id": "seed-of-life-8", "label": "Savella Cathedral island: a bird on the far north path", "location": "savella-cathedral",
+          "flag": { "address": "0x408ed9", "bit": 5 } },
+        { "id": "seed-of-life-9", "label": "Arcadia: pot between the statues in a house", "location": "arcadia",
+          "flag": { "address": "0x409788", "bit": 2 } },
+        { "id": "seed-of-life-10", "label": "Herb Grotto level 2: pot in the south room", "location": "herb-grotto",
+          "flag": { "address": "0x40979c", "bit": 6 } },
+        { "id": "seed-of-life-11", "label": "Princess Minnie's Castle: chest in the Ultimate Key cell", "location": "minnies-locked-room",
+          "flag": { "address": "0x40974e", "bit": 6 } },
+        { "id": "seed-of-life-12", "label": "Lord High Priest's house: barrel in the kitchen", "location": "lord-high-priests-residence",
+          "flag": { "address": "0x4097bd", "bit": 2 } },
+        { "id": "seed-of-life-13", "label": "Trolls' Maze: reward for the rescue (three seeds, counted as one)", "location": "trolls-maze",
+          "flag": { "address": "0x40954d", "bit": 4 } },
+        { "id": "seed-of-life-14", "label": "Black Citadel: barrel in the hallway of barrels", "location": "black-citadel",
+          "flag": { "address": "0x4097c6", "bit": 2 } }
+      ]
+    },
+    {
+      "item": "seed-of-wisdom",
+      "sources": [
+        { "id": "seed-of-wisdom-1", "label": "Port Prospect: pot outside the inn", "location": "port-prospect",
+          "flag": { "address": "0x409709", "bit": 4 } },
+        { "id": "seed-of-wisdom-2", "label": "South-east of Peregrin Quay: locked chest in a nook", "location": "peregrin-quay",
+          "flag": { "address": "0x4097df", "bit": 2 } },
+        { "id": "seed-of-wisdom-3", "label": "Farebury: gift from the husband of the Lady's Ring's owner (missable)", "location": "farebury",
+          "flag": { "address": "0x409513", "bit": 7 } },
+        { "id": "seed-of-wisdom-4", "label": "Pickham: pot in Brains's house", "location": "pickham",
+          "flag": { "address": "0x40972f", "bit": 0 } },
+        { "id": "seed-of-wisdom-5", "label": "Savella Cathedral armour shop: locked chest", "location": "savella-cathedral",
+          "flag": { "address": "0x409756", "bit": 4 } },
+        { "id": "seed-of-wisdom-6", "label": "North-west of Argonia: chest by the waterfall, west of the Arcadia checkpoint", "location": "argonia",
+          "flag": { "address": "0x4097e6", "bit": 0 } },
+        { "id": "seed-of-wisdom-7", "label": "Baccarat, Golding's mansion: pot upstairs (opens after the Dark Ruins)", "location": "baccarat",
+          "flag": { "address": "0x409760", "bit": 4 } }
+      ]
+    },
+    {
+      "item": "seed-of-strength",
+      "sources": [
+        { "id": "seed-of-strength-1", "label": "Waterfall Cave level 3: Geyzer (boss)", "location": "waterfall-cave",
+          "killCount": { "address": "0x40c620" } },
+        { "id": "seed-of-strength-2", "label": "Tower of Alexandra level 4: pot", "location": "tower-of-alexandra",
+          "flag": { "address": "0x409706", "bit": 2 } },
+        { "id": "seed-of-strength-3", "label": "Alexandria: chest at the south end of the beach", "location": "alexandria",
+          "flag": { "address": "0x4097de", "bit": 2 } },
+        { "id": "seed-of-strength-4", "label": "Maella Abbey: chest south-east of the barn", "location": "maella-abbey",
+          "flag": { "address": "0x4097df", "bit": 1 } },
+        { "id": "seed-of-strength-5", "label": "Pickham: hanging bag", "location": "pickham",
+          "flag": { "address": "0x409737", "bit": 7 } },
+        { "id": "seed-of-strength-6", "label": "Baccarat: cupboard", "location": "baccarat",
+          "flag": { "address": "0x40975c", "bit": 5 } },
+        { "id": "seed-of-strength-7", "label": "Argonia castle 3F: cupboard", "location": "argonia-castle",
+          "flag": { "address": "0x409771", "bit": 5 } },
+        { "id": "seed-of-strength-8", "label": "Beach south of Argonia: chest in the south-west corner", "location": "ship-shores",
+          "flag": { "address": "0x4097e6", "bit": 3 } },
+        { "id": "seed-of-strength-9", "label": "Arcadia: dresser", "location": "arcadia",
+          "flag": { "address": "0x40977a", "bit": 6 } },
+        { "id": "seed-of-strength-10", "label": "Princess Minnie's Castle: chest behind an Ultimate Key door", "location": "minnies-locked-room",
+          "flag": { "address": "0x40974e", "bit": 4 } },
+        { "id": "seed-of-strength-11", "label": "Empycchu: pot", "location": "empycchu",
+          "flag": { "address": "0x4097a5", "bit": 3 } },
+        { "id": "seed-of-strength-12", "label": "Trolls' Maze: reward for the rescue (two seeds, counted as one)", "location": "trolls-maze",
+          "flag": { "address": "0x40954d", "bit": 4 } }
+      ]
+    }
+  ]
+}
