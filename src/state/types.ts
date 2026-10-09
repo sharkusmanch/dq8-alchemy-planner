@@ -13,7 +13,7 @@ export interface AppState {
   dave: { done: boolean[]; next: number }
   collected: string[]
   lastImport: { at: string; source: 'upload' | 'url'; hash: string; playTimeFrames: number } | null
-  settings: { showSpoilers: boolean; saveUrl: string }
+  settings: { showSpoilers: boolean; saveUrl: string; autoImport: boolean }
 }
 /**
  * What a parsed save says. `collected` holds the scarce sources the save shows as taken (of those that have a save
@@ -38,6 +38,6 @@ export type Action =
   | { type: 'brew'; recipe: number }
   | { type: 'applySnapshot'; patch: SnapshotPatch; source: 'upload' | 'url'; hash: string; playTimeFrames: number; at: string }
   | { type: 'importState'; state: AppState }
-  | { type: 'setSetting'; key: 'showSpoilers' | 'saveUrl'; value: boolean | string }
+  | { type: 'setSetting'; key: 'showSpoilers' | 'saveUrl' | 'autoImport'; value: boolean | string }
   | { type: 'reset' }
 export interface ReduceResult { state: AppState; error?: string }

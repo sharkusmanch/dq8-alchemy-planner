@@ -8,9 +8,13 @@ import { index as realIndex } from '../../data'
 import { buildSave } from '../../save/testing'
 import type { AppState } from '../../state/types'
 import { miniData, miniState } from '../../testing/mini'
+import { exportState } from '../../state/persist'
 import { PollerContext, type Poller } from '../poller'
 import { StoreProvider, useStore, type Store } from '../store'
 import { More } from './More'
+
+const config = vi.hoisted(() => ({ defaultSaveUrl: '' }))
+vi.mock('../config', () => ({ get defaultSaveUrl() { return config.defaultSaveUrl } }))
 
 const detect = vi.hoisted(() => ({ onlyFirstSave: false }))
 vi.mock('../../save/detect', async (importOriginal) => {
@@ -27,6 +31,7 @@ vi.mock('../../save/detect', async (importOriginal) => {
 
 afterEach(() => {
   detect.onlyFirstSave = false
+  config.defaultSaveUrl = ''
   cleanup()
   vi.restoreAllMocks()
 })
@@ -190,7 +195,7 @@ describe('More: importing a save', () => {
 describe('More: save URL', () => {
   it('stores the typed URL and triggers a manual refresh', async () => {
     const poller: Poller = { trigger: vi.fn(async () => {}), dispose: vi.fn() }
-    renderMore(miniState({ settings: { showSpoilers: true, saveUrl: '' } }), { poller })
+    renderMore(miniState({ settings: { showSpoilers: true, saveUrl: '', autoImport: true } }), { poller })
     expect((screen.getByRole('button', { name: 'Refresh now' }) as HTMLButtonElement).disabled).toBe(true)
 
     fireEvent.input(screen.getByLabelText('Save URL'), { target: { value: 'https://example.test/save' } })
@@ -198,6 +203,84 @@ describe('More: save URL', () => {
 
     press('Refresh now')
     expect(poller.trigger).toHaveBeenCalledWith(true)
+  })
+
+  const BUILT_IN = 'This copy checks its own server for your newest save.'
+  const SWITCH = 'Check for a new save automatically'
+  const stateWith = (settings: Partial<AppState['settings']> = {}) =>
+    miniState({ settings: { showSpoilers: true, saveUrl: '', autoImport: true, ...settings } })
+  const refreshButton = () => screen.getByRole('button', { name: 'Refresh now' }) as HTMLButtonElement
+
+  it('looks as before on a build without a default: no built-in text, no switch until a URL is set', () => {
+    renderMore(stateWith())
+    expect(screen.queryByText(BUILT_IN)).toBeNull()
+    expect(screen.queryByRole('button', { name: SWITCH })).toBeNull()
+    expect(screen.getByText(/^Optional\. A link that returns your newest save file/)).toBeTruthy()
+    expect((screen.getByLabelText('Save URL') as HTMLInputElement).placeholder).toBe('https://example.com/dq8-save.bin')
+
+    fireEvent.input(screen.getByLabelText('Save URL'), { target: { value: 'https://example.test/save' } })
+    expect(screen.getByRole('button', { name: SWITCH })).toBeTruthy()
+    expect(screen.queryByText(BUILT_IN)).toBeNull()
+  })
+
+  it('says the copy checks its own server when the built-in default is in effect', () => {
+    config.defaultSaveUrl = './save'
+    const poller: Poller = { trigger: vi.fn(async () => {}), dispose: vi.fn() }
+    renderMore(stateWith(), { poller })
+    const text = screen.getByText(BUILT_IN)
+    const box = screen.getByLabelText('Save URL') as HTMLInputElement
+    expect(text.compareDocumentPosition(box) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+    expect(box.value).toBe('')
+    expect(box.placeholder).toMatch(/different link/i)
+    expect(screen.getByRole('button', { name: SWITCH })).toBeTruthy()
+    expect(refreshButton().disabled).toBe(false)
+    press('Refresh now')
+    expect(poller.trigger).toHaveBeenCalledWith(true)
+  })
+
+  it('drops the built-in text once the player enters a URL, and returns it when the box is emptied', () => {
+    config.defaultSaveUrl = './save'
+    renderMore(stateWith())
+    fireEvent.input(screen.getByLabelText('Save URL'), { target: { value: 'https://example.test/save' } })
+    expect(screen.queryByText(BUILT_IN)).toBeNull()
+    expect(screen.getByRole('button', { name: SWITCH })).toBeTruthy()
+    fireEvent.input(screen.getByLabelText('Save URL'), { target: { value: '' } })
+    expect(screen.getByText(BUILT_IN)).toBeTruthy()
+  })
+
+  it('does not show the built-in text when the player already has their own URL', () => {
+    config.defaultSaveUrl = './save'
+    renderMore(stateWith({ saveUrl: 'https://example.test/save' }), { poller: { trigger: vi.fn(async () => {}), dispose: vi.fn() } })
+    expect(screen.queryByText(BUILT_IN)).toBeNull()
+    expect(refreshButton().disabled).toBe(false)
+  })
+
+  it('shows the switch on and flips autoImport when pressed', () => {
+    config.defaultSaveUrl = './save'
+    renderMore(stateWith())
+    const toggle = screen.getByRole('button', { name: SWITCH })
+    expect(toggle.getAttribute('aria-pressed')).toBe('true')
+    fireEvent.click(toggle)
+    expect(store.state.settings.autoImport).toBe(false)
+    expect(screen.getByRole('button', { name: SWITCH }).getAttribute('aria-pressed')).toBe('false')
+    fireEvent.click(screen.getByRole('button', { name: SWITCH }))
+    expect(store.state.settings.autoImport).toBe(true)
+  })
+
+  it('still lets the player refresh by hand with the switch off', () => {
+    config.defaultSaveUrl = './save'
+    const poller: Poller = { trigger: vi.fn(async () => {}), dispose: vi.fn() }
+    renderMore(stateWith({ autoImport: false }), { poller })
+    expect(refreshButton().disabled).toBe(false)
+    press('Refresh now')
+    expect(poller.trigger).toHaveBeenCalledWith(true)
+  })
+
+  it('describes a last import from the built-in default as coming from this site', () => {
+    config.defaultSaveUrl = './save'
+    const lastImport = { at: '2026-10-09T10:00:00Z', source: 'url' as const, hash: 'h', playTimeFrames: 3600 * 60 }
+    renderMore(miniState({ lastImport, settings: { showSpoilers: true, saveUrl: '', autoImport: true } }))
+    expect(screen.getByText(/^Last import: from this site/)).toBeTruthy()
   })
 })
 
@@ -209,7 +292,7 @@ describe('More: story and settings', () => {
   const options = () => within(screen.getByLabelText('Story stage')).getAllByRole('option').map((o) => o.textContent)
 
   it('with spoilers off, labels stages beyond the next one as Later (n)', () => {
-    renderMore(miniState({ stage: 's1', settings: { showSpoilers: false, saveUrl: '' } }), { data: threeStages })
+    renderMore(miniState({ stage: 's1', settings: { showSpoilers: false, saveUrl: '', autoImport: true } }), { data: threeStages })
     expect(options()).toEqual(['Stage one', 'Stage two', 'Later (1)', 'Later (2)'])
   })
 
@@ -231,7 +314,7 @@ describe('More: story and settings', () => {
   })
 
   it('toggles spoilers', () => {
-    renderMore(miniState({ settings: { showSpoilers: false, saveUrl: '' } }))
+    renderMore(miniState({ settings: { showSpoilers: false, saveUrl: '', autoImport: true } }))
     const toggle = screen.getByRole('button', { name: 'Show spoilers' })
     expect(toggle.getAttribute('aria-pressed')).toBe('false')
     fireEvent.click(toggle)
@@ -249,7 +332,7 @@ describe('More: Dodgy Dave', () => {
   }
 
   const dave = (done: boolean[], next: number) => ({ dave: { done, next } })
-  const spoilers = { settings: { showSpoilers: true, saveUrl: '' } }
+  const spoilers = { settings: { showSpoilers: true, saveUrl: '', autoImport: true } }
   const section = () => screen.getByRole('region', { name: 'Dodgy Dave' })
   const requests = () => within(section()).getByRole('list', { name: "Dodgy Dave's requests" })
   const doneToggle = (name: string) => within(requests()).getByRole('button', { name: `Done: ${name}` })
@@ -305,7 +388,7 @@ describe('More: Dodgy Dave', () => {
   })
 
   it('with spoilers off offers "He wants this now" only on the requests it names', () => {
-    renderMore(miniState({ ...dave([false, true, false], 1), settings: { showSpoilers: false, saveUrl: '' } }), { data: daveData })
+    renderMore(miniState({ ...dave([false, true, false], 1), settings: { showSpoilers: false, saveUrl: '', autoImport: true } }), { data: daveData })
     const offered = within(requests()).getAllByRole('button', { name: /^He wants this now/ })
     expect(offered.map((button) => button.getAttribute('aria-label'))).toEqual(['He wants this now: Y'])
     expect(section().textContent).not.toContain('Z')
@@ -344,7 +427,7 @@ describe('More: Dodgy Dave', () => {
   })
 
   it('names requests Dave has not reached only with spoilers on, otherwise counts them', () => {
-    renderMore(miniState({ ...dave([false, false, false], 0), settings: { showSpoilers: false, saveUrl: '' } }), { data: daveData })
+    renderMore(miniState({ ...dave([false, false, false], 0), settings: { showSpoilers: false, saveUrl: '', autoImport: true } }), { data: daveData })
     expect(section().textContent).not.toContain('Second reward')
     expect(section().textContent).not.toContain('Third reward')
     expect(section().textContent).toMatch(/2 more later/)
@@ -355,7 +438,7 @@ describe('More: Dodgy Dave', () => {
 
   it('with spoilers off still names a request Dave has already moved past', () => {
     // Dave skipped the first request and was given the second: the first is no secret, the third still is.
-    renderMore(miniState({ ...dave([false, true, false], 1), settings: { showSpoilers: false, saveUrl: '' } }), { data: daveData })
+    renderMore(miniState({ ...dave([false, true, false], 1), settings: { showSpoilers: false, saveUrl: '', autoImport: true } }), { data: daveData })
     expect(within(requests()).getAllByRole('listitem')).toHaveLength(2)
     expect(section().textContent).toContain('First reward')
     expect(section().textContent).not.toContain('Third reward')
@@ -381,7 +464,7 @@ describe('More: scarce sources', () => {
         { id: 's-2', label: 'Far: hidden chest', location: 'far' },
       ] }] },
     }
-    renderMore(miniState({ stage: 's1', settings: { showSpoilers: false, saveUrl: '' } }), { data })
+    renderMore(miniState({ stage: 's1', settings: { showSpoilers: false, saveUrl: '', autoImport: true } }), { data })
     expect(screen.queryByLabelText('Far: hidden chest')).toBeNull()
     expect(screen.getByLabelText('Town: chest')).toBeTruthy()
     expect(screen.getByText(/1 more at places you haven't reached/)).toBeTruthy()
@@ -405,7 +488,7 @@ describe('More: backup and reset', () => {
   it('exports the state without the save URL and imports it back, keeping the current URL', async () => {
     const saved = miniState({
       inventory: { a: 2 }, gold: 77, completed: [1, 4], stage: 's2',
-      settings: { showSpoilers: true, saveUrl: 'https://secret.example/save' },
+      settings: { showSpoilers: true, saveUrl: 'https://secret.example/save', autoImport: true },
     })
     renderMore(saved)
     const download = captureDownload()
@@ -418,14 +501,24 @@ describe('More: backup and reset', () => {
     store.dispatch({ type: 'setGold', gold: 1 })
     store.dispatch({ type: 'adjustItem', item: 'a', delta: 5 })
     store.dispatch({ type: 'setSetting', key: 'saveUrl', value: 'https://other.example/save' })
+    store.dispatch({ type: 'setSetting', key: 'autoImport', value: false })
 
     await waitFor(() => expect((screen.getByLabelText('Save URL') as HTMLInputElement).value).toBe('https://other.example/save'))
     choose('Planner state file', new TextEncoder().encode(text), 'dq8-alchemy-planner.json')
     await screen.findByText(/State imported/)
     expect(store.state).toEqual({
       ...saved,
-      settings: { showSpoilers: true, saveUrl: 'https://other.example/save' },
+      settings: { showSpoilers: true, saveUrl: 'https://other.example/save', autoImport: false },
     })
+  })
+
+  it("keeps this browser's automatic setting when the state file has none", async () => {
+    renderMore(miniState({ settings: { showSpoilers: true, saveUrl: '', autoImport: false } }))
+    const old = JSON.parse(exportState(store.state))
+    delete old.settings.autoImport
+    choose('Planner state file', new TextEncoder().encode(JSON.stringify(old)), 'old.json')
+    await screen.findByText(/State imported/)
+    expect(store.state.settings.autoImport).toBe(false)
   })
 
   it('rejects a state file that is not a planner state and changes nothing', async () => {
@@ -437,7 +530,7 @@ describe('More: backup and reset', () => {
   })
 
   it('asks before resetting, says the save URL goes too, and can cancel', () => {
-    renderMore(miniState({ gold: 5, settings: { showSpoilers: true, saveUrl: 'https://example.test/s' } }))
+    renderMore(miniState({ gold: 5, settings: { showSpoilers: true, saveUrl: 'https://example.test/s', autoImport: true } }))
     press('Reset…')
     expect(screen.getByText(/including your save URL/i)).toBeTruthy()
     expect(store.state.gold).toBe(5)

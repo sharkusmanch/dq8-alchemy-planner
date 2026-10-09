@@ -7,6 +7,9 @@ import { miniData, miniState } from '../testing/mini'
 import { AppShell } from './App'
 import { StoreProvider, useStore, type Store } from './store'
 
+const config = vi.hoisted(() => ({ defaultSaveUrl: '' }))
+vi.mock('./config', () => ({ get defaultSaveUrl() { return config.defaultSaveUrl } }))
+
 const URL = 'https://example.test/save.bin'
 const GOLD_BEFORE = 1000
 
@@ -36,12 +39,13 @@ function reply(body: Uint8Array, status = 200): Response {
   return {
     ok: status >= 200 && status < 300,
     status,
+    type: 'basic',
     arrayBuffer: async () => body.buffer.slice(body.byteOffset, body.byteOffset + body.byteLength),
   } as unknown as Response
 }
 const saveWithGold = (gold: number) => buildSave({ gold, bag: [{ gameId: 1, qty: 2 }] })
 
-function renderShell(state: AppState = miniState({ gold: GOLD_BEFORE, settings: { showSpoilers: true, saveUrl: URL } })) {
+function renderShell(state: AppState = miniState({ gold: GOLD_BEFORE, settings: { showSpoilers: true, saveUrl: URL, autoImport: true } })) {
   render(
     <StoreProvider index={createIndex(miniData)} initial={state} storage={memoryStorage()}>
       <Probe />
@@ -56,6 +60,7 @@ const becomeVisible = () => {
 
 beforeEach(() => {
   now = 1_000_000
+  config.defaultSaveUrl = ''
   visibility = 'visible'
   fetchMock.mockReset()
   vi.stubGlobal('fetch', fetchMock)
@@ -86,7 +91,7 @@ describe('save URL polling in the app', () => {
   })
 
   it('makes no request at all without a save URL', async () => {
-    renderShell(miniState({ settings: { showSpoilers: true, saveUrl: '' } }))
+    renderShell(miniState({ settings: { showSpoilers: true, saveUrl: '', autoImport: true } }))
     becomeVisible()
     await act(async () => { await Promise.resolve() })
     expect(fetchMock).not.toHaveBeenCalled()
@@ -139,7 +144,7 @@ describe('notices from the poller', () => {
   it('clears its own failure notice once the URL works again, but leaves other notices alone', async () => {
     let healthy = false
     fetchMock.mockImplementation(async () => (healthy ? reply(saveWithGold(250)) : reply(new Uint8Array(0), 500)))
-    renderShell(miniState({ gold: 250, settings: { showSpoilers: true, saveUrl: URL } }))
+    renderShell(miniState({ gold: 250, settings: { showSpoilers: true, saveUrl: URL, autoImport: true } }))
     await screen.findByText(/Couldn't load the save from your URL/)
 
     healthy = true
@@ -159,7 +164,7 @@ describe('notices from the poller', () => {
 describe('Undo on notices', () => {
   it('is offered on an import summary but never on an error notice', async () => {
     fetchMock.mockImplementation(async () => new Promise(() => {})) // no polling result interferes
-    renderShell(miniState({ settings: { showSpoilers: true, saveUrl: '' } }))
+    renderShell(miniState({ settings: { showSpoilers: true, saveUrl: '', autoImport: true } }))
     act(() => { store.dispatch({ type: 'reset' }) }) // something undoable
     await waitFor(() => expect(store.canUndo).toBe(true))
 
@@ -170,5 +175,131 @@ describe('Undo on notices', () => {
 
     act(() => store.setNotice('Imported: 1 stacks, 5 gold, 0 recipes done, play time 0:01'))
     await waitFor(() => expect(within(screen.getByRole('status')).queryByRole('button', { name: 'Undo' })).not.toBeNull())
+  })
+})
+
+const ownSettings = (over: Partial<AppState['settings']> = {}): AppState['settings'] => ({
+  showSpoilers: true, saveUrl: '', autoImport: true, ...over,
+})
+const redirected = () => ({ ok: false, status: 0, type: 'opaqueredirect', arrayBuffer: async () => new ArrayBuffer(0) }) as unknown as Response
+const notFound = () => reply(new Uint8Array(0), 404)
+
+describe('the effective save URL', () => {
+  it("is the player's own URL when one is set, even with a built-in default", async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(reply(saveWithGold(250)))
+    renderShell(miniState({ gold: GOLD_BEFORE, settings: ownSettings({ saveUrl: URL }) }))
+    await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1))
+    expect(fetchMock.mock.calls[0]![0]).toBe(URL)
+  })
+
+  it('is the built-in default when the box is empty: a relative URL is fetched and imported', async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(reply(saveWithGold(250)))
+    renderShell(miniState({ gold: GOLD_BEFORE, settings: ownSettings() }))
+    await waitFor(() => expect(store.state.gold).toBe(250))
+    expect(fetchMock.mock.calls[0]![0]).toBe('./save')
+    expect(fetchMock.mock.calls[0]![1]).toMatchObject({ redirect: 'manual', cache: 'no-store' })
+    expect(store.state.lastImport?.source).toBe('url')
+    await screen.findByText(/^Imported:/)
+  })
+
+  it('treats a box holding only spaces as empty', async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(reply(saveWithGold(250)))
+    renderShell(miniState({ settings: ownSettings({ saveUrl: '   ' }) }))
+    await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1))
+    expect(fetchMock.mock.calls[0]![0]).toBe('./save')
+  })
+
+  it('makes no request when neither the player nor the build has a URL', async () => {
+    renderShell(miniState({ settings: ownSettings() }))
+    becomeVisible()
+    await act(async () => { await Promise.resolve() })
+    expect(fetchMock).not.toHaveBeenCalled()
+  })
+})
+
+describe('the automatic switch', () => {
+  it('stops the check on open and on becoming visible', async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(reply(saveWithGold(250)))
+    renderShell(miniState({ gold: GOLD_BEFORE, settings: ownSettings({ autoImport: false }) }))
+    now += 31_000
+    becomeVisible()
+    await act(async () => { await new Promise((r) => setTimeout(r, 20)) })
+    expect(fetchMock).not.toHaveBeenCalled()
+    expect(store.state.gold).toBe(GOLD_BEFORE)
+  })
+
+  it('does not stop Refresh now', async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(reply(saveWithGold(250)))
+    renderShell(miniState({ gold: GOLD_BEFORE, settings: ownSettings({ autoImport: false }) }))
+    act(() => store.setTab('more'))
+    fireEvent.click(await screen.findByRole('button', { name: 'Refresh now' }))
+    await waitFor(() => expect(store.state.gold).toBe(250))
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+  })
+
+  it('takes effect as soon as it is switched off, without a reload', async () => {
+    fetchMock.mockResolvedValue(reply(saveWithGold(250)))
+    renderShell(miniState({ gold: GOLD_BEFORE, settings: ownSettings({ saveUrl: URL }) }))
+    await waitFor(() => expect(store.state.gold).toBe(250))
+    act(() => { store.dispatch({ type: 'setSetting', key: 'autoImport', value: false }) })
+    now += 31_000
+    becomeVisible()
+    await act(async () => { await new Promise((r) => setTimeout(r, 20)) })
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+  })
+})
+
+describe('notices for a same-origin or built-in URL', () => {
+  it('tells the player their sign-in expired when the server redirects', async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(redirected())
+    renderShell(miniState({ gold: GOLD_BEFORE, settings: ownSettings() }))
+    await screen.findByText('Your sign-in to this site has expired. Reload the page.')
+    expect(store.state.gold).toBe(GOLD_BEFORE)
+  })
+
+  it('says nothing about a missing built-in save on open, then explains it on Refresh now', async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(notFound())
+    renderShell(miniState({ settings: ownSettings() }))
+    await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1))
+    await act(async () => { await new Promise((r) => setTimeout(r, 20)) })
+    expect(screen.queryByRole('status')).toBeNull()
+
+    act(() => store.setTab('more'))
+    fireEvent.click(await screen.findByRole('button', { name: 'Refresh now' }))
+    await screen.findByText('No save has been synced to this server yet.')
+  })
+
+  it('clears the "no save" explanation again when an automatic check finds the server still empty', async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(notFound())
+    renderShell(miniState({ settings: ownSettings() }))
+    await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1))
+    act(() => store.setTab('more'))
+    fireEvent.click(await screen.findByRole('button', { name: 'Refresh now' }))
+    await screen.findByText('No save has been synced to this server yet.')
+    now += 31_000
+    becomeVisible()
+    await waitFor(() => expect(screen.queryByText(/No save has been synced/)).toBeNull())
+  })
+
+  it('keeps the old wording and the 404 message for a URL the player typed', async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(notFound())
+    renderShell(miniState({ settings: ownSettings({ saveUrl: URL }) }))
+    await screen.findByText("Couldn't load the save from your URL: the server answered 404")
+  })
+
+  it('words other failures of the built-in URL as coming from this site', async () => {
+    config.defaultSaveUrl = './save'
+    fetchMock.mockResolvedValue(reply(new Uint8Array(0), 500))
+    renderShell(miniState({ settings: ownSettings() }))
+    await screen.findByText("Couldn't load the save from this site: the server answered 500")
   })
 })

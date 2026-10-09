@@ -20,7 +20,8 @@ export function AppShell(): JSX.Element {
   const Screen = SCREENS[tab]
   const poller = useSaveUrlPoller()
 
-  // Check the save URL on open and whenever the app becomes visible again; the poller ignores both when no URL is set.
+  // Check the save URL on open and whenever the app becomes visible again; the poller ignores both when there is no
+  // effective URL or when the player has switched automatic checks off.
   useEffect(() => {
     void poller.trigger(false)
     const onVisible = () => {

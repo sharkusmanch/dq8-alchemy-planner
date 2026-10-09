@@ -45,7 +45,7 @@ export function miniState(overrides: Partial<AppState> = {}): AppState {
   return {
     version: 1, inventory: {}, equipped: {}, gold: 1000, potLevel: 1, pot: null, completed: [],
     brews: { basic: 0, improved: 0 }, stage: 's1', dave: { done: [false], next: 0 }, collected: [], lastImport: null,
-    settings: { showSpoilers: true, saveUrl: '' },
+    settings: { showSpoilers: true, saveUrl: '', autoImport: true },
     ...overrides,
   }
 }

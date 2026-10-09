@@ -20,7 +20,7 @@ describe('initialState', () => {
     expect(initialState(index)).toEqual({
       version: 1, inventory: {}, equipped: {}, gold: null, potLevel: 0, pot: null, completed: [],
       brews: { basic: 0, improved: 0 }, stage: 's1', dave: { done: [false], next: 0 }, collected: [], lastImport: null,
-      settings: { showSpoilers: false, saveUrl: '' },
+      settings: { showSpoilers: false, saveUrl: '', autoImport: true },
     })
   })
   it('uses an empty stage when the data has no stages', () => {
@@ -396,14 +396,14 @@ describe('applySnapshot', () => {
 
   it('replaces the listed fields and keeps the settings and the ticks on sources without a save sign', () => {
     const s = miniState({
-      inventory: { b: 9 }, collected: ['s-1'], settings: { showSpoilers: false, saveUrl: 'https://x' },
+      inventory: { b: 9 }, collected: ['s-1'], settings: { showSpoilers: false, saveUrl: 'https://x', autoImport: true },
       completed: [8], dave: { done: [false], next: 0 }, stage: 's1',
     })
     const r = run(s, act())
     expect(r.state).toMatchObject({
       inventory: { a: 5 }, equipped: { c: 1 }, gold: 321, potLevel: 2, completed: [0, 4],
       brews: { basic: 7, improved: 3 }, dave: { done: [true], next: 0 }, stage: 's2', collected: ['s-1'],
-      settings: { showSpoilers: false, saveUrl: 'https://x' },
+      settings: { showSpoilers: false, saveUrl: 'https://x', autoImport: true },
     })
     expect(r.state.pot).toEqual(patch.pot)
     expect(r.state.lastImport).toEqual({ at: '2026-10-09T00:00:00Z', source: 'upload', hash: 'h1', playTimeFrames: 99 })
@@ -448,5 +448,20 @@ describe('importState, reset, setSetting', () => {
     expect(run(s, { type: 'setSetting', key: 'saveUrl', value: 'https://u' }).state.settings.saveUrl).toBe('https://u')
     expect(run(s, { type: 'setSetting', key: 'saveUrl', value: true }).state).toBe(s)
     expect(run(s, { type: 'setSetting', key: 'showSpoilers', value: true }).state).toBe(s)
+  })
+  it('setSetting handles autoImport as a boolean', () => {
+    const s = miniState()
+    expect(s.settings.autoImport).toBe(true)
+    const off = run(s, { type: 'setSetting', key: 'autoImport', value: false })
+    expect(off.state.settings).toEqual({ ...s.settings, autoImport: false })
+    expect(run(off.state, { type: 'setSetting', key: 'autoImport', value: true }).state.settings.autoImport).toBe(true)
+    expect(run(s, { type: 'setSetting', key: 'autoImport', value: true }).state).toBe(s)
+    expect(run(s, { type: 'setSetting', key: 'autoImport', value: 'no' }).state).toBe(s)
+  })
+  it('setSetting rejects a wrong value type for every key', () => {
+    const s = miniState()
+    expect(run(s, { type: 'setSetting', key: 'showSpoilers', value: 'yes' }).state).toBe(s)
+    expect(run(s, { type: 'setSetting', key: 'saveUrl', value: false }).state).toBe(s)
+    expect(run(s, { type: 'setSetting', key: 'autoImport', value: 'https://u' }).state).toBe(s)
   })
 })

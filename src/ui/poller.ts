@@ -2,6 +2,7 @@ import { createContext } from 'preact'
 import { useContext, useEffect, useMemo, useRef } from 'preact/hooks'
 import { SAVE_SIZE } from '../save/layout'
 import { hashBytes, importErrorMessage, importRawSave } from './import'
+import { effectiveSaveUrl } from './save-url'
 import { useStore } from './store'
 
 export interface Poller {
@@ -11,17 +12,54 @@ export interface Poller {
 
 const AUTO_INTERVAL_MS = 30_000
 const DEFAULT_TIMEOUT_MS = 10_000
-const PREFIX = "Couldn't load the save from your URL: "
+const PLAYER_PREFIX = "Couldn't load the save from your URL: "
+const BUILT_IN_PREFIX = "Couldn't load the save from this site: "
+const SIGNED_OUT = 'Your sign-in to this site has expired. Reload the page.'
+const NO_SAVE_YET = 'No save has been synced to this server yet.'
 
 class FetchProblem extends Error {}
+/** The server redirected a same-origin request (typically to a sign-in page); shown as is, without the prefix. */
+class SignInExpired extends FetchProblem {}
+/** The built-in save URL answered 404: there is nothing to import yet, which is not an error to nag about. */
+class NoSaveYet extends FetchProblem {}
+
+/** Stands in for the page when its own address cannot give an origin (unreadable, or opaque like about:blank or file:). */
+const UNKNOWN_PAGE = 'http://page.invalid/'
+
+/**
+ * Whether the URL, resolved the way fetch resolves it, lands on the page's origin. Always decided by the URL parser,
+ * never by looking at the text: it reads a backslash like `/` and drops tabs and newlines, so `/\\host/x` and `/\t/host/x`
+ * point at another site. A URL that does not parse is not same-origin (fetch will reject it).
+ */
+function isSameOrigin(url: string, pageUrl: string): boolean {
+  try {
+    let base = new URL(UNKNOWN_PAGE)
+    try {
+      const page = new URL(pageUrl)
+      if (page.origin !== 'null') base = page
+    } catch { /* keep the placeholder: relative URLs stay same-origin, absolute ones are judged against it */ }
+    return new URL(url, base).origin === base.origin
+  } catch {
+    return false
+  }
+}
 
 /**
  * At most one request in flight; automatic triggers are ignored within 30 s of the previous attempt; manual triggers always run.
  * Any successful fetch (2xx, exactly 23,776 bytes) ends with onNotice(null), changed bytes or not, so a notice from an
  * earlier failure goes away; the caller decides which notices that may clear.
+ * Automatic triggers do nothing while getAutoImport() is false. A 404 from the built-in URL is quiet on an automatic
+ * trigger (it too ends with onNotice(null)) and explained on a manual one.
  */
 export function createSaveUrlPoller(opts: {
+  /** The effective save URL: the player's own, or the build default; empty when there is none. */
   getUrl(): string
+  /** True when getUrl() is the build default (the player's own box is empty). */
+  isBuiltIn?(): boolean
+  /** False stops automatic triggers; manual ones still run. Defaults to on. */
+  getAutoImport?(): boolean
+  /** The page's address, to tell a same-origin URL from another site's. Defaults to `location.href`. */
+  getPageUrl?(): string
   getLastHash(): string | null
   /** Bytes with this hash count as unchanged for automatic triggers (a manual trigger still imports them). */
   getIgnoredHash?(): string | null
@@ -37,7 +75,9 @@ export function createSaveUrlPoller(opts: {
   let lastAttempt: number | null = null
   let abort: AbortController | null = null
 
-  async function download(url: string, controller: AbortController): Promise<Uint8Array> {
+  async function download(url: string, builtIn: boolean, controller: AbortController): Promise<Uint8Array> {
+    // A redirect on our own origin is usually a sign-in page; following it would end in a confusing CORS or size error.
+    const sameOrigin = isSameOrigin(url, (opts.getPageUrl ?? (() => globalThis.location?.href ?? ''))())
     let timer: ReturnType<typeof setTimeout> | undefined
     // The abort signal alone is not enough: a fetch that ignores it must still stop waiting.
     const timeout = new Promise<never>((_, reject) => {
@@ -49,10 +89,14 @@ export function createSaveUrlPoller(opts: {
     const request = (async () => {
       let response: Response
       try {
-        response = await opts.fetchFn(url, { signal: controller.signal, cache: 'no-store' })
+        response = await opts.fetchFn(url, { signal: controller.signal, cache: 'no-store', ...(sameOrigin ? { redirect: 'manual' as const } : {}) })
       } catch {
         throw new FetchProblem("network error, or the server doesn't allow this site to read it (CORS)")
       }
+      if (sameOrigin && (response.type === 'opaqueredirect' || (response.status >= 300 && response.status < 400))) {
+        throw new SignInExpired(SIGNED_OUT)
+      }
+      if (builtIn && response.status === 404) throw new NoSaveYet(NO_SAVE_YET)
       if (!response.ok) throw new FetchProblem(`the server answered ${response.status}`)
       return new Uint8Array(await response.arrayBuffer())
     })()
@@ -66,10 +110,12 @@ export function createSaveUrlPoller(opts: {
 
   async function run(manual: boolean): Promise<void> {
     const url = opts.getUrl().trim()
+    const builtIn = opts.isBuiltIn?.() ?? false
+    const prefix = builtIn ? BUILT_IN_PREFIX : PLAYER_PREFIX
     const controller = new AbortController()
     abort = controller
     try {
-      const bytes = await download(url, controller)
+      const bytes = await download(url, builtIn, controller)
       if (disposed) return
       if (bytes.length !== SAVE_SIZE) {
         throw new FetchProblem(`expected a save of 23,776 bytes, got ${bytes.length.toLocaleString('en-US')} (is the URL a web page?)`)
@@ -81,8 +127,10 @@ export function createSaveUrlPoller(opts: {
       if (!disposed) opts.onNotice(null)
     } catch (error) {
       if (disposed) return
-      if (error instanceof FetchProblem) opts.onNotice(`${PREFIX}${error.message}`)
-      else opts.onNotice(`${PREFIX}${importErrorMessage(error)}`)
+      if (error instanceof NoSaveYet) opts.onNotice(manual ? error.message : null)
+      else if (error instanceof SignInExpired) opts.onNotice(error.message)
+      else if (error instanceof FetchProblem) opts.onNotice(`${prefix}${error.message}`)
+      else opts.onNotice(`${prefix}${importErrorMessage(error)}`)
     } finally {
       abort = null
     }
@@ -91,6 +139,7 @@ export function createSaveUrlPoller(opts: {
   return {
     async trigger(manual: boolean): Promise<void> {
       if (disposed || inFlight || opts.getUrl().trim() === '') return
+      if (!manual && opts.getAutoImport?.() === false) return
       const now = opts.clock()
       if (!manual && lastAttempt !== null && now - lastAttempt < AUTO_INTERVAL_MS) return
       lastAttempt = now
@@ -137,7 +186,9 @@ export function useSaveUrlPoller(): Poller {
   }, [lastHash])
 
   return useMemo(() => createSaveUrlPoller({
-    getUrl: () => latest.current.state.settings.saveUrl,
+    getUrl: () => effectiveSaveUrl(latest.current.state.settings.saveUrl).url,
+    isBuiltIn: () => effectiveSaveUrl(latest.current.state.settings.saveUrl).builtIn,
+    getAutoImport: () => latest.current.state.settings.autoImport,
     getLastHash: () => latest.current.state.lastImport?.hash ?? null,
     getIgnoredHash: () => dismissed.current,
     fetchFn: (input, init) => fetch(input, init),

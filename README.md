@@ -46,9 +46,21 @@ A save is a snapshot from your last church save. Anything you bought, found or b
 
 ## Privacy
 
-Save files are read entirely in your browser. They are never uploaded. There are no accounts and no analytics. The app makes no network requests except to a save URL you set yourself.
+Save files are read entirely in your browser. They are never uploaded. There are no accounts and no analytics. The app makes no network requests except to a save URL you set yourself (or, in a self-hosted copy built with a default save URL, that copy's own server).
 
 Your progress lives in your browser's localStorage. Clearing site data erases it, so use Export in More to keep a backup file, and Import to restore it.
+
+## Self-hosting
+
+The public site on GitHub Pages never contacts anything unless you give it a save URL. If you run your own copy and keep your newest save on the same server, you can have it import the save by itself:
+
+1. Build with a default save URL: `VITE_DEFAULT_SAVE_URL=./save npm run build`. The variable is read at build time; leave it unset for the plain build.
+2. Serve `dist/` and, at that path on the same origin (`/save` for the example above), the newest save file: the plain 23,776-byte save, not a memory card. Send `Cache-Control: no-store`. Answer 404 while no save has been synced.
+3. Open the page. With the box empty in More, the app checks that address when it opens and when you come back to it, and imports the save whenever its bytes change. The More tab says "This copy checks its own server for your newest save." A link you type there still takes priority.
+
+Because the save is on the page's own origin, no CORS header is needed, and whatever protects the page (a login in front of it, say) protects the save. If that login expires, the app says so and asks you to reload the page. A 404 from the built-in address is not treated as an error on its own: the app stays quiet when it checks automatically, and Refresh now says that no save has been synced to the server yet.
+
+The switch "Check for a new save automatically" in More turns the on-open and on-return checks off for one browser; Refresh now still works. Exported state files carry this switch but never the URL, and importing one keeps the browser's own values for both. The details of the address contract are in [docs/save-url.md](docs/save-url.md).
 
 ## Scope
 

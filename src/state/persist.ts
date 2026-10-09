@@ -122,6 +122,8 @@ function validate(raw: unknown, index: DataIndex): AppState {
   if (!isRecord(settings) || typeof settings.showSpoilers !== 'boolean' || typeof settings.saveUrl !== 'string') {
     return fail('settings are invalid')
   }
+  // Added after the first release: older stored states and exported files do not have it, and mean "on".
+  if (settings.autoImport !== undefined && typeof settings.autoImport !== 'boolean') return fail('settings are invalid')
 
   return {
     version: 1,
@@ -136,7 +138,9 @@ function validate(raw: unknown, index: DataIndex): AppState {
     dave,
     collected: [...(collected as string[])],
     lastImport: lastImportOut,
-    settings: { showSpoilers: settings.showSpoilers, saveUrl: settings.saveUrl },
+    settings: {
+      showSpoilers: settings.showSpoilers, saveUrl: settings.saveUrl, autoImport: settings.autoImport ?? true,
+    },
   }
 }
 

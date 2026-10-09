@@ -141,7 +141,7 @@ describe('Next', () => {
 
   it('lists a recipe that only needs monster drops when its ingredient is equipped, even with spoilers off', () => {
     const data: GameData = { ...miniData, sources: [{ item: 'c', kind: 'drop', where: 'Drop: Bat' }, ...miniData.sources.slice(1)] }
-    const state = { completed: [0, 1, 4, 5, 6], settings: { showSpoilers: false, saveUrl: '' } }
+    const state = { completed: [0, 1, 4, 5, 6], settings: { showSpoilers: false, saveUrl: '', autoImport: true } }
     renderTab('next', miniState({ ...state, equipped: { c: 1 } }), data)
     expect(screen.getByText('C: Equipped on a character — unequip it to use it. Also: Drop: Bat')).toBeTruthy()
     expect(screen.queryByText(/more need monster drops/)).toBeNull()
@@ -185,7 +185,7 @@ describe('Next', () => {
     const farmLines = () => within(screen.getByRole('list', { name: 'To farm' })).getAllByRole('listitem')
 
     it('shows a quiet line instead of the alert, without naming the monsters while spoilers are off', () => {
-      renderTab('next', miniState({ collected: ['s-1'], settings: { showSpoilers: false, saveUrl: '' } }), farmableData)
+      renderTab('next', miniState({ collected: ['s-1'], settings: { showSpoilers: false, saveUrl: '', autoImport: true } }), farmableData)
       expect(screen.queryByText(/Short of/)).toBeNull()
       expect(farmLines().map((line) => line.textContent)).toEqual(['S: 1 more to farm from monster drops'])
       expect(farmLines()[0]!.querySelector('.warn')).toBeNull()
@@ -275,7 +275,7 @@ describe('Next', () => {
       sources: [...miniData.sources, { item: 'k', kind: 'drop', where: 'Drop: Slimer' }, { item: 'k', kind: 'rare-drop', where: 'Rare drop: Golem' }],
     })
     const gatherRows = () => within(screen.getByRole('list', { name: 'Gather' })).getAllByRole('listitem')
-    const spoilersOff = { showSpoilers: false, saveUrl: '' }
+    const spoilersOff = { showSpoilers: false, saveUrl: '', autoImport: true }
 
     it('shows five rows and the rest on request', () => {
       renderTab('next', miniState(), longData())

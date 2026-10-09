@@ -25,7 +25,7 @@ const full = () => miniState({
   pot: { recipe: 0, result: 'x', ingredients: ['a', 'b'] }, completed: [0, 4], brews: { basic: 3, improved: 1 },
   stage: 's2', dave: { done: [true], next: 0 }, collected: ['s-1'],
   lastImport: { at: '2026-10-09T00:00:00Z', source: 'url', hash: 'abc', playTimeFrames: 10 },
-  settings: { showSpoilers: false, saveUrl: 'https://example.test/save' },
+  settings: { showSpoilers: false, saveUrl: 'https://example.test/save', autoImport: false },
 })
 
 describe('saveState / loadState', () => {
@@ -51,6 +51,31 @@ describe('saveState / loadState', () => {
     [JSON.stringify({ ...full(), gold: 'rich' })],
   ])('backs up unreadable data %s and starts fresh', (raw) => {
     const storage = memoryStorage()
+    storage.setItem(STORAGE_KEY, raw)
+    expect(loadState(storage, index)).toEqual(initialState(index))
+    expect(storage.getItem(BACKUP_KEY)).toBe(raw)
+  })
+
+  it('loads a stored state without autoImport as on, and writes it back', () => {
+    const storage = memoryStorage()
+    const { autoImport: _gone, ...settings } = full().settings
+    storage.setItem(STORAGE_KEY, JSON.stringify({ ...full(), settings }))
+    const loaded = loadState(storage, index)
+    expect(loaded.settings).toEqual({ showSpoilers: false, saveUrl: 'https://example.test/save', autoImport: true })
+    expect(storage.getItem(BACKUP_KEY)).toBeNull()
+    saveState(storage, loaded)
+    expect(JSON.parse(storage.getItem(STORAGE_KEY)!).settings.autoImport).toBe(true)
+  })
+
+  it('keeps a stored autoImport of false', () => {
+    const storage = memoryStorage()
+    saveState(storage, full())
+    expect(loadState(storage, index).settings.autoImport).toBe(false)
+  })
+
+  it('treats a stored autoImport that is not true or false as unreadable', () => {
+    const storage = memoryStorage()
+    const raw = JSON.stringify({ ...full(), settings: { ...full().settings, autoImport: 'no' } })
     storage.setItem(STORAGE_KEY, raw)
     expect(loadState(storage, index)).toEqual(initialState(index))
     expect(storage.getItem(BACKUP_KEY)).toBe(raw)
@@ -185,6 +210,17 @@ describe('saveState / loadState', () => {
 describe('exportState / parseImportedState', () => {
   it('empties saveUrl on export', () => {
     expect(JSON.parse(exportState(full())).settings.saveUrl).toBe('')
+  })
+
+  it('keeps autoImport on export', () => {
+    expect(JSON.parse(exportState(full())).settings.autoImport).toBe(false)
+  })
+
+  it('accepts an imported state with or without autoImport', () => {
+    const { autoImport: _gone, ...settings } = full().settings
+    const without = JSON.stringify({ ...full(), settings })
+    expect(parseImportedState(without, index).settings.autoImport).toBe(true)
+    expect(parseImportedState(JSON.stringify(full()), index).settings.autoImport).toBe(false)
   })
 
   it('round-trips with saveUrl empty', () => {

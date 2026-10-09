@@ -8,6 +8,7 @@ import {
   describeSave, formatPlayTime, importErrorMessage, importRawSave, type SaveDescription,
 } from '../import'
 import { usePoller } from '../poller'
+import { effectiveSaveUrl } from '../save-url'
 import { useStore } from '../store'
 
 const EXPORT_FILENAME = 'dq8-alchemy-planner.json'
@@ -34,9 +35,11 @@ function takeFile(input: HTMLInputElement): File | undefined {
 export function More(): JSX.Element {
   const { state, index, dispatch, undo, canUndo } = useStore()
   const poller = usePoller()
-  const { showSpoilers, saveUrl } = state.settings
-  const currentUrl = useRef(saveUrl) // read after an await, when the closure may be a render behind
-  currentUrl.current = saveUrl
+  const { showSpoilers, saveUrl, autoImport } = state.settings
+  const { url: effectiveUrl, builtIn } = effectiveSaveUrl(saveUrl)
+  // Settings that belong to this browser; read after an await, when the closure may be a render behind.
+  const current = useRef({ saveUrl, autoImport })
+  current.current = { saveUrl, autoImport }
 
   const [importError, setImportError] = useState<string | null>(null)
   const [status, setStatus] = useState<string | null>(null)
@@ -86,8 +89,8 @@ export function More(): JSX.Element {
     setStatus(null)
     try {
       const imported = parseImportedState(await file.text(), index)
-      // Exports leave the save URL out, so the current one stays.
-      const error = dispatch({ type: 'importState', state: { ...imported, settings: { ...imported.settings, saveUrl: currentUrl.current } } })
+      // Exports leave the save URL out, and the automatic-check switch is this browser's choice: both stay as they are.
+      const error = dispatch({ type: 'importState', state: { ...imported, settings: { ...imported.settings, ...current.current } } })
       if (error !== undefined) throw new Error(error)
       setStatus('State imported.')
     } catch (error) {
@@ -191,7 +194,7 @@ export function More(): JSX.Element {
         <p class="meta">
           {lastImport === null || lastImportAt === null
             ? 'No save imported yet.'
-            : `Last import: ${lastImport.source === 'url' ? 'from your save URL' : 'uploaded'} at ${
+            : `Last import: ${lastImport.source === 'url' ? (builtIn ? "from this site's save" : 'from your save URL') : 'uploaded'} at ${
               Number.isNaN(lastImportAt.getTime()) ? lastImport.at : lastImportAt.toLocaleString()
             }, play time ${formatPlayTime(lastImport.playTimeFrames)}`}
         </p>
@@ -200,21 +203,40 @@ export function More(): JSX.Element {
         )}
 
         <h3>Save URL</h3>
-        <p class="meta">
-          Optional. A link that returns your newest save file; it is checked when the app opens and when you come back to it.
-        </p>
+        {builtIn
+          ? <p class="meta">This copy checks its own server for your newest save.</p>
+          : (
+            <p class="meta">
+              Optional. A link that returns your newest save file; it is checked when the app opens and when you come back to it.
+            </p>
+          )}
         <div class="field-row">
           <input
             type="url"
             aria-label="Save URL"
-            placeholder="https://example.com/dq8-save.bin"
+            placeholder={builtIn ? 'Or enter a different link to a save file' : 'https://example.com/dq8-save.bin'}
             value={saveUrl}
             onInput={(e) => dispatch({ type: 'setSetting', key: 'saveUrl', value: e.currentTarget.value })}
           />
-          <button type="button" disabled={!poller || saveUrl.trim() === '' || refreshing} onClick={() => { void refresh() }}>
+          <button type="button" disabled={!poller || effectiveUrl === '' || refreshing} onClick={() => { void refresh() }}>
             {refreshing ? 'Checking…' : 'Refresh now'}
           </button>
         </div>
+        {effectiveUrl !== '' && (
+          <>
+            <p class="meta">
+              On, the app checks when it opens and when you come back to it. Off, only Refresh now checks.
+            </p>
+            <button
+              type="button"
+              class="toggle"
+              aria-pressed={autoImport}
+              onClick={() => dispatch({ type: 'setSetting', key: 'autoImport', value: !autoImport })}
+            >
+              Check for a new save automatically
+            </button>
+          </>
+        )}
       </section>
 
       <section aria-labelledby="more-progress">

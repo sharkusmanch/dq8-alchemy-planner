@@ -16,7 +16,7 @@ export function initialState(index: DataIndex): AppState {
     dave: { done: index.data.goals.dave.map(() => false), next: 0 },
     collected: [],
     lastImport: null,
-    settings: { showSpoilers: false, saveUrl: '' },
+    settings: { showSpoilers: false, saveUrl: '', autoImport: true },
   }
 }
 
@@ -225,14 +225,22 @@ export function reduce(state: AppState, action: Action, index: DataIndex): Reduc
       return ok(action.state)
 
     case 'setSetting': {
-      if (action.key === 'showSpoilers') {
-        if (typeof action.value !== 'boolean') return reject(state, 'showSpoilers must be true or false')
-        if (action.value === state.settings.showSpoilers) return ok(state)
-        return ok({ ...state, settings: { ...state.settings, showSpoilers: action.value } })
+      switch (action.key) {
+        case 'showSpoilers':
+          if (typeof action.value !== 'boolean') return reject(state, 'showSpoilers must be true or false')
+          if (action.value === state.settings.showSpoilers) return ok(state)
+          return ok({ ...state, settings: { ...state.settings, showSpoilers: action.value } })
+        case 'autoImport':
+          if (typeof action.value !== 'boolean') return reject(state, 'autoImport must be true or false')
+          if (action.value === state.settings.autoImport) return ok(state)
+          return ok({ ...state, settings: { ...state.settings, autoImport: action.value } })
+        case 'saveUrl':
+          if (typeof action.value !== 'string') return reject(state, 'saveUrl must be text')
+          if (action.value === state.settings.saveUrl) return ok(state)
+          return ok({ ...state, settings: { ...state.settings, saveUrl: action.value } })
+        default:
+          return reject(state, 'Unknown setting')
       }
-      if (typeof action.value !== 'string') return reject(state, 'saveUrl must be text')
-      if (action.value === state.settings.saveUrl) return ok(state)
-      return ok({ ...state, settings: { ...state.settings, saveUrl: action.value } })
     }
 
     case 'reset':

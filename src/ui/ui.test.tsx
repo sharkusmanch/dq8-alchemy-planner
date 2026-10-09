@@ -104,7 +104,7 @@ describe('Recipes', () => {
   })
 
   it('collapses blocked recipes with spoilers off', () => {
-    renderApp(miniState({ settings: { showSpoilers: false, saveUrl: '' } }))
+    renderApp(miniState({ settings: { showSpoilers: false, saveUrl: '', autoImport: true } }))
     press('Recipes')
     expect(recipeRows()).toHaveLength(9)
     expect(screen.getByText('1 more later in the story')).toBeTruthy()
