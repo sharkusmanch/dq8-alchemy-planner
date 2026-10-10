@@ -48,34 +48,22 @@ exact, case-insensitive comparison with the canonical name; anything else stops 
   181 parseable lines to generated recipes; three recipes (Zombie mail from Silver mail +
   Zombiesbane, Chain mail, Mercury's rapier) were not picked up by that parse.
 
-## Unconfirmed: recipes 16 and 22 (Elfin elixir / Magic water)
+## Recipes 16 and 22 (Elfin elixir / Magic water): confirmed
 
 - Two notes (`0x40e88d` = recipe 16, `0x40e893` = recipe 22) are both labelled "Magic water"; no
   note says "Elfin elixir". The checklist has one Magic water (Holy water + Seed of magic) and
   one Elfin elixir (Magic water + Yggdrasil dew). One of the two notes is mislabelled.
-- The data says recipe 16 = Elfin elixir and recipe 22 = Magic water. **This is not confirmed in
-  the game.** The sources do not decide it; it rests on three indications from published saves
-  and the item table, all pointing the same way:
-  1. One played save has recipe 16 completed and recipe 22 untouched. It holds 87 Magic Waters
-     in the bag (a quantity that is bought, not brewed), no Seed of Magic, 8 Elfin Elixirs on
-     the characters, and has Yggdrasil dew (recipe 18) completed. That is what a player who
-     brewed Elfin elixir and never brewed Magic water looks like.
-  2. With Magic water at 22, recipes 18-22 make items 275, 276, 277, 278, 279, an unbroken run.
-     Elfin elixir (280) at 22 would skip one.
-  3. In three saves from after the ending, recipe 16 is learned but not made, and in no late
-     save from before the ending is it learned. The game teaches recipe 16 late, which suits
-     Elfin elixir, and it sits between two other recipes that are taught by a hint (Thief's key
-     at 15, Timbrel of tension at 17).
-- Until the previous revision the data had the two the other way round, as a plain guess (the
-  lower number to Magic water). The owner's early save has both status bytes at zero and says
-  nothing either way.
-- To confirm: brew Magic water (Holy water + Seed of magic) in the game and look at the save.
-  Exactly one of the status bytes for recipes 16 and 22 (file offsets `0x5A8D` and `0x5A93`) gets
-  bit 0 set. If it is the byte of recipe 16, swap the two results back in `build_recipes`.
-- Until then a wrong assignment shows up as the wrong one of the two recipes ticked after a save
-  import. The Recipes tab marks both with "save number unconfirmed", the manual done-toggle on
-  each corrects it, and the two recipes are otherwise unaffected (their ingredients and results
-  are certain; only their numbers may be swapped).
+- The data says recipe 16 = Elfin elixir and recipe 22 = Magic water. **Confirmed in the game on
+  2026-10-10.** A played save from Ascantha, taken after Magic water was brewed, has bit 0 set in
+  the status byte of recipe 22 (file offset `0x5A93`) and the byte of recipe 16 (`0x5A8D`) still
+  zero. The save before it had both at zero. Between the two, the Magic Water count in the bag
+  went up by one, and the save holds no Yggdrasil dew and no Elfin elixir, so Elfin elixir cannot
+  have been what was brewed.
+- This agrees with what published saves had already suggested: one played save with recipe 16
+  completed and 22 untouched while holding many bought Magic Waters and several Elfin Elixirs;
+  recipes 18-22 making items 275-279 as an unbroken run; and recipe 16 being taught late in the
+  game, beside two other recipes that are taught by a hint.
+- An earlier revision of the data had the two the other way round, as a plain guess.
 
 ## Disagreements with the Dragon's Den table
 

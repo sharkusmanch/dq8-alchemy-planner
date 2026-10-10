@@ -52,15 +52,15 @@ describe('recipes', () => {
     expect(index.recipesFor('rose-root').map((r) => r.recipeIndex)).toEqual([5, 6])
   })
 
-  // Still unconfirmed in the game; the saves seen so far point this way (tools/DATA_NOTES.md).
-  it('assigns the unlabelled pair as the evidence points: Elfin elixir at 16, Magic water at 22', () => {
+  // Confirmed in the game on 2026-10-10: brewing Magic water set the status byte of recipe 22 (tools/DATA_NOTES.md).
+  it('assigns the pair the code notes leave unlabelled: Elfin elixir at 16, Magic water at 22', () => {
     expect(index.recipe(16).result).toBe('elfin-elixir')
     expect(index.recipe(22).result).toBe('magic-water')
   })
 
-  it('marks exactly those two recipes as having an unconfirmed number', () => {
+  it('marks no recipe as having an unconfirmed number', () => {
     const marked = index.data.recipes.filter((r) => r.recipeIndexUnconfirmed).map((r) => r.recipeIndex)
-    expect(marked).toEqual([16, 22])
+    expect(marked).toEqual([])
   })
 
   it('makes recipes 18 to 22 an unbroken run of item ids', () => {

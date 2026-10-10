@@ -199,9 +199,9 @@ def build_recipes(notes, checklist, resolve):
         labelled[resolve(label, f'code note of recipe {r}')].append((r, hint_ids))
 
     # One pair is unlabelled: two notes say "Magic water" and none says "Elfin elixir".
-    # The sources do not say which note is which. Published saves point to the lower recipe
-    # number being Elfin elixir, so that is what is assigned; it is not confirmed in the game.
-    # See "Unconfirmed" in tools/DATA_NOTES.md for the evidence and how to check.
+    # The lower recipe number is Elfin elixir and the higher is Magic water. Confirmed in the
+    # game on 2026-10-10: brewing Magic water set the status byte of the higher one.
+    # See "Recipes 16 and 22" in tools/DATA_NOTES.md.
     guessed = []
     magic, elfin = 'magic-water', 'elfin-elixir'
     if len(labelled[magic]) == 2 and not labelled.get(elfin) and len(by_result[magic]) == 1 \
@@ -211,7 +211,7 @@ def build_recipes(notes, checklist, resolve):
         labelled[magic] = [second]
         guessed = [first[0], second[0]]
     else:
-        raise BuildError('Magic water / Elfin elixir situation changed; review the guess')
+        raise BuildError('Magic water / Elfin elixir situation changed; review the assignment')
 
     recipes = {}
     for res, entries in labelled.items():
@@ -315,7 +315,7 @@ def main():
     print(f"Dragon's Den rows: {dd_total}; disagreements with the checklist: {len(problems)}")
     for res, mine, theirs in problems:
         print(f'  {res}: checklist/notes={mine} dragons-den={theirs}')
-    print(f'unconfirmed recipe pair (Elfin elixir, Magic water): {guessed}')
+    print(f'recipe pair assigned by rule (Elfin elixir, Magic water): {guessed}')
 
     unused = set(resolve.aliases) - resolve.used_aliases
     if unused:
@@ -324,9 +324,7 @@ def main():
     items.sort(key=lambda i: i['gameId'])
     ordered = [{'id': i['id'], 'gameId': i['gameId'], 'name': i['name'], 'category': i['category'],
                 **{k: i[k] for k in ('buy', 'sell') if k in i}} for i in items]
-    # The pair whose numbers are not confirmed is marked, so the app can tell the player to check them.
-    out_recipes = [{'recipeIndex': r, 'result': recipes[r][0], 'ingredients': recipes[r][1],
-                    **({'recipeIndexUnconfirmed': True} if r in guessed else {})}
+    out_recipes = [{'recipeIndex': r, 'result': recipes[r][0], 'ingredients': recipes[r][1]}
                    for r in sorted(recipes)]
     (OUT / 'items.json').write_text(json.dumps(ordered, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     (OUT / 'recipes.json').write_text(json.dumps(out_recipes, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')

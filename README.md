@@ -73,7 +73,6 @@ A save from the European PS2 release has the same layout. On a memory card image
 - It does not know which gear you want to keep and wear. Check before you brew something you are using.
 - It does not track which ordinary treasure chests you have opened. Items found in chests are entered by hand.
 - The whole-run gold and gather totals on the Shop tab are estimates. The gold figure is an upper bound: it assumes you buy everything that shops sell.
-- Two recipe numbers (Magic water and Elfin elixir) are unconfirmed when importing a save, because the sources do not settle which is which. The app follows what published saves point to, and the Recipes tab marks both "save number unconfirmed". If one of those shows as done when it should not be, or the other way round, toggle it by hand there.
 - A save shows the story stage only roughly at two points: after the Dragon Graveyard side quest and after the escape from Purgatory Island it may import one stage early. Set the stage in More if a shop you can use is missing.
 - An item a character has equipped is not counted as stock. Where the app would send you to find such an item it first says it is equipped; unequip it in the game and import again, or add it in Bag.
 - By the recipe graph, a full run needs 8 Orichalcum and 4 Slime Crowns. That is one more of each than some guides state, because Liquid Metal Sword has to be brewed twice. The app uses its own figure.
