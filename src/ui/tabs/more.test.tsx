@@ -214,12 +214,12 @@ describe('More: save URL', () => {
   it('looks as before on a build without a default: no built-in text, no switch until a URL is set', () => {
     renderMore(stateWith())
     expect(screen.queryByText(BUILT_IN)).toBeNull()
-    expect(screen.queryByRole('button', { name: SWITCH })).toBeNull()
+    expect(screen.queryByRole('checkbox', { name: SWITCH })).toBeNull()
     expect(screen.getByText(/^Optional\. A link that returns your newest save file/)).toBeTruthy()
     expect((screen.getByLabelText('Save URL') as HTMLInputElement).placeholder).toBe('https://example.com/dq8-save.bin')
 
     fireEvent.input(screen.getByLabelText('Save URL'), { target: { value: 'https://example.test/save' } })
-    expect(screen.getByRole('button', { name: SWITCH })).toBeTruthy()
+    expect(screen.getByRole('checkbox', { name: SWITCH })).toBeTruthy()
     expect(screen.queryByText(BUILT_IN)).toBeNull()
   })
 
@@ -232,7 +232,7 @@ describe('More: save URL', () => {
     expect(text.compareDocumentPosition(box) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
     expect(box.value).toBe('')
     expect(box.placeholder).toMatch(/different link/i)
-    expect(screen.getByRole('button', { name: SWITCH })).toBeTruthy()
+    expect(screen.getByRole('checkbox', { name: SWITCH })).toBeTruthy()
     expect(refreshButton().disabled).toBe(false)
     press('Refresh now')
     expect(poller.trigger).toHaveBeenCalledWith(true)
@@ -243,7 +243,7 @@ describe('More: save URL', () => {
     renderMore(stateWith())
     fireEvent.input(screen.getByLabelText('Save URL'), { target: { value: 'https://example.test/save' } })
     expect(screen.queryByText(BUILT_IN)).toBeNull()
-    expect(screen.getByRole('button', { name: SWITCH })).toBeTruthy()
+    expect(screen.getByRole('checkbox', { name: SWITCH })).toBeTruthy()
     fireEvent.input(screen.getByLabelText('Save URL'), { target: { value: '' } })
     expect(screen.getByText(BUILT_IN)).toBeTruthy()
   })
@@ -255,16 +255,17 @@ describe('More: save URL', () => {
     expect(refreshButton().disabled).toBe(false)
   })
 
-  it('shows the switch on and flips autoImport when pressed', () => {
+  it('shows the checkbox ticked and flips autoImport when it is clicked', () => {
     config.defaultSaveUrl = './save'
     renderMore(stateWith())
-    const toggle = screen.getByRole('button', { name: SWITCH })
-    expect(toggle.getAttribute('aria-pressed')).toBe('true')
-    fireEvent.click(toggle)
+    const box = () => screen.getByRole('checkbox', { name: SWITCH }) as HTMLInputElement
+    expect(box().checked).toBe(true)
+    fireEvent.click(box())
     expect(store.state.settings.autoImport).toBe(false)
-    expect(screen.getByRole('button', { name: SWITCH }).getAttribute('aria-pressed')).toBe('false')
-    fireEvent.click(screen.getByRole('button', { name: SWITCH }))
+    expect(box().checked).toBe(false)
+    fireEvent.click(box())
     expect(store.state.settings.autoImport).toBe(true)
+    expect(box().checked).toBe(true)
   })
 
   it('still lets the player refresh by hand with the switch off', () => {

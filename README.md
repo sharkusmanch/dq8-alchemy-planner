@@ -60,7 +60,7 @@ The public site on GitHub Pages never contacts anything unless you give it a sav
 
 Because the save is on the page's own origin, no CORS header is needed, and whatever protects the page (a login in front of it, say) protects the save. If that login expires, the app says so and asks you to reload the page. A 404 from the built-in address is not treated as an error on its own: the app stays quiet when it checks automatically, and Refresh now says that no save has been synced to the server yet.
 
-The switch "Check for a new save automatically" in More turns the on-open and on-return checks off for one browser; Refresh now still works. Exported state files carry this switch but never the URL, and importing one keeps the browser's own values for both. The details of the address contract are in [docs/save-url.md](docs/save-url.md).
+Unticking "Check for a new save automatically" in More turns the on-open and on-return checks off for one browser; Refresh now still works. Exported state files carry this choice but never the URL, and importing one keeps the browser's own values for both. The details of the address contract are in [docs/save-url.md](docs/save-url.md).
 
 ## Scope
 

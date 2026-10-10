@@ -31,7 +31,7 @@ For an address on the page's own origin (relative, or resolving to the same sche
 - When you switch back to the tab or app (when it becomes visible again).
 - When you press **Refresh now** in More.
 
-The switch "Check for a new save automatically" in More (shown once there is an address to check) turns the first two off for that browser; **Refresh now** still works. Automatic fetches happen at most once every 30 seconds. **Refresh now** always runs. A request that gets no answer within 10 seconds is abandoned and a notice says so.
+The checkbox "Check for a new save automatically" in More (shown once there is an address to check) turns the first two off for that browser when unticked; **Refresh now** still works. Automatic fetches happen at most once every 30 seconds. **Refresh now** always runs. A request that gets no answer within 10 seconds is abandoned and a notice says so.
 
 The app imports only when the bytes differ from the last import. If nothing changed, nothing happens. If a fetch fails, you get a small notice and your progress is not touched. A successful import shows a one-line summary with Undo. If you undo a URL import, the app will not re-import the same bytes automatically for as long as the page stays open (use **Refresh now** to bring them back). That memory of the undone save is not stored: after you reload the page or reopen the app, the first fetch imports those bytes again.
 
@@ -75,4 +75,4 @@ Check it from a shell: `curl -s URL | wc -c` should print `23776`.
 
 The endpoint is yours to host and secure. Anyone who has the address can download your save, so keep it unguessable or put it behind access you control. Do not put credentials in the URL you share with others.
 
-The URL is stored only in your browser. It is left out of exported state, so a backup file does not carry it, and importing a backup keeps whatever URL you already have. Reset clears it. The automatic-check switch is a setting of the same kind: a backup file carries it, but importing one keeps this browser's own choice.
+The URL is stored only in your browser. It is left out of exported state, so a backup file does not carry it, and importing a backup keeps whatever URL you already have. Reset clears it. The automatic-check checkbox is a setting of the same kind: a backup file carries it, but importing one keeps this browser's own choice.

@@ -224,17 +224,17 @@ export function More(): JSX.Element {
         </div>
         {effectiveUrl !== '' && (
           <>
-            <p class="meta">
-              On, the app checks when it opens and when you come back to it. Off, only Refresh now checks.
-            </p>
-            <button
-              type="button"
-              class="toggle"
-              aria-pressed={autoImport}
-              onClick={() => dispatch({ type: 'setSetting', key: 'autoImport', value: !autoImport })}
-            >
+            <label class="check">
+              <input
+                type="checkbox"
+                checked={autoImport}
+                onChange={() => dispatch({ type: 'setSetting', key: 'autoImport', value: !autoImport })}
+              />
               Check for a new save automatically
-            </button>
+            </label>
+            <p class="meta">
+              Ticked, the app checks when it opens and when you come back to it. Unticked, only Refresh now checks.
+            </p>
           </>
         )}
       </section>
